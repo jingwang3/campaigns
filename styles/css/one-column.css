@@ -227,7 +227,7 @@ p.new-color {
 .meet-doctors {
 	background-image: url('../../files/images/city-map.gif');
 	background-color: rgba(6,32,51,.8);
-	background-position: center center;
+	background-position: center 99%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 850px;
@@ -238,6 +238,10 @@ p.new-color {
 	padding-top:20px;
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
 	text-transform: none;
+}
+
+.row-2 .box-left{
+	padding-top: 110px;
 }
 
 .row-4 {
@@ -253,6 +257,7 @@ p.new-color {
 
 .contact-row p { 
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+	font-size: 1.5em; 
 }
 
 .form-appt-phone {
@@ -269,6 +274,21 @@ p.new-color {
   z-index: -100;
   padding: 60px 40px;
 }
+
+.campaign-media{
+	background-color: white;
+	border: 2px solid red;
+}
+
+.doc-text-box h4{
+	padding-top: 10px;
+}
+
+p.doc-desc {
+  font-size: .675em;
+  line-height: 1;
+}
+
 
 form.campaign {
 	margin: 0 auto;

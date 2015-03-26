@@ -53,10 +53,10 @@
   	<div class="container-fluid content-wrap">
   		<!--World Renowed -->	
   		<div class="row row-1 content-row">
-  			 <div class="container">
+			<div class="col-xs-offset-6 col-xs-5">
   				<div class="row1-caption">
   					<h1>Our Cardiologists<br/> are World Renowed<br/> and Neighborhood Based.</h1>
-					<p style="float:right">With multiple locations in Northern Virginia, our<br/>top pediatric cardiologists are always close to you.</p>
+					<p class="banner-subtitle pull-right"><span class="text-left">With multiple locations in Northern Virginia,<br>our top pediatric cardiologists are always close to you.</span></p>
 					<a class="btn btn-danger btn-cnhs btn-lg btn-block btn-cardio" href="#" role="button" trackinglabel="Meet Cardiologists">Meet Our Virginia Cardiologists</a>
 				</div>
 			</div>
@@ -66,9 +66,8 @@
   		<div class="row row-2 paw-row content-row">
   			<div class="container">
 	  			<div class="col-xs-8">
-	  				<p class="new-color">As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our availability &mdash;being there for your child&mdash; is what matters the most. And while we're strongly established in Washington, DC, we're also right here in your neck of the woods: Northern Virginia.</p>
-
-<p class="new-color">Explore our locations and get acquainted with doctors that are just right for kids, and just right for you.</p>
+	  				<p class="new-color box-left">As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our availability &mdash;being there for your child&mdash; is what matters the most. And while we're strongly established in Washington, DC, we're also right here in your neck of the woods: Northern Virginia.</p>
+					<p class="new-color">Explore our locations and get acquainted with doctors that are just right for kids, and just right for you.</p>
 	  			</div>
 	  			<div class="col-xs-4">
 	  				<div class="paw-box">
@@ -79,16 +78,22 @@
   		</div>
   		<!--Expert Care -->
   		<!--Meet Our Doctors -->
-  		<div class="row row-3 meet-doctors content-row">	
+  		<div class="row row-3 content-row meet-doctors">
 			<div class="container">
 				<h1>Meet Your Doctors</h1>
 				<div class="col-sm-6">
-					<div class="list-group">
-					  <a class="list-group-item active">
-					    <h4 class="list-group-item-heading">List group item heading</h4>
-					    <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem fugit repellendus, facilis cupiditate sunt qui, iure vero possimus iusto aspernatur reiciendis eveniet aliquid facere ex alias illum eligendi debitis at.</p>
-					  </a>
-					</div>				
+					<div class="media campaign-media">
+					  <div class="media-left media-middle">
+					    <a>
+					      <img class="media-object" width="80" src="http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135" alt="Charles Berul">
+					    </a>
+					  </div>
+					  <div class="media-body doc-text-box">
+					    <h4 class="media-heading">Middle aligned media</h4>
+					    <p class="doc-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sit suscipit numquam, libero adipisci, vitae aspernatur fuga eius odio, veniam porro repudiandae nam dolorem error excepturi dolor doloribus minima voluptates.</p>
+					  </div>
+					</div>
+					<div class="doc-box-footer"></div>		
 				</div>
 			</div>
 		</div>
@@ -136,6 +141,6 @@
 	   </div>
    </footer>
    <script src="//childrensnational.org/~/media/cnhs-site/files/js/event_tracking.js"></script>
-   <script src="//childrensnational.org/~/media/cnhs-site/files/js/cardiologists.js"></script>
+   <script src="lib/js/cardiologists.js"></script>
 </body>
 </html>
