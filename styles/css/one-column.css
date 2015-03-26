@@ -291,14 +291,23 @@ p.doc-desc {
 }
 
 
-form.campaign {
+form.campaign, .campaign-confirm {
 	margin: 0 auto;
-	width: 350px;
+	width: 400px;
 }
 
 form.campaign input {
 	background-color: #fcfbfa;
 	margin-bottom: 3px;
+}
+
+.campaign-confirm h1{
+	font-size:1em;
+}
+
+.campaign-confirm p{
+	font-size: 1em;
+	color: #C82A16;
 }
 
 .btn-form {
@@ -310,5 +319,3 @@ form.campaign input {
 		color: #ffffff;
 		background-color: #c82a16;
 }
-
-/*make small change*/
