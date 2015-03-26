@@ -146,9 +146,8 @@ body > .container { padding: 80px 15px 0; }
 }
 
 .row p { 
-  color: #fff;
-  font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-  font-size: 1.3em;
+  font-family: Arial,sans-serif;
+  font-size: 1.125em;
   font-weight: 300;
   }
 
@@ -164,7 +163,9 @@ body > .container { padding: 80px 15px 0; }
 .row ul { 
   padding-left: 0px;
   }
-
+.row-1, .row-4, .paw-box{
+	color: #fff;
+}
 .row { padding: 50px 0;}
 
 .row-4 h3 {
@@ -203,19 +204,20 @@ body > .container { padding: 80px 15px 0; }
 }
 
 .row h1 {
-  font-size: 48px;
+  font-size: 3em;
   font-weight: 300;
   text-transform: uppercase;
   color: #ffffff;
-  font-family: CampaignFont,Helvetica,Arial,sans-serif;
+  font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+  overflow: hidden;
 }
 
-
 .row1-caption {
-	float:right;
-  z-index: 10;
-  color: #fff;
-  text-align: left;
+  margin-top: 180px;
+}
+
+.banner-subtitle{
+	margin-top: 90px;
 }
 
 p.new-color {
@@ -251,7 +253,6 @@ p.new-color {
 
 .contact-row p { 
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-	font-size: 24px; 
 }
 
 .form-appt-phone {
