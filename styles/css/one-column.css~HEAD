@@ -1,0 +1,158 @@
+body{ color: #877369; background-color: #e8e8e8; background-image: url('../../files/images/background-pattern.png'); }
+
+@font-face { font-family: CampaignFont; src: url('../fonts/cnat-font1.woff'); }
+
+.better-font { font-family: CampaignFont,Helvetica,Arial,sans-serif; }
+
+.red-bar{ height: 5px; background: #E54F3F; }
+
+.head-line-text { font-size: 34px; margin-bottom: 20px; margin-top: 0; }
+
+.red-title{ color:#EE3123; }
+
+.phone-number-lg{ margin-bottom: 0; font-size: 28px; font-weight: bold; }
+
+.logo-mobile{ margin-top: 5px; }
+
+.phone-number-sm{ margin: 5px auto 0; font-size: 28px; font-weight: bold; border-top: 2px solid #CBCBCB; padding-top: 5px; }
+
+.phone-number-sm .header-appt-phone{ font-size: 22px; }
+
+.pitch-line{ font-size:16px }
+
+.app-btn { margin: 25px 0 0 0; }
+
+.header-appt-phone{ color: #877369; }
+
+.footer a span{ font-size: 26px; color: #EE3123; }
+
+.image-wrapper{ padding: 6px; margin-bottom: 20px; /*background-color: #ffffff; border: 1px solid #cacaca;*/ }
+
+.row-2 .panel-heading{ padding: 20px 0 0 0; }
+
+.row-2 .panel-title{ font-size:1.5em; text-align: center; color:#EE3123; }
+
+.row-2 .panel-title h3{ display: inline-block; }
+
+.row-2 hr{ border-top: 1px solid #D1D2D2; }
+
+.cnhs-less-padding-left{ padding-left: 5px; }
+.cnhs-less-padding-right{ padding-right: 5px; }
+
+
+/*@media (min-width:768px) and (max-width: 992px){ .head-line-text{ font-size: 1.5em; margin-bottom: 10px;} }
+@media (min-width:768px) and (max-width: 992px){ .pitch-line{ font-size: 1em; } }
+@media (min-width:768px) and (max-width: 992px){ .app-btn{ font-size: 1.125em; margin-top: 5px; } }*/
+
+/* override section*/
+
+.btn-cnhs {
+	background: #ee3123; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ee3123 0, #d32621 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#ee3123), color-stop(100%,#d32621)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ee3123 0,#d32621 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ee3123 0,#d32621 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ee3123 0,#d32621 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ee3123 0,#d32621 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee3123', endColorstr='#d32621',GradientType=0 ); /* IE6-9 */
+	background-repeat: repeat-x;
+	border-color: #B92C28;
+}
+
+.btn-cnhs:hover, .btn-cnhs:focus { background-color: #D00600; }
+
+a:hover{ text-decoration: none; }
+
+.navbar-brand { height: 100%; }
+
+.navbar-static-top, .navbar-fixed-top, .navbar-fixed-bottom{ box-shadow: #888 0px 0px 20px; }
+
+.row{ margin-top: 15px; margin-bottom: 40px; }
+
+.panel{ box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.19); border: 1px solid #DBD6D4; }
+
+@media (min-width: 992px){ .panel{ min-height: 350px;} .panel-cardiology{ min-height: 320px;} }
+
+a.list-group-item-cardiology {
+color: #746661;
+}
+
+.list-group-item-cardiology {
+	background-color: #e3e0df;
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	margin-bottom: -1px;
+	border: 1px solid #746661;
+}
+
+.modal-title-cardiology {
+	margin: 0;
+	line-height: 1.5em;
+	color: #ffffff;
+	font-family: CampaignFont,Helvetica,Arial,sans-serif;
+	font-size: 22px;
+}
+
+.glue{
+	display: inline-block;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html { position: relative; min-height: 100%; }
+body { margin-bottom: 80px; }
+.footer { position: absolute; bottom: 0; width: 100%; height: 80px; background-color: #FBFBFB; border-top: 1px solid #e3e1e2; box-shadow: inset 0 1px 27px 0 rgba(0,0,0,.15); padding-top: 20px; }
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container { padding: 80px 15px 0; }
+.top-nav{
+	background-color: #ffffff;
+	background-image: linear-gradient(to bottom,#fff 0,#ffffff 100%);
+	background-image: -webkit-linear-gradient(top,#FFF 0,#ffffff 100%);
+	background-image: -o-linear-gradient(top,#fff 0,#ffffff 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(#ffffff));
+	background-image: linear-gradient(to bottom,#FFF 0,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffffff', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),0 1px 5px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),0 1px 5px rgba(0, 0, 0, 0.075);
+}
+
+.provider-listing{
+	font-family: Arial;
+	font-size: 12px;
+}
+
+
+/*CAMPAIGN SPECIFIC OVERRIDES GO BELOW*/
+
+.content-wrap{
+	margin-top: 90px;
+}
+
+.row-1{
+  	min-height: 1080px;
+  	background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-32.jpg');
+  	background-repeat: no-repeat;
+}
+
+.header-text-right{
+	display: block;
+  	font-size: .6em;
+  	text-transform: uppercase;
+  	color: #F00;
+}
+
+.phone-number-box {
+	text-align: justify;
+	font-size: 1.5em;
+	line-height: 1;
+	position: relative;
+	padding: 20px;
+}

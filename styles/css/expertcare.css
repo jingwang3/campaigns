@@ -1,0 +1,22 @@
+.btn-block {
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+@media (min-width: 992px){
+	.panel {
+		min-height: 275px;
+	}
+}
+
+.row-2 .panel-heading {
+	padding: 20px 5px 10px 5px;
+	border-bottom: 1px solid #746661;
+}
+
+.panel.panel-even{
+	background-color: #f5f5f5;
+}
+
