@@ -195,20 +195,21 @@ body > .container { padding: 80px 15px 0; }
 
 
 .row-1 {
-  	min-height: 900px;
+  	max-width: 1920px;
   	background-image: url('../../files/images/cardio-row1.jpg');
   	background-position: center center;
   	background-repeat: no-repeat;
   	background-size: cover;
   	z-index: 999;
+  	min-height: 886px;
 }
 
 .row h1 {
   font-size: 3em;
-  font-weight: 300;
+  font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
-  font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+  font-family: CampaignFont,Helvetica,Arial,sans-serif;
   overflow: hidden;
 }
 
@@ -227,10 +228,10 @@ p.new-color {
 .meet-doctors {
 	background-image: url('../../files/images/city-map.gif');
 	background-color: rgba(6,32,51,.8);
-	background-position: center right;
+	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 850px;
+	min-height: 812px;
 }
 
 .meet-doctors h1 {
