@@ -227,7 +227,7 @@ p.new-color {
 .meet-doctors {
 	background-image: url('../../files/images/city-map.gif');
 	background-color: rgba(6,32,51,.8);
-	background-position: center 99%;
+	background-position: center right;
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 850px;
@@ -309,3 +309,5 @@ form.campaign input {
 		color: #ffffff;
 		background-color: #c82a16;
 }
+
+/*make small change*/
