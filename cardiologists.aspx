@@ -120,10 +120,20 @@
 	  				<p class="text-center new-color text-museo">We're here to help. Call or schedule an appointment:</p>
 	  				<a href="tel:7035311555" trackingLabel="Phone Number on Top"><span class="form-appt-phone better-font">(703) 531-1555</span></a>
   					<p class="text-center new-color text-museo small">Or we can call you. Submit your info below.</p>
+  					<div class="well campaign-confirm hidden" id="formConfirmationBox">
+  						<h1>THANK YOU.</h1>
+  						<p>WE'LL BE IN TOUCH WITH YOU SHORTLY.</p>
+  					</div>
   					<form class="campaign" action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
-  						<input class="form-control input-sm" id="userName" type="text" name="entry.916599135" placeholder="NAME">
-  						<input class="form-control input-sm" id="userPhone" type="text" name="entry.354822211" placeholder="PHONE">
-  						<input class="form-control input-sm" id="userZipcode" type="text" name="entry.272965353" placeholder="ZIP CODE">
+  						<div class="form-group">
+  							<input class="form-control input-sm" id="userName" type="text" name="entry.916599135" placeholder="NAME">
+  						</div>
+  						<div class="form-group">
+  							<input class="form-control input-sm" id="userPhone" type="number" name="entry.354822211" placeholder="PHONE">
+  						</div>
+  						<div class="form-group">
+  							<input class="form-control input-sm" id="userZipcode" type="text" name="entry.272965353" placeholder="ZIP CODE">
+  						</div>
   						<button type="submit" class="btn btn-form better-font">Submit</button>
   					</form>
 					<a href="#top">BACK TO TOP</a>
