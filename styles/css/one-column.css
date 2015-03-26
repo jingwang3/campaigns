@@ -1,4 +1,4 @@
-body{ color: #877369; background-color: #FFF; }
+body{ font-size:16px; color: #877369; background-color: #FFF; }
 
 @font-face { font-family: CampaignFont; src: url('../fonts/cnat-font1.woff'); }
 @font-face { font-family: LightCampaignFont; src: url('../fonts/cnat-font4.woff'); }
