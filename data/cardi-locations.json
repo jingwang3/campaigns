@@ -1,0 +1,47 @@
+[
+  {
+    "name": "arlington",
+    "doctors": [
+      {
+        "name": "Charles Berul",
+        "title": "Division Chief, Cardiology",
+        "sub_title": "Co-Director, Children's National Heart Institute",
+        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
+        "desc": [
+          "Has been published in over 150 publications in pediatric cardiology",
+          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+        ]
+      },
+      {
+        "name": "Charles Berul",
+        "title": "Division Chief, Cardiology",
+        "sub_title": "Co-Director, Children's National Heart Institute",
+        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
+        "desc": [
+          "Has been published in over 150 publications in pediatric cardiology",
+          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+        ]
+      },
+      {
+        "name": "Charles Berul",
+        "title": "Division Chief, Cardiology",
+        "sub_title": "Co-Director, Children's National Heart Institute",
+        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
+        "desc": [
+          "Has been published in over 150 publications in pediatric cardiology",
+          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+        ]
+      },
+      {
+        "name": "Charles Berul",
+        "title": "Division Chief, Cardiology",
+        "sub_title": "Co-Director, Children's National Heart Institute",
+        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
+        "desc": [
+          "Has been published in over 150 publications in pediatric cardiology",
+          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+        ]
+      }
+    ]
+  }
+]

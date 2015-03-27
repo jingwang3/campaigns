@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="campaignApp">
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta charset="UTF-8">
@@ -12,8 +12,7 @@
 	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="styles/css/one-column.css">
 	<!-- Latest compiled and minified JavaScript -->
-	<script src="lib/js/jquery.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+
   	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -78,7 +77,7 @@
   		</div>
   		<!--Expert Care -->
   		<!--Meet Our Doctors -->
-  		<div class="row row-3 content-row meet-doctors">
+  		<div class="row row-3 content-row meet-doctors" ng-controller="LocationsController">
   			<a class="loc-pin" id="loc1" title="location"></a>
   			<a class="loc-pin" id="loc2" title="location"></a>
   			<a class="loc-pin" id="loc3" title="location"></a>
@@ -157,7 +156,11 @@
 	      </div>
 	   </div>
    </footer>
+   <script src="lib/js/jquery.min.js"></script>
+   <script src="bootstrap/js/bootstrap.min.js"></script>
+   <script src="lib/js/angular.min.js"></script>
    <script src="//childrensnational.org/~/media/cnhs-site/files/js/event_tracking.js"></script>
    <script src="lib/js/cardiologists.js"></script>
+   <script src="lib/js/controller.js"></script>
 </body>
 </html>
