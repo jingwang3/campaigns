@@ -26,7 +26,7 @@ body{ font-size:16px; color: #877369; background-color: #FFF; }
 
 .header-appt-phone{ color: #c82a16; }
 
-.footer a span{ font-size: 26px; color: #c82a16; }
+.footer a span{ font-size: 1.875em; color: #c82a16; }
 
 .image-wrapper{ padding: 6px; margin-bottom: 20px; /*background-color: #ffffff; border: 1px solid #cacaca;*/ }
 
@@ -286,7 +286,7 @@ p.new-color {
 	color: #786a65;
 }
 
-.meet-doctors {
+.meet-doctors, .meet-doctors-mobile {
 	background-image: url('../../files/images/city-map.gif');
 	background-color: rgba(6,32,51,.8);
 	background-position: center right;
@@ -329,10 +329,6 @@ p.new-color {
 	font-size: 2.5em;
 }
 
-.paw-row {
-	margin-bottom: 50px;
-}
-
 .paw-box {
   height: 220px;
   background-color: #c92b2c;
@@ -345,11 +341,12 @@ p.new-color {
   font-style: italic;
   font-size: 1.4em;
   width: 330px;
+  margin-bottom: 50px;
 }
 
 .campaign-media{
 	background-color: white;
-	border: 2px solid #e23525;
+	border: 1px solid #e23525;
 	margin-top: 0;
 }
 
@@ -379,6 +376,7 @@ ul.doc-desc li{
   line-height: 1;
   font-family: Arial, Helvetica, sans-serif;
   list-style: none;
+  padding-left: 5px;
 }
 
 
@@ -401,10 +399,14 @@ form.campaign input {
 	color: #C82A16;
 }
 
-.overlay-box{
+.doc-list{
 	position: absolute;
 	z-index: 100;
 	width: 100%;
+}
+
+.meet-doctors-mobile, .doc-list-mobile{
+	display: none;
 }
 
 /*Media Queries*/
@@ -412,7 +414,6 @@ form.campaign input {
 @media (max-width: 1440px) {
 
 	.row-1 {
-	  	max-width: 1440px;
 	  	min-height: 663px;
 	  	background-image: url('../../files/images/cardio-1440.jpg');
 	}
@@ -425,13 +426,15 @@ form.campaign input {
 
 @media (max-width: 1024px)  {
 
+	body{
+		font-size: 12px;
+	}
+
 	.row-1 {
-	  	max-width: 1024px;
 	  	min-height: 471px;
 	  	background-image: url('../../files/images/cardio-1024.jpg');
 	}
-
- 
+	
 	.row1-caption h1 {
 	  	font-size: 2em;
 	  	line-height: 1.2em;
@@ -444,6 +447,22 @@ form.campaign input {
 
 	.row-2  {
 		display:none;
+	}
+
+	.meet-doctors, .doc-list{
+		display: none;
+	}
+
+	.meet-doctors-mobile h1 {
+		font-size: 6em;
+		padding-top:270px;
+		font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+		text-transform: none;
+		color: #ffffff;
+	}
+
+	.meet-doctors-mobile, .doc-list-mobile{
+		display: block;
 	}
 
 }

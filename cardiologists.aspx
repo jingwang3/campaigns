@@ -29,7 +29,7 @@
 
 	</script>
 </head>
-<body>
+<body ng-controller="LocationsController">
   <header>
 	<nav class="navbar navbar-fixed-top navbar-default">
 	<div class="red-bar"></div>
@@ -51,106 +51,145 @@
   <section id="content-body" name="top">
   	<div class="container-fluid content-wrap">
   		<!--World Renowed -->	
-  		<div class="row row-1 content-row">
-			<div class="col-xs-offset-6 col-xs-5">
-  				<div class="row1-caption">
-  					<h1>Our Cardiologists<br/> are World Renowed<br/> and Neighborhood Based.</h1>
-					<p class="banner-subtitle">With multiple locations in Northern Virginia, our top pediatric cardiologists are always close to you.</p>
-					<a class="btn better-font btn-form btn-cardio" id="scrollToMap" role="button" trackinglabel="Meet Cardiologists">Meet Our Virginia Cardiologists</a>
+  		<article id="bannerSec">
+	  		<div class="row row-1 content-row">
+				<div class="col-xs-offset-6 col-xs-5">
+	  				<div class="row1-caption">
+	  					<h1>Our Cardiologists<br/> are World Renowed<br/> and Neighborhood Based.</h1>
+						<p class="banner-subtitle">With multiple locations in Northern Virginia, our top pediatric cardiologists are always close to you.</p>
+						<a class="btn better-font btn-form btn-cardio" id="scrollToMap" role="button" trackinglabel="Meet Cardiologists">Meet Our Virginia Cardiologists</a>
+					</div>
 				</div>
-			</div>
-  		</div>
+	  		</div>
+  		</article>
   		<!--World Renowed -->	
   		<!--Expert Care -->
-  		<div class="row row-2 paw-row content-row">
-  			<div class="container">
-	  			<div class="col-xs-8">
-	  				<p class="new-color box-left">As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our availability &mdash;being there for your child&mdash; is what matters the most. And while we're strongly established in Washington, DC, we're also right here in your neck of the woods: Northern Virginia.</p>
-					<p class="new-color">Explore our locations and get acquainted with doctors that are just right for kids, and just right for you.</p>
+  		<article id="pawSec">
+	  		<div class="row row-2 paw-row content-row">
+	  			<div class="container">
+		  			<div class="col-xs-8">
+		  				<p class="new-color box-left">As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our availability &mdash;being there for your child&mdash; is what matters the most. And while we're strongly established in Washington, DC, we're also right here in your neck of the woods: Northern Virginia.</p>
+						<p class="new-color">Explore our locations and get acquainted with doctors that are just right for kids, and just right for you.</p>
+		  			</div>
+		  			<div class="col-xs-4">
+		  				<div class="paw-box">
+		  					<p class="paw-text">We're at the heart of the matter,<br>close to your child.</p>
+		  				</div>
+		  			</div>				
 	  			</div>
-	  			<div class="col-xs-4">
-	  				<div class="paw-box">
-	  					<p class="paw-text">We're at the heart of the matter,<br>close to your child.</p>
-	  				</div>
-	  			</div>				
-  			</div>
-  		</div>
+	  		</div>
+  		</article>
   		<!--Expert Care -->
   		<!--Meet Our Doctors -->
-  		<div class="row row-3 content-row meet-doctors" ng-controller="LocationsController">
-  			<a class="loc-pin" id="loc1" title="location"></a>
-  			<a class="loc-pin" id="loc2" title="location"></a>
-  			<a class="loc-pin" id="loc3" title="location"></a>
-  			<a class="loc-pin active" id="loc4" title="location"></a>
-			<div class="container">
-				<h1>Meet Your Doctors</h1>
-				<div class="col-xs-6">
-					<div class="overlay-box">
-						<div class="{{loc.name}}" ng-repeat="loc in locations">
-							<div class="media campaign-media" ng-repeat="doc in loc.doctors">
-							  <div class="media-left media-middle">
-							    <a>
-							      <img class="media-object" width="80" src="{{doc.image_url}}" alt="{{doc.name}}">
-							    </a>
-							  </div>
-							  <div class="media-body doc-text-box">
-							    <h4 class="media-heading doc-name">{{doc.name}}</h4>
-							    <h5 class="media-subheading doc-title">{{doc.title}}</h5>
-							    <h6 class="media-subheading doc-title-sub">{{doc.sub_title}}</h6>
-							    <ul class="doc-desc">
-							    	<li ng-repeat="des in doc.desc">- {{des}}</li>
-							    </ul>
-							  </div>
-							</div>
-							<div class="doc-box-footer">Testing</div>	
-						</div>	
+		<article id="docSec">
+	  		<div class="row row-3 content-row meet-doctors">
+	  			<a class="loc-pin" id="loc1" title="location"></a>
+	  			<a class="loc-pin" id="loc2" title="location"></a>
+	  			<a class="loc-pin" id="loc3" title="location"></a>
+	  			<a class="loc-pin active" id="loc4" title="location"></a>
+				<div class="container">
+					<h1>Meet Your Doctors</h1>
+					<div class="col-xs-6">
+						<div class="doc-list">
+							<div class="{{loc.name}}" ng-repeat="loc in locations">
+								<div class="media campaign-media" ng-repeat="doc in loc.doctors">
+								  <div class="media-left media-middle">
+								    <a>
+								      <img class="media-object" width="80" src="{{doc.image_url}}" alt="{{doc.name}}">
+								    </a>
+								  </div>
+								  <div class="media-body doc-text-box">
+								    <h4 class="media-heading doc-name better-font">{{doc.name}}</h4>
+								    <h5 class="media-subheading doc-title better-font">{{doc.title}}</h5>
+								    <h6 class="media-subheading doc-title-sub better-font">{{doc.sub_title}}</h6>
+								    <ul class="doc-desc">
+								    	<li ng-repeat="des in doc.desc">- {{des}}</li>
+								    </ul>
+								  </div>
+								</div>
+								<div class="doc-box-footer">Testing</div>	
+							</div>	
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+	  		<div class="row row-3 content-row meet-doctors-mobile" >
+	  			<a class="loc-pin" id="loc1" title="location"></a>
+	  			<a class="loc-pin" id="loc2" title="location"></a>
+	  			<a class="loc-pin" id="loc3" title="location"></a>
+	  			<a class="loc-pin active" id="loc4" title="location"></a>
+				<div class="container">
+					<h1>Meet Your Doctors</h1>
+				</div>
+			</div>
+			<div class="row doc-list-mobile">
+				<div class="{{loc.name}}" ng-repeat="loc in locations">
+					<div class="media campaign-media" ng-repeat="doc in loc.doctors">
+						<div class="media-left media-middle">
+							<a>
+								<img class="media-object" width="80" src="{{doc.image_url}}" alt="{{doc.name}}">
+							</a>
+						</div>
+						<div class="media-body doc-text-box">
+							<h4 class="media-heading doc-name better-font">{{doc.name}}</h4>
+							<h5 class="media-subheading doc-title better-font">{{doc.title}}</h5>
+							<h6 class="media-subheading doc-title-sub better-font">{{doc.sub_title}}</h6>
+							<ul class="doc-desc">
+								<li ng-repeat="des in doc.desc">- {{des}}</li>
+							</ul>
+						</div>
+					</div>
+					<div class="doc-box-footer">Testing</div>	
+				</div>
+			</div>
+		</article>
         <!-- Meet Our Doctors -->
         <!--Why Children's -->
-  		<div class="row row-4 content-row">	
-				<div class="container">
-				<ul>
-					<li>The combined years of training of our 35+ cardiology specialists is unmatched in the Washington, DC area.</li>
-					<li>We perform the most pediatric surgeries in the Washington, DC area, with some of the highest success rates in the nation.</li>
-					<li>Northern Virginia Magazine lists seven of our doctors as the top pediatric cardiologists in the area.</li>
-					<li>We're a leader in clinical research programs and surgical innovations.</li>
-					<li>U.S. News &amp; World Report consistently ranks us among the top pediatric hospitals in the nation.</li>
-				</ul>
-					<h3>Why Children's?</h3>		
-				</div>
-		</div>
+        <article id="whySec">
+	  		<div class="row row-4 content-row">	
+					<div class="container">
+					<ul>
+						<li>The combined years of training of our 35+ cardiology specialists is unmatched in the Washington, DC area.</li>
+						<li>We perform the most pediatric surgeries in the Washington, DC area, with some of the highest success rates in the nation.</li>
+						<li>Northern Virginia Magazine lists seven of our doctors as the top pediatric cardiologists in the area.</li>
+						<li>We're a leader in clinical research programs and surgical innovations.</li>
+						<li>U.S. News &amp; World Report consistently ranks us among the top pediatric hospitals in the nation.</li>
+					</ul>
+						<h3>Why Children's?</h3>		
+					</div>
+			</div>
+		</article>
         <!-- Why Children's -->
         <!--Expert Care -->
-  		<div class="row contact-row content-row">
-  			<div class="container">
-  				<h1>Let's Talk</h1>
-  				<div class="text-center">
-	  				<p class="text-center new-color text-museo">We're here to help. Call or schedule an appointment:</p>
-	  				<a href="tel:7035311555" trackingLabel="Phone Number on Top"><span class="form-appt-phone better-font">(703) 531-1555</span></a>
-  					<p class="text-center new-color text-museo small">Or we can call you. Submit your info below.</p>
-  					<div class="well campaign-confirm hidden" id="formConfirmationBox">
-  						<h1>THANK YOU.</h1>
-  						<p>WE'LL BE IN TOUCH WITH YOU SHORTLY.</p>
-  					</div>
-  					<form class="campaign" action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
-  						<div class="form-group">
-  							<input class="form-control input-sm" id="userName" type="text" name="entry.916599135" placeholder="NAME">
-  						</div>
-  						<div class="form-group">
-  							<input class="form-control input-sm" id="userPhone" type="number" name="entry.354822211" placeholder="PHONE">
-  						</div>
-  						<div class="form-group">
-  							<input class="form-control input-sm" id="userZipcode" type="text" name="entry.272965353" placeholder="ZIP CODE">
-  						</div>
-  						<button type="submit" class="btn btn-form better-font">Submit</button>
-  					</form>
-					<a href="#top">BACK TO TOP</a>
-  				</div>
-  			</div>
-  		</div>
+        <article id="formSec">
+	  		<div class="row contact-row content-row">
+	  			<div class="container">
+	  				<h1>Let's Talk</h1>
+	  				<div class="text-center">
+		  				<p class="text-center new-color text-museo">We're here to help. Call or schedule an appointment:</p>
+		  				<a href="tel:7035311555" trackingLabel="Phone Number on Top"><span class="form-appt-phone better-font">(703) 531-1555</span></a>
+	  					<p class="text-center new-color text-museo small">Or we can call you. Submit your info below.</p>
+	  					<div class="well campaign-confirm hidden" id="formConfirmationBox">
+	  						<h1>THANK YOU.</h1>
+	  						<p>WE'LL BE IN TOUCH WITH YOU SHORTLY.</p>
+	  					</div>
+	  					<form class="campaign" action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+	  						<div class="form-group">
+	  							<input class="form-control input-sm" id="userName" type="text" name="entry.916599135" placeholder="NAME">
+	  						</div>
+	  						<div class="form-group">
+	  							<input class="form-control input-sm" id="userPhone" type="number" name="entry.354822211" placeholder="PHONE">
+	  						</div>
+	  						<div class="form-group">
+	  							<input class="form-control input-sm" id="userZipcode" type="text" name="entry.272965353" placeholder="ZIP CODE">
+	  						</div>
+	  						<button type="submit" class="btn btn-form better-font">Submit</button>
+	  					</form>
+						<a href="#top">BACK TO TOP</a>
+	  				</div>
+	  			</div>
+	  		</div>
+	  		</article>
   		<!--Expert Care -->
   	</div>
   </section>
