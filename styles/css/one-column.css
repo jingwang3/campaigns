@@ -135,6 +135,33 @@ body > .container { padding: 80px 15px 0; }
 /*CAMPAIGN SPECIFIC OVERRIDES GO BELOW*/
 
 
+/*CSS FOR PINS*/
+.loc-pin{
+	color: red;
+	position: relative;
+	float: right;
+	font-size: 1.5em;
+}
+
+#loc1 {
+  right: 700px;
+  top: 83px;
+}
+#loc2 {
+  right: 453px;
+  top: 239px;
+}
+#loc3 {
+  right: 497px;
+  top: 255px;
+}
+#loc4 {
+  right: 636px;
+  top: 710px;
+}
+
+
+
 .btn-form {
 		border-radius: 10px;
 		width: auto;
@@ -153,6 +180,8 @@ body > .container { padding: 80px 15px 0; }
 
 .content-wrap{
 	margin-top: 90px;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .row p { 
@@ -176,7 +205,10 @@ body > .container { padding: 80px 15px 0; }
 .row-1, .row-4, .owbox{
 	color: #fff;
 }
-.row { padding: 50px 0;}
+.row-3, .row-2{ margin: 50px 0 0 0;}
+.row-4{
+	padding:50px 0;
+}
 
 .row-4 h3 {
 	float:right;
@@ -207,7 +239,7 @@ body > .container { padding: 80px 15px 0; }
 .row-1 {
   	max-width: 1920px;
   	background-image: url('../../files/images/cardio-row1.jpg');
-  	background-position: center center;
+  	background-position: center left;
   	background-repeat: no-repeat;
   	background-size: cover;
   	z-index: 999;
@@ -238,7 +270,7 @@ p.new-color {
 .meet-doctors {
 	background-image: url('../../files/images/city-map.gif');
 	background-color: rgba(6,32,51,.8);
-	background-position: center center;
+	background-position: center right;
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 812px;
