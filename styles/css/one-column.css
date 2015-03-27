@@ -286,6 +286,7 @@ p.new-color {
 	padding-top:70px;
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
 	text-transform: none;
+	color: #ffffff;
 }
 
 .row-2 .box-left{
@@ -384,7 +385,7 @@ form.campaign input {
 @media (max-width: 1440px) {
 
 	.row-1 {
-	  	width: 1440px;
+	  	max-width: 1440px;
 	  	min-height: 663px;
 	  	background-image: url('../../files/images/cardio-1440.jpg');
 	}
@@ -394,11 +395,10 @@ form.campaign input {
 @media (max-width: 1020px) {
 
 	.row-1 {
-	  	width: 1020px;
+	  	max-width: 1020px;
 	  	min-height: 470px;
 	  	background-image: url('../../files/images/cardio-1020.jpg');
 	}
-
 
 	.row1-caption {
   	margin-top: 150px;
@@ -408,6 +408,7 @@ form.campaign input {
   	font-size: 1.7em;
 	}
 
+}
 
 @media (max-width : 320px) {
  
