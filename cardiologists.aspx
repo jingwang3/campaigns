@@ -85,17 +85,20 @@
 			<div class="container">
 				<h1>Meet Your Doctors</h1>
 				<div class="col-sm-6">
-					<div class="arlington">
-						<div class="media campaign-media">
+					<div class="{{loc.name}}" ng-repeat="loc in locations">
+						<div class="media campaign-media" ng-repeat="doc in loc.doctors">
 						  <div class="media-left media-middle">
 						    <a>
-						      <img class="media-object" width="80" src="http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135" alt="Charles Berul">
+						      <img class="media-object" width="80" src="{{doc.image_url}}" alt="{{doc.name}}">
 						    </a>
 						  </div>
 						  <div class="media-body doc-text-box">
-						    <h4 class="media-heading">Middle aligned media</h4>
-						    <p class="media-subheading">Middle aligned media</p>
-						    <p class="doc-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sit suscipit numquam, libero adipisci, vitae aspernatur fuga eius odio, veniam porro repudiandae nam dolorem error excepturi dolor doloribus minima voluptates.</p>
+						    <h4 class="media-heading doc-name">{{doc.name}}</h4>
+						    <h5 class="media-subheading doc-title">{{doc.title}}</h5>
+						    <h6 class="media-subheading doc-title-sub">{{doc.sub_title}}</h6>
+						    <ul class="doc-desc">
+						    	<li ng-repeat="des in doc.desc">- {{des}}</li>
+						    </ul>
 						  </div>
 						</div>
 						<div class="doc-box-footer">Testing</div>	
