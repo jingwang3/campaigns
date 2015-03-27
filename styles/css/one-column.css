@@ -205,7 +205,8 @@ body > .container { padding: 80px 15px 0; }
 .row-1, .row-4, .owbox{
 	color: #fff;
 }
-.row-3{ margin: 50px 0 0 0;}
+.row-3{ margin: 0 0 0 0;}
+
 .row-4, .row-2{
 	padding:50px 0;
 }
@@ -245,7 +246,6 @@ body > .container { padding: 80px 15px 0; }
 .row-1 {
   	max-width: 1920px;
   	background-image: url('../../files/images/cardio-row1.jpg');
-  	background-position: 50% 0;
   	background-repeat: no-repeat;
   	z-index: 999;
   	min-height: 886px;
@@ -389,37 +389,34 @@ form.campaign input {
 	  	min-height: 663px;
 	  	background-image: url('../../files/images/cardio-1440.jpg');
 	}
-}
-
-
-@media (max-width: 1020px) {
-
-	.row-1 {
-	  	max-width: 1020px;
-	  	min-height: 470px;
-	  	background-image: url('../../files/images/cardio-1020.jpg');
-	}
 
 	.row1-caption {
-  	margin-top: 150px;
+  	margin-top: 75px;
+	}
+}
+
+
+@media (max-width: 1024px)  {
+
+	.row-1 {
+	  	max-width: 1024px;
+	  	min-height: 471px;
+	  	background-image: url('../../files/images/cardio-1024.jpg');
 	}
 
+ 
 	.row1-caption h1 {
-  	font-size: 1.7em;
+	  	font-size: 2em;
+	  	line-height: 1.2em;
+	  	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
 	}
 
-}
+	p.banner-subtitle{
+		display:none;
+	}
 
-@media (max-width : 320px) {
- 
-.row1-caption h1 {
-  font-size: 1em;
-  line-height: 1.2em;
-  font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-}
+	.row-2  {
+		display:none;
+	}
 
-p.banner-subtitle{
-	display:none;
-}
- 
 }
