@@ -137,11 +137,27 @@ body > .container { padding: 80px 15px 0; }
 
 /*CSS FOR PINS*/
 .loc-pin{
-	color: red;
-	position: relative;
-	float: right;
-	font-size: 1.5em;
+  color: #F00;
+  position: absolute;
+  float: right;
+  font-size: 1.5em;
+  background-image: url('../../files/images/pin.png');
+  width: 25px;
+  height: 35px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: middle center;
+  cursor: pointer;
 }
+.loc-pin.active{
+  width: 48px;
+  height: 60px;
+}
+a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
+  width: 48px;
+  height: 60px;
+}
+
 
 #loc1 {
   right: 700px;
@@ -279,6 +295,7 @@ p.new-color {
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 812px;
+	position: relative;
 }
 
 .meet-doctors h1 {

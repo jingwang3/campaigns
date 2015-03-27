@@ -79,10 +79,10 @@
   		<!--Expert Care -->
   		<!--Meet Our Doctors -->
   		<div class="row row-3 content-row meet-doctors">
-  			<a class="loc-pin" id="loc1"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
-  			<a class="loc-pin" id="loc2"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
-  			<a class="loc-pin" id="loc3"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
-  			<a class="loc-pin" id="loc4"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
+  			<a class="loc-pin" id="loc1" title="location"></a>
+  			<a class="loc-pin" id="loc2" title="location"></a>
+  			<a class="loc-pin" id="loc3" title="location"></a>
+  			<a class="loc-pin active" id="loc4" title="location"></a>
 			<div class="container">
 				<h1>Meet Your Doctors</h1>
 				<div class="col-sm-6">
