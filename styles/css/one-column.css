@@ -134,10 +134,20 @@ body > .container { padding: 80px 15px 0; }
 
 /*CAMPAIGN SPECIFIC OVERRIDES GO BELOW*/
 
+
+.btn-form {
+		border-radius: 10px;
+		width: auto;
+		text-transform: uppercase;
+		font-size: 1.3em;
+		margin-top: 20px;
+		letter-spacing: .04em;
+		color: #ffffff;
+		background-color: #c82a16;
+		padding: 5px 20px;
+}
+
 .btn-cardio {
-		border-radius: 20px;
-		width:350px;
-		float:right;
 		clear:both;
 }
 
@@ -146,7 +156,7 @@ body > .container { padding: 80px 15px 0; }
 }
 
 .row p { 
-  font-family: Arial,sans-serif;
+  font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
   font-size: 1.125em;
   font-weight: 300;
   }
@@ -163,7 +173,7 @@ body > .container { padding: 80px 15px 0; }
 .row ul { 
   padding-left: 0px;
   }
-.row-1, .row-4, .paw-box{
+.row-1, .row-4, .owbox{
 	color: #fff;
 }
 .row { padding: 50px 0;}
@@ -205,7 +215,8 @@ body > .container { padding: 80px 15px 0; }
 }
 
 .row h1 {
-  font-size: 3em;
+  font-size: 2.7em;
+  line-height: 1.2em;
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
@@ -214,14 +225,18 @@ body > .container { padding: 80px 15px 0; }
 }
 
 .row1-caption {
-  margin-top: 180px;
+  margin-top: 200px;
 }
 
-.banner-subtitle{
-	margin-top: 90px;
+p.banner-subtitle{
+	font-size: 1.5em;
 }
 
 p.new-color {
+	color: #786a65;
+}
+
+p.paw-text {
 	color: #786a65;
 }
 
@@ -242,7 +257,7 @@ p.new-color {
 }
 
 .row-2 .box-left{
-	padding-top: 110px;
+	padding-top: 100px;
 }
 
 .row-4 {
@@ -264,6 +279,10 @@ p.new-color {
 .form-appt-phone {
 	color: #c82a16;
 	font-size: 2.5em;
+}
+
+.paw-row {
+	margin-bottom: 50px;
 }
 
 .paw-box {
@@ -310,12 +329,3 @@ form.campaign input {
 	color: #C82A16;
 }
 
-.btn-form {
-		border-radius: 15px;
-		width: 200px;
-		text-transform: uppercase;
-		font-size: 1.4em;
-		margin-top: 20px;
-		color: #ffffff;
-		background-color: #c82a16;
-}
