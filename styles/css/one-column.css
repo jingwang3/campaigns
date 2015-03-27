@@ -24,7 +24,7 @@ body{ font-size:16px; color: #877369; background-color: #FFF; }
 
 .app-btn { margin: 25px 0 0 0; }
 
-.header-appt-phone{ color: #877369; }
+.header-appt-phone{ color: #c82a16; }
 
 .footer a span{ font-size: 26px; color: #c82a16; }
 
@@ -192,7 +192,7 @@ body > .container { padding: 80px 15px 0; }
 	display: block;
   	font-size: 16px;
   	text-transform: uppercase;
-  	color: #c82a16;
+  	color: #877369;
 }
 
 .phone-number-box {
@@ -296,16 +296,29 @@ p.new-color {
 
 .campaign-media{
 	background-color: white;
-	border: 2px solid red;
+	border: 2px solid #e23525;
+}
+
+.doc-text-box {
+	color: #000000;
 }
 
 .doc-text-box h4{
 	padding-top: 10px;
 }
 
+.doc-box-footer {
+	background-color: #e23525;
+	padding: 5px;
+	text-align: center;
+	color: #ffffff;
+	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+}
+
 p.doc-desc {
   font-size: .675em;
   line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 

@@ -82,18 +82,21 @@
 			<div class="container">
 				<h1>Meet Your Doctors</h1>
 				<div class="col-sm-6">
-					<div class="media campaign-media">
-					  <div class="media-left media-middle">
-					    <a>
-					      <img class="media-object" width="80" src="http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135" alt="Charles Berul">
-					    </a>
-					  </div>
-					  <div class="media-body doc-text-box">
-					    <h4 class="media-heading">Middle aligned media</h4>
-					    <p class="doc-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sit suscipit numquam, libero adipisci, vitae aspernatur fuga eius odio, veniam porro repudiandae nam dolorem error excepturi dolor doloribus minima voluptates.</p>
-					  </div>
-					</div>
-					<div class="doc-box-footer"></div>		
+					<div class="arlington">
+						<div class="media campaign-media">
+						  <div class="media-left media-middle">
+						    <a>
+						      <img class="media-object" width="80" src="http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135" alt="Charles Berul">
+						    </a>
+						  </div>
+						  <div class="media-body doc-text-box">
+						    <h4 class="media-heading">Middle aligned media</h4>
+						    <p class="media-subheading">Middle aligned media</p>
+						    <p class="doc-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sit suscipit numquam, libero adipisci, vitae aspernatur fuga eius odio, veniam porro repudiandae nam dolorem error excepturi dolor doloribus minima voluptates.</p>
+						  </div>
+						</div>
+						<div class="doc-box-footer">Testing</div>	
+					</div>	
 				</div>
 			</div>
 		</div>
