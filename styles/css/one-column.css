@@ -164,7 +164,7 @@ body > .container { padding: 80px 15px 0; }
 .row ul li { 
   color: #fff;
   font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: 300;
   line-height: 2em;
   padding-left: 0px;
@@ -221,7 +221,6 @@ body > .container { padding: 80px 15px 0; }
   text-transform: uppercase;
   color: #ffffff;
   font-family: CampaignFont,Helvetica,Arial,sans-serif;
-  overflow: hidden;
 }
 
 .row1-caption {
@@ -233,10 +232,6 @@ p.banner-subtitle{
 }
 
 p.new-color {
-	color: #786a65;
-}
-
-p.paw-text {
 	color: #786a65;
 }
 
@@ -287,12 +282,16 @@ p.paw-text {
 
 .paw-box {
   height: 220px;
-  background-color: #c82a16;
+  background-color: #c92b2c;
   position: relative;
   top: -80px;
-  border-radius: 0 70px;
+  border-radius: 0 50px;
   z-index: -100;
-  padding: 60px 40px;
+  padding: 60px 50px;
+  color: #ffffff;
+  font-style: italic;
+  font-size: 1.4em;
+  width: 330px;
 }
 
 .campaign-media{
@@ -329,3 +328,22 @@ form.campaign input {
 	color: #C82A16;
 }
 
+
+/*Media Queries*/
+
+@media only screen and (max-width : 768px) {
+
+
+}
+
+@media only screen and (max-width : 320px) {
+ 
+.row h1 {
+	font-size: 2em;
+}
+
+p.banner-subtitle{
+	display:none;
+}
+ 
+}
