@@ -239,14 +239,13 @@ body > .container { padding: 80px 15px 0; }
 .row-1 {
   	max-width: 1920px;
   	background-image: url('../../files/images/cardio-row1.jpg');
-  	background-position: center left;
+  	background-position: 50% 0;
   	background-repeat: no-repeat;
-  	background-size: cover;
   	z-index: 999;
   	min-height: 886px;
 }
 
-.row h1 {
+.row1-caption h1 {
   font-size: 2.7em;
   line-height: 1.2em;
   font-weight: 700;
@@ -277,8 +276,8 @@ p.new-color {
 }
 
 .meet-doctors h1 {
-	font-size: 7em;
-	padding-top:20px;
+	font-size: 6em;
+	padding-top:70px;
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
 	text-transform: none;
 }
@@ -376,15 +375,40 @@ form.campaign input {
 
 /*Media Queries*/
 
-@media only screen and (max-width : 768px) {
+@media (max-width: 1440px) {
 
-
+	.row-1 {
+	  	width: 1440px;
+	  	min-height: 663px;
+	  	background-image: url('../../files/images/cardio-1440.jpg');
+	}
 }
 
-@media only screen and (max-width : 320px) {
+
+@media (max-width: 1020px) {
+
+	.row-1 {
+	  	width: 1020px;
+	  	min-height: 470px;
+	  	background-image: url('../../files/images/cardio-1020.jpg');
+	}
+
+
+	.row1-caption {
+  	margin-top: 150px;
+	}
+
+	.row1-caption h1 {
+  	font-size: 1.7em;
+	}
+
+
+@media (max-width : 320px) {
  
-.row h1 {
-	font-size: 2em;
+.row1-caption h1 {
+  font-size: 1em;
+  line-height: 1.2em;
+  font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
 }
 
 p.banner-subtitle{
