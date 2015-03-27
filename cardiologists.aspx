@@ -84,25 +84,27 @@
   			<a class="loc-pin active" id="loc4" title="location"></a>
 			<div class="container">
 				<h1>Meet Your Doctors</h1>
-				<div class="col-sm-6">
-					<div class="{{loc.name}}" ng-repeat="loc in locations">
-						<div class="media campaign-media" ng-repeat="doc in loc.doctors">
-						  <div class="media-left media-middle">
-						    <a>
-						      <img class="media-object" width="80" src="{{doc.image_url}}" alt="{{doc.name}}">
-						    </a>
-						  </div>
-						  <div class="media-body doc-text-box">
-						    <h4 class="media-heading doc-name">{{doc.name}}</h4>
-						    <h5 class="media-subheading doc-title">{{doc.title}}</h5>
-						    <h6 class="media-subheading doc-title-sub">{{doc.sub_title}}</h6>
-						    <ul class="doc-desc">
-						    	<li ng-repeat="des in doc.desc">- {{des}}</li>
-						    </ul>
-						  </div>
-						</div>
-						<div class="doc-box-footer">Testing</div>	
-					</div>	
+				<div class="col-xs-6">
+					<div class="overlay-box">
+						<div class="{{loc.name}}" ng-repeat="loc in locations">
+							<div class="media campaign-media" ng-repeat="doc in loc.doctors">
+							  <div class="media-left media-middle">
+							    <a>
+							      <img class="media-object" width="80" src="{{doc.image_url}}" alt="{{doc.name}}">
+							    </a>
+							  </div>
+							  <div class="media-body doc-text-box">
+							    <h4 class="media-heading doc-name">{{doc.name}}</h4>
+							    <h5 class="media-subheading doc-title">{{doc.title}}</h5>
+							    <h6 class="media-subheading doc-title-sub">{{doc.sub_title}}</h6>
+							    <ul class="doc-desc">
+							    	<li ng-repeat="des in doc.desc">- {{des}}</li>
+							    </ul>
+							  </div>
+							</div>
+							<div class="doc-box-footer">Testing</div>	
+						</div>	
+					</div>
 				</div>
 			</div>
 		</div>
