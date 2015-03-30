@@ -99,10 +99,10 @@
 					<div class="col-xs-6">
 						<div class="doc-list">
 							<div class="{{loc.name}}">
-								<div class="media campaign-media" ng-repeat="doc in loc.doctors">
+								<div class="media campaign-media fade-in" ng-repeat="doc in loc.doctors">
 								  <div class="media-left media-middle">
 								    <a>
-								      <img class="media-object" width="80" src="{{doc.image_url}}" alt="{{doc.name}}">
+								      <img class="media-object" width="95" src="{{doc.image_url}}" alt="{{doc.name}}">
 								    </a>
 								  </div>
 								  <div class="media-body doc-text-box">
@@ -114,7 +114,7 @@
 								    </ul>
 								  </div>
 								</div>
-								<div class="doc-box-footer">
+								<div class="doc-box-footer fade-in" ng-if="!(loc.name == '')">
 								<h4>{{loc.name}}</h4>
 								<p>{{loc.desc}}</p>
 								</div>	
@@ -137,7 +137,7 @@
 					<div class="media campaign-media" ng-repeat="doc in loc.doctors">
 						<div class="media-left media-middle">
 							<a>
-								<img class="media-object" width="80" src="{{doc.image_url}}" alt="{{doc.name}}">
+								<img class="media-object" width="95" src="{{doc.image_url}}" alt="{{doc.name}}">
 							</a>
 						</div>
 						<div class="media-body doc-text-box">

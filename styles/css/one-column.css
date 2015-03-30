@@ -643,3 +643,24 @@ form.campaign, .campaign-confirm {
 
 
 }
+
+
+/*animation section*/
+.fade-in{
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
