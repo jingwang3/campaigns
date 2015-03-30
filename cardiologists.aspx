@@ -97,7 +97,7 @@
 				<div class="container">
 					<h1>Meet Your Doctors</h1>
 					<div class="col-xs-6">
-						<div class="doc-list">
+						<div class="doc-list shadowing">
 							<div class="{{loc.name}}">
 								<div class="media campaign-media" ng-repeat="doc in loc.doctors">
 								  <div class="media-left media-middle">
@@ -106,16 +106,16 @@
 								    </a>
 								  </div>
 								  <div class="media-body doc-text-box">
-								    <h4 class="media-heading doc-name better-font">{{doc.name}}</h4>
-								    <h5 class="media-subheading doc-title better-font">{{doc.title}}</h5>
-								    <h6 class="media-subheading doc-title-sub better-font">{{doc.sub_title}}</h6>
+								    <h4 class="media-heading doc-name lighter-font">{{doc.name}}</h4>
+								    <h5 class="media-subheading doc-title lighter-font">{{doc.title}}</h5>
+								    <h6 class="media-subheading doc-title-sub lighter-font">{{doc.sub_title}}</h6>
 								    <ul class="doc-desc">
 								    	<li ng-repeat="des in doc.desc">- {{des}}</li>
 								    </ul>
 								  </div>
 								</div>
 								<div class="doc-box-footer">
-								<h4>{{loc.name}}</h4>
+								<p>{{loc.name}}</p>
 								<p>{{loc.desc}}</p>
 								</div>	
 							</div>	
@@ -141,16 +141,16 @@
 							</a>
 						</div>
 						<div class="media-body doc-text-box">
-							<h4 class="media-heading doc-name better-font">{{doc.name}}</h4>
-							<h5 class="media-subheading doc-title better-font">{{doc.title}}</h5>
-							<h6 class="media-subheading doc-title-sub better-font">{{doc.sub_title}}</h6>
+							<h4 class="media-heading doc-name lighter-font">{{doc.name}}</h4>
+							<h5 class="media-subheading doc-title lighter-font">{{doc.title}}</h5>
+							<h6 class="media-subheading doc-title-sub lighter-font">{{doc.sub_title}}</h6>
 							<ul class="doc-desc">
 								<li ng-repeat="des in doc.desc">- {{des}}</li>
 							</ul>
 						</div>
 					</div>
 					<div class="doc-box-footer">
-						<h1>{{loc.name}}</h1>
+						<p>{{loc.name}}</p>
 						<p>{{loc.desc}}</p>
 					</div>	
 				</div>
