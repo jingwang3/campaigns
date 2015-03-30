@@ -160,20 +160,21 @@ a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
 
 
 #loc1 {
-  right: 700px;
-  top: 83px;
+  right: 544px;
+  top: 78px;
 }
+
 #loc2 {
-  right: 453px;
-  top: 239px;
+  right: 292px;
+  top: 235px;
 }
 #loc3 {
-  right: 497px;
-  top: 255px;
+  right: 370px;
+  top: 249px;
 }
 #loc4 {
-  right: 636px;
-  top: 710px;
+  right: 552px;
+  top: 704px;
 }
 
 
@@ -287,7 +288,7 @@ p.new-color {
 }
 
 .meet-doctors, .meet-doctors-mobile {
-	background-image: url('../../files/images/city-map.gif');
+	background-image: url('../../files/images/city-map-lg.jpg');
 	background-color: rgba(6,32,51,.8);
 	background-position: center right;
 	background-repeat: no-repeat;
@@ -457,15 +458,56 @@ form.campaign input {
 	}
 
 	.meet-doctors-mobile h1 {
-		font-size: 6em;
-		padding-top:270px;
-		font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+		font-size: 5em;
+		position: relative;
+		top:150px;
 		text-transform: none;
 		color: #ffffff;
 	}
 
+	.meet-doctors, .meet-doctors-mobile {
+		background-image: url('../../files/images/city-map-md.jpg');
+		min-height: 433px;
+		text-align: center;
+
+	}
+
 	.meet-doctors-mobile, .doc-list-mobile{
 		display: block;
+	}
+
+}
+
+@media (max-width: 768px)  {
+	.row-4{
+		padding: 25px 15px 50px 15px;
+	}
+	.row-4 h3{
+		font-size: 3em;
+	}
+
+}
+
+
+
+@media (max-width: 480px)  {
+
+	.meet-doctors, .meet-doctors-mobile {
+		background-image: url('../../files/images/city-map-sm.jpg');
+		min-height: 203px;
+		text-align: center;
+	}
+
+	.meet-doctors-mobile, .doc-list-mobile{
+		display: block;
+	}
+
+	.meet-doctors-mobile h1 {
+		font-size: 3em;
+		position: relative;
+		top:70px;
+		text-transform: none;
+		color: #ffffff;
 	}
 
 }
