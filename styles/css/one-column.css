@@ -276,18 +276,15 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
   	letter-spacing: .03em;
   	text-transform: uppercase;
   	color: #877369;
+  	 font-family: LightCampaignFont,Helvetica,Arial,sans-serif; 	
 
 }
 
 .phone-number-box {
 	text-align: center;
-	font-size: 1.5em;
 	line-height: 1;
 	position: relative;
 	padding: 20px;
-
-   	font-family: LightCampaignFont,Helvetica,Arial,sans-serif; 	
-
 }
 
 
