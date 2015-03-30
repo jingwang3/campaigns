@@ -114,7 +114,10 @@
 								    </ul>
 								  </div>
 								</div>
-								<div class="doc-box-footer">Testing</div>	
+								<div class="doc-box-footer">
+								<h4>{{loc.name}}</h4>
+								<p>{{loc.desc}}</p>
+								</div>	
 							</div>	
 						</div>
 					</div>
@@ -146,7 +149,10 @@
 							</ul>
 						</div>
 					</div>
-					<div class="doc-box-footer">Testing</div>	
+					<div class="doc-box-footer">
+						<h1>{{loc.name}}</h1>
+						<p>{{loc.desc}}</p>
+					</div>	
 				</div>
 			</div>
 		</article>

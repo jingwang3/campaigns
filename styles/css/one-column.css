@@ -410,6 +410,7 @@ p.text-small {
 	text-align: center;
 	color: #ffffff;
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+	text-transform: capitalize;
 }
 
 ul.doc-desc li{
