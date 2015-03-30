@@ -90,15 +90,15 @@
   		<!--Meet Our Doctors -->
 		<article id="docSec">
 	  		<div class="row row-3 content-row meet-doctors">
-	  			<a class="loc-pin" id="loc1" title="location"></a>
-	  			<a class="loc-pin" id="loc2" title="location"></a>
-	  			<a class="loc-pin" id="loc3" title="location"></a>
-	  			<a class="loc-pin active" id="loc4" title="location"></a>
+	  			<a class="loc-pin" id="loc1" title="Leesburg" ng-click="loadDocs(1)"></a>
+	  			<a class="loc-pin" id="loc2" title="Arlington" ng-click="loadDocs(0)"></a>
+	  			<a class="loc-pin" id="loc3" title="Fairfax" ng-click="loadDocs(2)"></a>
+	  			<a class="loc-pin active" id="loc4" title="Fredericksburg" ng-click="loadDocs(3)"></a>
 				<div class="container">
 					<h1>Meet Your Doctors</h1>
 					<div class="col-xs-6">
 						<div class="doc-list">
-							<div class="{{loc.name}}" ng-repeat="loc in locations">
+							<div class="{{loc.name}}">
 								<div class="media campaign-media" ng-repeat="doc in loc.doctors">
 								  <div class="media-left media-middle">
 								    <a>
@@ -124,16 +124,16 @@
 				</div>
 			</div>
 	  		<div class="row row-3 content-row meet-doctors-mobile" >
-	  			<a class="loc-pin" id="loc1" title="location"></a>
-	  			<a class="loc-pin" id="loc2" title="location"></a>
-	  			<a class="loc-pin" id="loc3" title="location"></a>
-	  			<a class="loc-pin active" id="loc4" title="location"></a>
+	  			<a class="loc-pin" id="loc1" title="Leesburg" ng-click="loadDocs(1)"></a>
+	  			<a class="loc-pin" id="loc2" title="Arlington" ng-click="loadDocs(0)"></a>
+	  			<a class="loc-pin" id="loc3" title="Fairfax" ng-click="loadDocs(2)"></a>
+	  			<a class="loc-pin active" id="loc4" title="Fredericksburg" ng-click="loadDocs(3)"></a>
 				<div class="container">
 					<h1>Meet Your Doctors</h1>
 				</div>
 			</div>
 			<div class="row doc-list-mobile">
-				<div class="{{loc.name}}" ng-repeat="loc in locations">
+				<div class="{{loc.name}}">
 					<div class="media campaign-media" ng-repeat="doc in loc.doctors">
 						<div class="media-left media-middle">
 							<a>
