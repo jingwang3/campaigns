@@ -160,23 +160,44 @@ a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
 
 
 #loc1 {
-  right: 544px;
-  top: 78px;
+  right: 587px;
+  top: 53px;
+}
+
+a#loc1:hover, a#loc1:focus, a#loc1:active, a#loc1.active{
+  right: 574px;
+  top: 24px;
 }
 
 #loc2 {
-  right: 292px;
-  top: 235px;
-}
-#loc3 {
-  right: 370px;
-  top: 249px;
-}
-#loc4 {
-  right: 552px;
-  top: 704px;
+  right: 343px;
+  top: 223px;
 }
 
+a#loc2:hover, a#loc2:focus, a#loc2:active, a#loc2.active{
+  right: 330px;
+  top: 194px;
+}
+
+#loc3 {
+  right: 416px;
+  top: 240px;
+}
+
+a#loc3:hover, a#loc3:focus, a#loc3:active, a#loc3.active{
+  right: 403px;
+  top: 209px;
+}
+
+#loc4 {
+  right: 593px;
+  top: 732px;
+}
+
+a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
+  right: 580px;
+  top: 701px;
+}
 
 
 .btn-form {
@@ -288,11 +309,10 @@ p.new-color {
 }
 
 .meet-doctors, .meet-doctors-mobile {
-	background-image: url('../../files/images/city-map-lg.jpg');
+	background-image: url('../../files/images/city_map_lg.jpg');
 	background-color: rgba(6,32,51,.8);
 	background-position: center right;
 	background-repeat: no-repeat;
-	background-size: cover;
 	min-height: 812px;
 	position: relative;
 }
@@ -466,7 +486,7 @@ form.campaign input {
 	}
 
 	.meet-doctors, .meet-doctors-mobile {
-		background-image: url('../../files/images/city-map-md.jpg');
+		background-image: url('../../files/images/city_map_md.jpg');
 		min-height: 433px;
 		text-align: center;
 
@@ -475,6 +495,25 @@ form.campaign input {
 	.meet-doctors-mobile, .doc-list-mobile{
 		display: block;
 	}
+
+	#loc1 {
+	  right: 307px;
+	  top: 12px;
+	}
+
+	#loc2 {
+	  right: 180px;
+	  top: 102px;
+	}
+	#loc3 {
+	  right: 219px;
+	  top: 109px;
+	}
+	#loc4 {
+	  right: 311px;
+	  top: 367px;
+	}
+
 
 }
 
@@ -492,8 +531,26 @@ form.campaign input {
 
 @media (max-width: 480px)  {
 
+	#loc1 {
+	  right: 138px;
+	  top: -8px;
+	}
+
+	#loc2 {
+	  right: 74px;
+	  top: 31px;
+	}
+	#loc3 {
+	  right: 97px;
+	  top: 40px;
+	}
+	#loc4 {
+	  right: 141px;
+	  top: 164px;
+	}
+
 	.meet-doctors, .meet-doctors-mobile {
-		background-image: url('../../files/images/city-map-sm.jpg');
+		background-image: url('../../files/images/city_map_sm.jpg');
 		min-height: 203px;
 		text-align: center;
 	}
