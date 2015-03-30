@@ -7,7 +7,7 @@
 	<meta name="Description" content="" />
 	<title></title>
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.campaign.min.css">
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="styles/css/one-column.css">
