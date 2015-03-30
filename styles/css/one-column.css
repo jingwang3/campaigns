@@ -18,13 +18,9 @@ body{ font-size:16px; color: #877369; background-color: #FFF; }
 
 .phone-number-sm{ margin: 5px auto 0; font-size: 28px; font-weight: bold; border-top: 2px solid #CBCBCB; padding-top: 5px; }
 
-.phone-number-sm .header-appt-phone{ font-size: 22px; }
-
 .pitch-line{ font-size:16px }
 
 .app-btn { margin: 25px 0 0 0; }
-
-.header-appt-phone{ color: #c82a16; }
 
 .footer a span{ font-size: 1.875em; color: #c82a16; }
 
@@ -104,7 +100,7 @@ color: #746661;
 -------------------------------------------------- */
 html { position: relative; min-height: 100%; }
 body { margin-bottom: 80px; }
-.footer { position: absolute; bottom: 0; width: 100%; height: 80px; background-color: #FBFBFB; border-top: 1px solid #e3e1e2; box-shadow: inset 0 1px 27px 0 rgba(0,0,0,.15); padding-top: 20px; font-size: 12px;}
+.footer { position: absolute; bottom: 0; width: 100%; height: 80px; background-color: #FBFBFB; border-top: 1px solid #e3e1e2; box-shadow: inset 0 1px 27px 0 rgba(0,0,0,.15); padding-top: 20px; font-size: .75em;}
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -128,7 +124,6 @@ body > .container { padding: 80px 15px 0; }
 
 .provider-listing{
 	font-family: Arial;
-	font-size: 12px;
 }
 
 
@@ -175,7 +170,6 @@ a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
   right: 636px;
   top: 710px;
 }
-
 
 
 .btn-form {
@@ -232,28 +226,33 @@ a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
 }
 
 .row-4 h3 {
-	float:right;
-	color: #ffffff;
-	text-transform: uppercase;
-	font-size: 56px;
-  	font-family: CampaignFont,Helvetica,Arial,sans-serif;
-  	margin-bottom:-61px;
-}
-
-
-.header-text-right{
-	display: block;
-  	font-size: 16px;
-  	text-transform: uppercase;
-  	color: #877369;
+  float: right;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 4.5em;
+  font-family: CampaignFont,Helvetica,Arial,sans-serif;
+  margin-bottom: -65px;
 }
 
 .phone-number-box {
-	text-align: justify;
-	font-size: 1.5em;
 	line-height: 1;
 	position: relative;
 	padding: 20px;
+}
+
+.header-appt-phone { 
+	color: #d72d1e; 
+	font-size: 1.75em;
+
+}
+
+.header-text-right{
+	display: block;
+	font-size: 1em;
+  	letter-spacing: .03em;
+  	text-transform: uppercase;
+  	color: #877369;
+   	font-family: LightCampaignFont,Helvetica,Arial,sans-serif; 	
 }
 
 
@@ -312,6 +311,10 @@ p.new-color {
 	background-color: #988b87;
 }
 
+.contact-row {
+	padding-bottom: 10px;
+}
+
 .contact-row h1 {
 	text-transform: none;
 	color: #c82a16;
@@ -321,7 +324,11 @@ p.new-color {
 
 .contact-row p { 
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-	font-size: 1.5em; 
+	font-size: 2em; 
+}
+
+p.text-small { 
+	font-size: 1.45em; 
 }
 
 .form-appt-phone {
@@ -384,13 +391,16 @@ ul.doc-desc li{
 }
 
 form.campaign, .campaign-confirm {
-	margin: 0 auto;
+	margin: 0 auto 50px auto;
 	width: 400px;
 }
 
 form.campaign input {
-	background-color: #fcfbfa;
-	margin-bottom: 3px;
+  background-color: #fcfbfa;
+  margin-bottom: 3px;
+  height: 40px;
+  color: #786a65;
+  font-size: 1em;
 }
 
 .campaign-confirm h1{
@@ -410,6 +420,12 @@ form.campaign input {
 
 .meet-doctors-mobile, .doc-list-mobile{
 	display: none;
+}
+
+a.top-link {
+	font-size: .75em;
+	text-transform: uppercase;
+	text-decoration: underline;
 }
 
 /*Media Queries*/

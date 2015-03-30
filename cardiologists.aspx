@@ -41,7 +41,7 @@
 	    </div>
 	    <div class="nav navbar-nav navbar-right">
 			<p class="navbar-text phone-number-box better-font">
-				<span class="header-text-right">Make An Appointment</span>
+				<span class="header-text-right">Make An Appointment:</span>
 				<a href="tel:7035311555" trackingLabel="Phone Number on Top"><span class="header-appt-phone">(703) 531-1555</span></a>
 			</p>
 	     </div>
@@ -168,7 +168,7 @@
 	  				<div class="text-center">
 		  				<p class="text-center new-color text-museo">We're here to help. Call or schedule an appointment:</p>
 		  				<a href="tel:7035311555" trackingLabel="Phone Number on Top"><span class="form-appt-phone better-font">(703) 531-1555</span></a>
-	  					<p class="text-center new-color text-museo small">Or we can call you. Submit your info below.</p>
+	  					<p class="text-center new-color text-museo text-small">Or we can call you. Submit your info below:</p>
 	  					<div class="well campaign-confirm hidden" id="formConfirmationBox">
 	  						<h1>THANK YOU.</h1>
 	  						<p>WE'LL BE IN TOUCH WITH YOU SHORTLY.</p>
@@ -185,7 +185,7 @@
 	  						</div>
 	  						<button type="submit" class="btn btn-form better-font">Submit</button>
 	  					</form>
-						<a href="#top">BACK TO TOP</a>
+						<a class="top-link" href="#top">Back to top</a>
 	  				</div>
 	  			</div>
 	  		</div>
@@ -196,7 +196,7 @@
   <footer>
 	  <div class="footer">
 	      <div class="container">
-	        <p class="text-muted text-center better-font"><a href="http://childrensnational.org/cardiology" trackingLabel="Footer CNHS Homepage Link"><span>ChildrensNational.org/cardiology</span></a></p>
+	        <p class="text-muted text-center better-font"><a href="http://childrensnational.org/cardiology" trackingLabel="Footer CNHS Homepage Link"><span>childrensnational.org/cardiology</span></a></p>
 	      </div>
 	   </div>
    </footer>
