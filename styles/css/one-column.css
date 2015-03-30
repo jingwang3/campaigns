@@ -5,9 +5,14 @@ body{ font-size:16px; color: #877369; background-color: #FFF; }
 
 @font-face { font-family: CampaignFont; src: url('../fonts/cnat-font1.woff'); }
 @font-face { font-family: LightCampaignFont; src: url('../fonts/cnat-font4.woff'); }
-@font-face { font-family: SolidCampaignFont; src: url('../fonts/cnat-font2.woff'); }
+
+@font-face { font-family: CorbelBoldFont; src: url('../fonts/cnat-font2.woff'); }
+@font-face { font-family: CorbelLightFont; src: url('../fonts/cnat-font3.woff'); }
+
 
 .better-font { font-family: CampaignFont,Helvetica,Arial,sans-serif; }
+
+.lighter-font { font-family: LightCampaignFont,Helvetica,Arial,sans-serif; }
 
 .red-bar{ height: 5px; background: #E54F3F; }
 
@@ -71,6 +76,12 @@ a:hover{ text-decoration: none; }
 .row{  }
 
 .panel{ box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.19); border: 1px solid #DBD6D4; }
+
+.shadowing{  
+	box-shadow:2px 2px 15px 5px #2e2e2e;
+ 	-webkit-box-shadow:2px 2px 15px 5px #2e2e2e;
+ 	-moz-box-shadow:2px 2px 15px 5px #2e2e2e;
+ 	 }
 
 @media (min-width: 992px){ .panel{ min-height: 350px;} .panel-cardiology{ min-height: 320px;} }
 
@@ -384,8 +395,8 @@ p.text-small {
 
 .campaign-media{
 	background-color: white;
-	border: 1px solid #e23525;
-	margin-top: 0;
+	border: 2px solid #e23525;
+	margin-top: -2px;
 }
 
 .campaign-media h4, .campaign-media h5, .campaign-media h6{
@@ -399,20 +410,28 @@ p.text-small {
 
 .doc-text-box h4{
 	padding-top: 10px;
+	font-size: 1.5em;
 }
 
-.doc-box-footer {
-	background-color: #e23525;
-	padding: 5px;
-	text-align: center;
-	color: #ffffff;
-	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-	text-transform: capitalize;
+.doc-text-box h5, h6 {
+	font-size: 1em;
+	padding-bottom: 4px;
+}
+
+.doc-box-footer {  
+background-color: #e23525;
+  padding: 15px 0 5px 0;
+  text-align: center;
+  color: #ffffff;
+  font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+  text-transform: capitalize;
+  line-height: .5em;
+  font-size: .85em;
 }
 
 ul.doc-desc li{
   font-size: .675em;
-  line-height: 1;
+  line-height: 1.2em;
   font-family: Arial, Helvetica, sans-serif;
   list-style: none;
   padding-left: 5px;
