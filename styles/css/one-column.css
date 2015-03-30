@@ -155,22 +155,44 @@ a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
 
 
 #loc1 {
-  right: 700px;
-  top: 83px;
-}
-#loc2 {
-  right: 453px;
-  top: 239px;
-}
-#loc3 {
-  right: 497px;
-  top: 255px;
-}
-#loc4 {
-  right: 636px;
-  top: 710px;
+  right: 587px;
+  top: 53px;
 }
 
+a#loc1:hover, a#loc1:focus, a#loc1:active, a#loc1.active{
+  right: 574px;
+  top: 24px;
+}
+
+#loc2 {
+  right: 343px;
+  top: 223px;
+}
+
+a#loc2:hover, a#loc2:focus, a#loc2:active, a#loc2.active{
+  right: 330px;
+  top: 194px;
+}
+
+#loc3 {
+  right: 416px;
+  top: 240px;
+}
+
+a#loc3:hover, a#loc3:focus, a#loc3:active, a#loc3.active{
+  right: 403px;
+  top: 209px;
+}
+
+#loc4 {
+  right: 593px;
+  top: 732px;
+}
+
+a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
+  right: 580px;
+  top: 701px;
+}
 
 .btn-form {
 		border-radius: 10px;
@@ -286,11 +308,10 @@ p.new-color {
 }
 
 .meet-doctors, .meet-doctors-mobile {
-	background-image: url('../../files/images/city-map.gif');
+	background-image: url('../../files/images/city_map_lg.jpg');
 	background-color: rgba(6,32,51,.8);
 	background-position: center right;
 	background-repeat: no-repeat;
-	background-size: cover;
 	min-height: 812px;
 	position: relative;
 }
@@ -473,15 +494,93 @@ a.top-link {
 	}
 
 	.meet-doctors-mobile h1 {
-		font-size: 6em;
-		padding-top:270px;
-		font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+		font-size: 5em;
+		position: relative;
+		top:150px;
 		text-transform: none;
 		color: #ffffff;
 	}
 
+	.meet-doctors, .meet-doctors-mobile {
+		background-image: url('../../files/images/city_map_md.jpg');
+		min-height: 433px;
+		text-align: center;
+
+	}
+
 	.meet-doctors-mobile, .doc-list-mobile{
 		display: block;
+	}
+
+	#loc1 {
+	  right: 307px;
+	  top: 12px;
+	}
+
+	#loc2 {
+	  right: 180px;
+	  top: 102px;
+	}
+	#loc3 {
+	  right: 219px;
+	  top: 109px;
+	}
+	#loc4 {
+	  right: 311px;
+	  top: 367px;
+	}
+
+
+}
+
+@media (max-width: 768px)  {
+	.row-4{
+		padding: 25px 15px 50px 15px;
+	}
+	.row-4 h3{
+		font-size: 3em;
+	}
+
+}
+
+
+
+@media (max-width: 480px)  {
+
+	#loc1 {
+	  right: 138px;
+	  top: -8px;
+	}
+
+	#loc2 {
+	  right: 74px;
+	  top: 31px;
+	}
+	#loc3 {
+	  right: 97px;
+	  top: 40px;
+	}
+	#loc4 {
+	  right: 141px;
+	  top: 164px;
+	}
+
+	.meet-doctors, .meet-doctors-mobile {
+		background-image: url('../../files/images/city_map_sm.jpg');
+		min-height: 203px;
+		text-align: center;
+	}
+
+	.meet-doctors-mobile, .doc-list-mobile{
+		display: block;
+	}
+
+	.meet-doctors-mobile h1 {
+		font-size: 3em;
+		position: relative;
+		top:70px;
+		text-transform: none;
+		color: #ffffff;
 	}
 
 }
