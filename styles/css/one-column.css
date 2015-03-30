@@ -140,63 +140,56 @@ body > .container { padding: 80px 15px 0; }
   color: #F00;
   position: absolute;
   float: right;
-  font-size: 1.5em;
-  background-image: url('../../files/images/pin.png');
-  width: 25px;
-  height: 35px;
-  background-size: 100%;
+  background-image: url('../../files/images/pin_sm.png');
+  width: 48px;
+  height: 80px;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: middle center;
   cursor: pointer;
 }
 .loc-pin.active{
-  width: 48px;
-  height: 60px;
+  background-image: url('../../files/images/pin_lg.png');
+  width: 64px;
+  height: 106px;
 }
 a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
-  width: 48px;
-  height: 60px;
+  width: 64px;
+  height: 106px;
+  z-index: 200;
 }
-
 
 #loc1 {
-  right: 587px;
-  top: 53px;
+  right: 576px;
+  top: 19px;
 }
-
-a#loc1:hover, a#loc1:focus, a#loc1:active, a#loc1.active{
-  right: 574px;
-  top: 24px;
-}
-
 #loc2 {
-  right: 343px;
-  top: 223px;
+  right: 333px;
+  top: 187px;
 }
-
-a#loc2:hover, a#loc2:focus, a#loc2:active, a#loc2.active{
-  right: 330px;
-  top: 194px;
-}
-
 #loc3 {
-  right: 416px;
-  top: 240px;
+  right: 406px;
+  top: 202px;
 }
-
-a#loc3:hover, a#loc3:focus, a#loc3:active, a#loc3.active{
-  right: 403px;
-  top: 209px;
-}
-
 #loc4 {
-  right: 593px;
-  top: 732px;
+  right: 584px;
+  top: 698px;
 }
-
+a#loc1:hover, a#loc1:focus, a#loc1:active, a#loc1.active{
+  right: 567px;
+  top: -5px;
+}
+a#loc2:hover, a#loc2:focus, a#loc2:active, a#loc2.active{
+  right: 326px;
+  top: 162px;
+}
+a#loc3:hover, a#loc3:focus, a#loc3:active, a#loc3.active{
+  right: 395px;
+  top: 184px;
+}
 a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
-  right: 580px;
-  top: 701px;
+  right: 573px;
+  top: 673px;
 }
 
 
@@ -271,7 +264,7 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
 }
 
 .phone-number-box {
-	text-align: justify;
+	text-align: center;
 	font-size: 1.5em;
 	line-height: 1;
 	position: relative;
@@ -497,21 +490,38 @@ form.campaign input {
 	}
 
 	#loc1 {
-	  right: 307px;
-	  top: 12px;
+	  right: 296px;
+	  top: -26px;
 	}
 
 	#loc2 {
-	  right: 180px;
-	  top: 102px;
+	  right: 166px;
+	  top: 68px;
 	}
 	#loc3 {
-	  right: 219px;
-	  top: 109px;
+	  right: 207px;
+	  top: 72px;
 	}
 	#loc4 {
-	  right: 311px;
-	  top: 367px;
+	  right: 301px;
+	  top: 339px;
+	}
+
+	a#loc1:hover, a#loc1:focus, a#loc1:active, a#loc1.active{
+	  right: 288px;
+	  top: -50px;
+	}
+	a#loc2:hover, a#loc2:focus, a#loc2:active, a#loc2.active{
+	  right: 158px;
+	  top: 41px;
+	}
+	a#loc3:hover, a#loc3:focus, a#loc3:active, a#loc3.active{
+	  right: 198px;
+	  top: 50px;
+	}
+	a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
+	  right: 294px;
+	  top: 316px;
 	}
 
 
@@ -532,21 +542,21 @@ form.campaign input {
 @media (max-width: 480px)  {
 
 	#loc1 {
-	  right: 138px;
-	  top: -8px;
+	  right: 126px;
+	  top: -53px;
 	}
 
 	#loc2 {
-	  right: 74px;
-	  top: 31px;
+	  right: 65px;
+	  top: -8px;
 	}
 	#loc3 {
-	  right: 97px;
-	  top: 40px;
+	  right: 83px;
+	  top: -4px;
 	}
 	#loc4 {
-	  right: 141px;
-	  top: 164px;
+	  right: 130px;
+	  top: 125px;
 	}
 
 	.meet-doctors, .meet-doctors-mobile {
@@ -567,4 +577,20 @@ form.campaign input {
 		color: #ffffff;
 	}
 
+	a#loc1:hover, a#loc1:focus, a#loc1:active, a#loc1.active{
+	  right: 118px;
+	  top: -77px;
+	}
+	a#loc2:hover, a#loc2:focus, a#loc2:active, a#loc2.active{
+	  right: 56px;
+	  top: -31px;
+	}
+	a#loc3:hover, a#loc3:focus, a#loc3:active, a#loc3.active{
+	  right: 75px;
+	  top: -29px;
+	}
+	a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
+	  right: 121px;
+	  top: 99px;
+	}
 }
