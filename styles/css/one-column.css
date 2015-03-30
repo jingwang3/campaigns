@@ -1,3 +1,6 @@
+.IE-only{
+	display: none;
+}
 body{ font-size:16px; color: #877369; background-color: #FFF; }
 
 @font-face { font-family: CampaignFont; src: url('../fonts/cnat-font1.woff'); }
@@ -140,7 +143,7 @@ body > .container { padding: 80px 15px 0; }
   height: 80px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: middle center;
+  background-position: bottom center;
   cursor: pointer;
 }
 .loc-pin.active{
@@ -149,6 +152,7 @@ body > .container { padding: 80px 15px 0; }
   height: 106px;
 }
 a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
+  background-image: url('../../files/images/pin_lg.png');
   width: 64px;
   height: 106px;
   z-index: 200;
@@ -556,6 +560,9 @@ a.top-link {
 	  top: 316px;
 	}
 
+	ul.doc-desc li{
+	  font-size: 1em;
+	}
 
 }
 

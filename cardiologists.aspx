@@ -28,6 +28,13 @@
 	  ga('send', 'pageview');
 
 	</script>
+	<!--[if IE]>
+	<style>
+	    .IE-only {
+	         display: block;
+	    }
+	</style>
+	<![endif]-->
 </head>
 <body ng-controller="LocationsController">
   <header>
@@ -175,12 +182,15 @@
 	  					</div>
 	  					<form class="campaign" action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
 	  						<div class="form-group">
+	  							<b class="IE-only text-center">Your Name</b>
 	  							<input class="form-control input-sm" id="userName" type="text" name="entry.916599135" placeholder="NAME">
 	  						</div>
 	  						<div class="form-group">
+	  							<b class="IE-only text-center">Phone Number</b>
 	  							<input class="form-control input-sm" id="userPhone" type="number" name="entry.354822211" placeholder="PHONE">
 	  						</div>
 	  						<div class="form-group">
+	  							<b class="IE-only text-center">Zipcode</b>
 	  							<input class="form-control input-sm" id="userZipcode" type="text" name="entry.272965353" placeholder="ZIP CODE">
 	  						</div>
 	  						<button type="submit" class="btn btn-form better-font">Submit</button>
