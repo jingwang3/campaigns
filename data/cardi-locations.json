@@ -1,48 +1,125 @@
 [
   {
-    "name": "arlington",
-    "desc": "lorem",
+    "name": "Virginia Hospital Center Cardiology Clinic",
+    "desc": "1701 North George Mason Arlington, VA 22205",
     "doctors": [
       {
-        "name": "Charles Berul",
-        "title": "Division Chief, Cardiology",
-        "sub_title": "Co-Director, Children's National Heart Institute",
+        "name": "Ashraf Harahsheh",
+        "title": "Board Certified Pediatric Cardiologist",
+        "sub_title": "",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
         "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+          "Member of the American Society of Echocardiography and the American College of Cardiology",
+          "Named among 2010 Who’s Who in America and America’s Top Pediatricians"
         ]
       },
       {
-        "name": "Charles Berul",
-        "title": "Division Chief, Cardiology",
-        "sub_title": "Co-Director, Children's National Heart Institute",
+        "name": "Thomas J. Hougen",
+        "title": "Board Certified Pediatric Cardiologist",
+        "sub_title": "",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
         "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+          "Provides full cardiology services to patients and families",
+          "Offers outpatient visits",
+          "Provides electrocardiograms, echocardiograms, and other diagnostic testing as needed"
         ]
       },
       {
-        "name": "Charles Berul",
-        "title": "Division Chief, Cardiology",
-        "sub_title": "Co-Director, Children's National Heart Institute",
+        "name": "David Schidlow",
+        "title": "Board Certified Pediatric Cardiologist ",
+        "sub_title": "",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
         "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+          "Expert in fetal echocardiography and other non-invasive cardiac imaging such as trans-thoracic and trans-esophageal echocardiography, and cardiac MRI",
+          "Works with families in Fetal Heart Program, guiding them through prenatal diagnosis, delivery, and post-natal care of children with congenital heart disease"
         ]
       }
     ]
   },
   {
     "name": "leesburg",
-    "desc": "lorem",
+    "desc": "19415 Deerfield Avenue, Suite 213, Lansdowne, Virginia 20176",
+    "doctors": [
+      {
+        "name": "Linda Leatherbury",
+        "title": "Board Certified Cardiologist ",
+        "sub_title": "",
+        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
+        "desc": [
+          "Has over 30 years of experience at Children’s National",
+          "Serves as Assistant Professor of Pediatrics at the George Washington"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Northern Virginia Outpatient Center",
+    "desc": "3023 Hamaker Court, Fairfax, Virginia 22031",
     "doctors": [
       {
         "name": "Charles Berul",
         "title": "Division Chief, Cardiology",
         "sub_title": "Co-Director, Children's National Heart Institute",
+        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
+        "desc": [
+          "Has been published in over 150 publications in pediatric cardiology",
+          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+        ]
+      },
+      {
+        "name": "Mary T. Donofrio",
+        "title": "Fetal and Pediatric Cardiologist",
+        "sub_title": "",
+        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
+        "desc": [
+          "Has been published in over 150 publications in pediatric cardiology",
+          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+        ]
+      },
+      {
+        "name": "Lowell Frank",
+        "title": "Division Chief, Cardiology",
+        "sub_title": "",
+        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
+        "desc": [
+          "Has been published in over 150 publications in pediatric cardiology",
+          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+        ]
+      },
+      {
+        "name": "Jeffrey Moak",
+        "title": "Director, Electrophysiology and Pacing Program",
+        "sub_title": "",
+        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
+        "desc": [
+          "Has been published in over 150 publications in pediatric cardiology",
+          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+        ]
+      },
+      {
+        "name": "Jessica Colyer",
+        "title": "Board Certified Pediatric Cardiologist",
+        "sub_title": "",
+        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
+        "desc": [
+          "Has been published in over 150 publications in pediatric cardiology",
+          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+        ]
+      },
+      {
+        "name": "Linda Leatherbury",
+        "title": "Board Certified Pediatric Cardiologist",
+        "sub_title": "",
+        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
+        "desc": [
+          "Has been published in over 150 publications in pediatric cardiology",
+          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+        ]
+      },
+      {
+        "name": "Roger Ruckman",
+        "title": "Board Certified Pediatric Cardiologist",
+        "sub_title": "",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
         "desc": [
           "Has been published in over 150 publications in pediatric cardiology",
@@ -52,89 +129,13 @@
     ]
   },
   {
-    "name": "fairfax",
-    "desc": "lorem",
+    "name": "ABC Pediatrics",
+    "desc": "231 Park Hill Drive, Fredericksburg, VA 22401",
     "doctors": [
       {
-        "name": "Charles Berul",
-        "title": "Division Chief, Cardiology",
-        "sub_title": "Co-Director, Children's National Heart Institute",
-        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
-        "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
-        ]
-      },
-      {
-        "name": "Charles Berul",
-        "title": "Division Chief, Cardiology",
-        "sub_title": "Co-Director, Children's National Heart Institute",
-        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
-        "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
-        ]
-      },
-      {
-        "name": "Charles Berul",
-        "title": "Division Chief, Cardiology",
-        "sub_title": "Co-Director, Children's National Heart Institute",
-        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
-        "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
-        ]
-      },
-      {
-        "name": "Charles Berul",
-        "title": "Division Chief, Cardiology",
-        "sub_title": "Co-Director, Children's National Heart Institute",
-        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
-        "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
-        ]
-      },
-      {
-        "name": "Charles Berul",
-        "title": "Division Chief, Cardiology",
-        "sub_title": "Co-Director, Children's National Heart Institute",
-        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
-        "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
-        ]
-      },
-      {
-        "name": "Charles Berul",
-        "title": "Division Chief, Cardiology",
-        "sub_title": "Co-Director, Children's National Heart Institute",
-        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
-        "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
-        ]
-      },
-      {
-        "name": "Charles Berul",
-        "title": "Division Chief, Cardiology",
-        "sub_title": "Co-Director, Children's National Heart Institute",
-        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
-        "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "fredericksburg",
-    "desc": "lorem",
-    "doctors": [
-      {
-        "name": "Charles Berul",
-        "title": "Division Chief, Cardiology",
-        "sub_title": "Co-Director, Children's National Heart Institute",
+        "name": "David Schidlow",
+        "title": "Board Certified Pediatric Cardiologist",
+        "sub_title": "",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
         "desc": [
           "Has been published in over 150 publications in pediatric cardiology",
