@@ -304,7 +304,9 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
   	background-image: url('../../files/images/cardio-row1.jpg');
   	background-repeat: no-repeat;
   	z-index: 999;
+  	background-color: #000;
   	min-height: 886px;
+  	margin: 0 auto;
 }
 
 .row1-caption h1 {
@@ -330,7 +332,7 @@ p.new-color {
 
 .meet-doctors, .meet-doctors-mobile {
 	background-image: url('../../files/images/city_map_lg.jpg');
-	background-color: rgba(6,32,51,.8);
+	background-color: #726560;
 	background-position: center right;
 	background-repeat: no-repeat;
 	min-height: 812px;
