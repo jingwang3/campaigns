@@ -41,17 +41,17 @@
 	<nav class="navbar navbar-fixed-top navbar-default">
 	<div class="red-bar"></div>
 	  <div class="container-fluid">
-	    <div class="navbar-header">
+	  	<div class="navbar-left">
 	      <a class="navbar-brand" href="#">
 	        <img alt="Brand" height="100%" src="files/images/logo-lg.png" class="img-responsive">
 	      </a>
 	    </div>
-	    <div class="nav navbar-nav navbar-right">
+      	<div class="navbar-right">
 			<p class="navbar-text phone-number-box better-font">
-				<span class="header-text-right">Make An Appointment:</span>
-				<a href="tel:7035311555" trackingLabel="Phone Number on Top"><span class="header-appt-phone">(703) 531-1555</span></a>
+			<span class="header-text-right">Make An Appointment:</span>
+			<a href="tel:7035311555" trackingLabel="Phone Number on Top"><span class="header-appt-phone">(703) 531-1555</span></a>
 			</p>
-	     </div>
+     	</div>
 	  </div>
 	</nav>
   </header>
@@ -62,7 +62,7 @@
 	  		<div class="row row-1 content-row">
 				<div class="col-xs-offset-6 col-xs-5">
 	  				<div class="row1-caption">
-	  					<h1>Our Cardiologists<br/> are World Renowed<br/> and Neighborhood Based.</h1>
+	  					<h1>Our Cardiologists<br/>are World Renowed and Neighborhood Based.</h1>
 						<p class="banner-subtitle">With multiple locations in Northern Virginia, our top pediatric cardiologists are always close to you.</p>
 						<a class="btn better-font btn-form btn-cardio" id="scrollToMap" role="button" trackinglabel="Meet Cardiologists">Meet Our Virginia Cardiologists</a>
 					</div>
@@ -130,6 +130,7 @@
 	  			<a class="loc-pin active" id="loc4" title="Fredericksburg" ng-click="loadDocs('fredericksburg')"></a>
 				<div class="container">
 					<h1>Meet Your Doctors</h1>
+					<p class="tap-text">[ tap the pins to learn more ]</p>
 				</div>
 			</div>
 			<div class="row doc-list-mobile">
