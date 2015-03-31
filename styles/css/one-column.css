@@ -224,7 +224,7 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
 }
 
 .content-wrap{
-	margin-top: 90px;
+	margin-top: 110px;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -596,6 +596,31 @@ a.top-link {
 
 
 @media (max-width: 480px)  {
+
+	.row-1 {
+	  	min-height: 221px;
+	  	background-image: url('../../files/images/cardio-480.jpg');
+	}
+
+	.content-wrap{
+	margin-top: 130px;
+
+	}
+
+	.btn-form {
+	font-size: .8em;
+	margin-top: 10px;
+	padding: 5px 10px;
+	}
+
+	.row1-caption {
+	  margin-top: 40px;
+	}
+
+
+	.row1-caption h1 {
+	  	font-size: 1.3em;
+	}
 
 	#loc1 {
 	  right: 126px;
