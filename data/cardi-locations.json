@@ -1,5 +1,23 @@
 [
   {
+    "city": "leesburg",
+    "name": "leesburg",
+    "desc": "19415 Deerfield Avenue, Suite 213, Lansdowne, Virginia 20176",
+    "doctors": [
+      {
+        "name": "Linda Leatherbury",
+        "title": "Board Certified Cardiologist ",
+        "sub_title": "",
+        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/l/leatherbury_l.ashx?mw=135",
+        "desc": [
+          "Has over 30 years of experience at Children’s National",
+          "Serves as Assistant Professor of Pediatrics at the George Washington"
+        ]
+      }
+    ]
+  },
+  {
+    "city": "arlington",
     "name": "Virginia Hospital Center Cardiology Clinic",
     "desc": "1701 North George Mason Arlington, VA 22205",
     "doctors": [
@@ -38,22 +56,7 @@
     ]
   },
   {
-    "name": "leesburg",
-    "desc": "19415 Deerfield Avenue, Suite 213, Lansdowne, Virginia 20176",
-    "doctors": [
-      {
-        "name": "Linda Leatherbury",
-        "title": "Board Certified Cardiologist ",
-        "sub_title": "",
-        "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/l/leatherbury_l.ashx?mw=135",
-        "desc": [
-          "Has over 30 years of experience at Children’s National",
-          "Serves as Assistant Professor of Pediatrics at the George Washington"
-        ]
-      }
-    ]
-  },
-  {
+    "city": "fairfax",
     "name": "Northern Virginia Outpatient Center",
     "desc": "3023 Hamaker Court, Fairfax, Virginia 22031",
     "doctors": [
@@ -130,6 +133,7 @@
     ]
   },
   {
+    "city": "fredericksburg",
     "name": "ABC Pediatrics",
     "desc": "231 Park Hill Drive, Fredericksburg, VA 22401",
     "doctors": [

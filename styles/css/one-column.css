@@ -667,9 +667,9 @@ form.campaign, .campaign-confirm {
 /*animation section*/
 .fade-in{
 	-webkit-animation-name: example; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 
 /* Chrome, Safari, Opera */
