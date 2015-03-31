@@ -507,7 +507,7 @@ a.top-link {
 	}
 	
 	.row1-caption h1 {
-	  	font-size: 2em;
+	  	font-size: 2.5em;
 	  	line-height: 1.2em;
 	  	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
 	}
@@ -532,6 +532,10 @@ a.top-link {
 		text-transform: none;
 		color: #ffffff;
 		font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+	}
+
+	.doc-box-footer {  
+	font-size: 1em;
 	}
 
 	p.tap-text {
@@ -594,6 +598,16 @@ a.top-link {
 }
 
 @media (max-width: 768px)  {
+
+	.row-1 {
+	 min-height: 354px;
+	 background-image: url('../../files/images/cardio-768.jpg');
+	}
+
+	.row1-caption h1 {
+	  font-size: 2em;
+	}
+
 	.row-4{
 		padding: 25px 15px 50px 15px;
 	}
@@ -681,7 +695,7 @@ a.top-link {
 	.meet-doctors-mobile h1 {
 		font-size: 3em;
 		position: relative;
-		top:60px;
+		top:40px;
 		text-transform: none;
 		color: #ffffff;
 	  	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
@@ -691,7 +705,7 @@ a.top-link {
 	color: #ffffff;
 	font-size: 1.5em;
 	position: relative;
-	top: 60px;
+	top: 40px;
 	}
 
 
@@ -714,11 +728,11 @@ a.top-link {
 
 form.campaign, .campaign-confirm {
   margin: 0 auto 50px auto;
-  width: 300px;
+  width: 290px;
 }
 
 .row-4 h3 {
-	margin-bottom: -60px;
+	margin-bottom: -62px;
 }
 
 
