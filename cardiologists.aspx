@@ -130,6 +130,7 @@
 	  			<a class="loc-pin active" id="loc4" title="Fredericksburg" ng-click="loadDocs(3)"></a>
 				<div class="container">
 					<h1>Meet Your Doctors</h1>
+					<p class="tap-text">[ tap the pins to learn more ]</p>
 				</div>
 			</div>
 			<div class="row doc-list-mobile">

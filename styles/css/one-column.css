@@ -479,6 +479,7 @@ a.top-link {
 	text-decoration: underline;
 }
 
+
 /*Media Queries*/
 
 @media (max-width: 1440px) {
@@ -524,11 +525,20 @@ a.top-link {
 	}
 
 	.meet-doctors-mobile h1 {
-		font-size: 5em;
+		font-size: 6em;
 		position: relative;
-		top:150px;
+		top:140px;
+		line-height: .90em;
 		text-transform: none;
 		color: #ffffff;
+		font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+	}
+
+	p.tap-text {
+	color: #ffffff;
+	font-size: 2em;
+	position: relative;
+	top: 140px;
 	}
 
 	.meet-doctors, .meet-doctors-mobile {
@@ -589,6 +599,24 @@ a.top-link {
 	}
 	.row-4 h3{
 		font-size: 3em;
+	}
+
+	.loc-pin{
+	background-image: url('../../files/images/pin_sm_mobile.png');
+	width: 30px;
+	height: 50px;
+	}
+
+	.loc-pin.active{
+	  background-image: url('../../files/images/pin_lg_mobile.png');
+	  width: 40px;
+	  height: 66px;
+	}
+
+	a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
+	background-image: url('../../files/images/pin_lg_mobile.png');
+	width: 40px;
+	height: 66px;
 	}
 
 }
@@ -653,9 +681,17 @@ a.top-link {
 	.meet-doctors-mobile h1 {
 		font-size: 3em;
 		position: relative;
-		top:70px;
+		top:60px;
 		text-transform: none;
 		color: #ffffff;
+	  	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+	}
+
+	p.tap-text {
+	color: #ffffff;
+	font-size: 1.5em;
+	position: relative;
+	top: 60px;
 	}
 
 
