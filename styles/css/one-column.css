@@ -142,6 +142,10 @@ body > .container { padding: 80px 15px 0; }
 
 
 /*CAMPAIGN SPECIFIC OVERRIDES GO BELOW*/
+body{
+  padding-top: 110px;
+}
+
 
 
 /*CSS FOR PINS*/
@@ -224,7 +228,6 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
 }
 
 .content-wrap{
-	margin-top: 110px;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -347,6 +350,16 @@ p.new-color {
 	color: #ffffff;
 }
 
+.doc-list-close{
+  color: #D5D4D4;
+  right: -47px;
+  top: -17px;
+  z-index: 999;
+  font-size: 1.5em;
+  float: right;
+  text-shadow: #000 1px 1px 10px;
+  cursor:pointer;
+}
 .row-2 .box-left{
 	padding-top: 100px;
 }
@@ -558,39 +571,57 @@ a.top-link {
 		display: block;
 	}
 
+	.loc-pin{
+	background-image: url('../../files/images/pin_sm_mobile.png');
+	width: 30px;
+	height: 50px;
+	}
+
+	.loc-pin.active{
+	  background-image: url('../../files/images/pin_lg_mobile.png');
+	  width: 40px;
+	  height: 66px;
+	}
+
+	a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
+	background-image: url('../../files/images/pin_lg_mobile.png');
+	width: 40px;
+	height: 66px;
+	}
+
 	#loc1 {
-	  right: 296px;
-	  top: -26px;
+	  right: 305px;
+	  top: -4px;
 	}
 
 	#loc2 {
-	  right: 166px;
-	  top: 68px;
+	  right: 175px;
+	  top: 91px;
 	}
 	#loc3 {
-	  right: 207px;
-	  top: 72px;
+	  right: 214px;
+	  top: 97px;
 	}
 	#loc4 {
-	  right: 301px;
-	  top: 339px;
+	  right: 310px;
+	  top: 365px;
 	}
 
 	a#loc1:hover, a#loc1:focus, a#loc1:active, a#loc1.active{
-	  right: 288px;
-	  top: -50px;
+	  right: 300px;
+	  top: -19px;
 	}
 	a#loc2:hover, a#loc2:focus, a#loc2:active, a#loc2.active{
-	  right: 158px;
-	  top: 41px;
+	  right: 171px;
+	  top: 73px;
 	}
 	a#loc3:hover, a#loc3:focus, a#loc3:active, a#loc3.active{
-	  right: 198px;
-	  top: 50px;
+	  right: 210px;
+	  top: 84px;
 	}
 	a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
-	  right: 294px;
-	  top: 316px;
+	  right: 305px;
+	  top: 349px;
 	}
 
 	ul.doc-desc li{
@@ -599,7 +630,29 @@ a.top-link {
 
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 767px)  {
+
+	body{
+	  padding-top: 0;
+	}
+
+	nav .container-fluid {
+	  padding-left: 10px;
+	  padding-right: 10px;
+	}
+
+	p.navbar-text.phone-number-box.better-font {
+	  margin: 5px auto 0;
+	  display: inline-block;
+	}
+
+	nav .navbar-right {
+	  text-align: right;
+	}
+
+	.navbar {
+	  margin-bottom: 0; 
+	}
 
 	.row-1 {
 	 min-height: 354px;
@@ -639,16 +692,30 @@ a.top-link {
 
 
 
-@media (max-width: 480px)  {
+@media (max-width: 479px)  {
+
+	.brand-logo-link{
+		width:100%;
+		padding: 5px 0 0;
+	}
+
+	.brand-logo-link img{
+		margin:0 auto;
+	}
+
+	nav .navbar-right {
+	  text-align: center;
+	}
+
+	p.navbar-text.phone-number-box.better-font.brand-text {
+	  margin: 10px 0;
+	  padding: 0;
+	  font-size: .8em;
+	}
 
 	.row-1 {
 	  	min-height: 221px;
 	  	background-image: url('../../files/images/cardio-480.jpg');
-	}
-
-	.content-wrap{
-	margin-top: 130px;
-
 	}
 
 	.btn-form {
@@ -667,21 +734,21 @@ a.top-link {
 	}
 
 	#loc1 {
-	  right: 126px;
-	  top: -53px;
+	  right: 135px;
+	  top: -28px;
 	}
 
 	#loc2 {
-	  right: 65px;
-	  top: -8px;
+	  right: 74px;
+	  top: 15px;
 	}
 	#loc3 {
-	  right: 83px;
-	  top: -4px;
+	  right: 92px;
+	  top: 22px;
 	}
 	#loc4 {
-	  right: 130px;
-	  top: 125px;
+	  right: 137px;
+	  top: 147px;
 	}
 
 	.meet-doctors, .meet-doctors-mobile {
@@ -712,20 +779,20 @@ a.top-link {
 
 
 	a#loc1:hover, a#loc1:focus, a#loc1:active, a#loc1.active{
-	  right: 118px;
-	  top: -77px;
+	  right: 130px;
+	  top: -45px;
 	}
 	a#loc2:hover, a#loc2:focus, a#loc2:active, a#loc2.active{
-	  right: 56px;
-	  top: -31px;
+	  right: 69px;
+	  top: 0px;
 	}
 	a#loc3:hover, a#loc3:focus, a#loc3:active, a#loc3.active{
-	  right: 75px;
-	  top: -29px;
+	  right: 88px;
+	  top: 6px;
 	}
 	a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
-	  right: 121px;
-	  top: 99px;
+	  right: 133px;
+	  top: 133px;
 	}
 
 form.campaign, .campaign-confirm {

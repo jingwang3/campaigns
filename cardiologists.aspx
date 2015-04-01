@@ -38,16 +38,32 @@
 </head>
 <body ng-controller="LocationsController">
   <header>
-	<nav class="navbar navbar-fixed-top navbar-default">
+	<nav class="navbar navbar-fixed-top navbar-default hidden-xs">
 	<div class="red-bar"></div>
 	  <div class="container-fluid">
 	  	<div class="navbar-left">
-	      <a class="navbar-brand" href="#">
-	        <img alt="Brand" height="100%" src="files/images/logo-lg.png" class="img-responsive">
+	      <a class="navbar-brand hidden-xs">
+	        <img alt="Children's National Health System" height="100%" src="files/images/logo-lg.png">
 	      </a>
 	    </div>
       	<div class="navbar-right">
 			<p class="navbar-text phone-number-box better-font">
+			<span class="header-text-right">Make An Appointment:</span>
+			<a href="tel:7035311555" trackingLabel="Phone Number on Top"><span class="header-appt-phone">(703) 531-1555</span></a>
+			</p>
+     	</div>
+	  </div>
+	</nav>
+	<nav class="navbar navbar-default hidden-sm hidden-md hidden-lg">
+	<div class="red-bar"></div>
+	  <div class="container-fluid">
+	  	<div class="navbar-left">
+	      <a class="navbar-brand hidden-md hidden-sm hidden-lg brand-logo-link">
+	        <img alt="Children's National Health System" width="120" src="files/images/logo-sm-120.jpg">
+	      </a>
+	    </div>
+      	<div class="navbar-right">
+			<p class="navbar-text phone-number-box better-font brand-text">
 			<span class="header-text-right">Make An Appointment:</span>
 			<a href="tel:7035311555" trackingLabel="Phone Number on Top"><span class="header-appt-phone">(703) 531-1555</span></a>
 			</p>
@@ -60,7 +76,7 @@
   		<!--World Renowed -->	
   		<article id="bannerSec">
 	  		<div class="row row-1 content-row">
-				<div class="col-xs-offset-6 col-xs-5">
+				<div class="col-xs-offset-6 col-xs-6">
 	  				<div class="row1-caption">
 	  					<h1>Our Cardiologists<br/>are World Renowed and Neighborhood Based.</h1>
 						<p class="banner-subtitle">With multiple locations in Northern Virginia, our top pediatric cardiologists are always close to you.</p>
@@ -97,7 +113,8 @@
 				<div class="container">
 					<h1>Meet Your Doctors</h1>
 					<div class="col-xs-6">
-						<div class="doc-list shadowing">
+						<span class="glyphicon glyphicon-remove-circle doc-list-close" ng-if="filterExp.city != null" aria-hidden="true" ng-click="loadDocs(null)"></span>
+						<div class="doc-list" ng-class="{shadowing: filterExp.city != null}">
 							<div class="{{loc.name}} fade-in" ng-repeat="loc in locations | filter:filterExp">
 								<div class="media campaign-media" ng-repeat="doc in loc.doctors">
 								  <div class="media-left media-middle">
