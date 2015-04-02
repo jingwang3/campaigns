@@ -113,7 +113,7 @@
 	  			<a class="loc-pin active" id="loc4" title="Fredericksburg" ng-click="loadDocs('fredericksburg')"></a>
 				<div class="container">
 					<h1>Meet Your Doctors</h1>
-					<div class="col-xs-6">
+					<div class="col-xs-6 col-sm-7">
 						<a id="closeBtn"><span class="glyphicon glyphicon-remove-circle doc-list-close" ng-if="filterExp.city != null" aria-hidden="true" ng-click="loadDocs(null)"></span></a>
 						<div class="doc-list" ng-class="{shadowing: filterExp.city != null}">
 							<div class="{{loc.name}} fade-in" ng-repeat="loc in locations | filter:filterExp">
