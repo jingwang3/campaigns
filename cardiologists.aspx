@@ -113,7 +113,7 @@
 				<div class="container">
 					<h1>Meet Your Doctors</h1>
 					<div class="col-xs-6">
-						<span class="glyphicon glyphicon-remove-circle doc-list-close" ng-if="filterExp.city != null" aria-hidden="true" ng-click="loadDocs(null)"></span>
+						<a id="closeBtn"><span class="glyphicon glyphicon-remove-circle doc-list-close" ng-if="filterExp.city != null" aria-hidden="true" ng-click="loadDocs(null)"></span></a>
 						<div class="doc-list" ng-class="{shadowing: filterExp.city != null}">
 							<div class="{{loc.name}} fade-in" ng-repeat="loc in locations | filter:filterExp">
 								<div class="media campaign-media" ng-repeat="doc in loc.doctors">
@@ -205,20 +205,17 @@
 	  						<p>WE'LL BE IN TOUCH WITH YOU SHORTLY.</p>
 	  					</div>
 	  					<form class="campaign" action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
-	  						<div class="form-group has-feedback">
+	  						<div class="form-group">
 	  							<b class="IE-only text-center">Your Name</b>
 	  							<input class="form-control input-sm" id="userName" type="text" name="entry.916599135" placeholder="NAME" required>
-	  							<span class="glyphicon glyphicon-asterisk text-danger form-control-feedback" aria-hidden="true"></span>
 	  						</div>
-	  						<div class="form-group has-feedback">
+	  						<div class="form-group">
 	  							<b class="IE-only text-center">Phone Number</b>
 	  							<input class="form-control input-sm" id="userPhone" type="number" name="entry.354822211" placeholder="PHONE" required>
-	  							<span class="glyphicon glyphicon-asterisk text-danger form-control-feedback" aria-hidden="true"></span>
 	  						</div>
-	  						<div class="form-group has-feedback">
+	  						<div class="form-group">
 	  							<b class="IE-only text-center">Zipcode</b>
 	  							<input class="form-control input-sm" id="userZipcode" type="text" name="entry.272965353" placeholder="ZIP CODE" required>
-	  							<span class="glyphicon glyphicon-asterisk text-danger form-control-feedback" aria-hidden="true"></span>
 	  						</div>
 	  						<button type="submit" class="btn btn-form better-font">Submit</button>
 	  					</form>
