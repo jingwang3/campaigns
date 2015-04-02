@@ -59,7 +59,7 @@
 	  <div class="container-fluid">
 	  	<div class="navbar-left">
 	      <a class="navbar-brand hidden-md hidden-sm hidden-lg brand-logo-link">
-	        <img alt="Children's National Health System" width="120" src="files/images/logo-sm-120.jpg">
+	        <img alt="Children's National Health System" width="140" src="files/images/logo-sm-140.png">
 	      </a>
 	    </div>
       	<div class="navbar-right">
@@ -78,7 +78,7 @@
 	  		<div class="row row-1 content-row">
 				<div class="col-xs-offset-6 col-xs-6">
 	  				<div class="row1-caption">
-	  					<h1>Our Cardiologists<br/>are World Renowed and Neighborhood Based.</h1>
+	  					<h1>Our Cardiologists are World Renowed and Neighborhood Based.</h1>
 						<p class="banner-subtitle">With multiple locations in Northern Virginia, our top pediatric cardiologists are always close to you.</p>
 						<a class="btn better-font btn-form btn-cardio" id="scrollToMap" role="button" trackinglabel="Meet Cardiologists">Meet Our Virginia Cardiologists</a>
 					</div>
