@@ -240,6 +240,7 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
   font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
   font-size: 1.125em;
   font-weight: 300;
+  line-height: 1;
   }
 
 .row-4 ul li { 

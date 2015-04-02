@@ -80,7 +80,8 @@
 	  				<div class="row1-caption">
 	  					<h1>Our Cardiologists are World Renowed and Neighborhood Based.</h1>
 						<p class="banner-subtitle">With multiple locations in Northern Virginia, our top pediatric cardiologists are always close to you.</p>
-						<a class="btn better-font btn-form btn-cardio" id="scrollToMap" role="button" trackinglabel="Meet Cardiologists">Meet Our Virginia Cardiologists</a>
+						<a class="btn better-font btn-form btn-cardio hidden-xs scrollToMap" role="button" trackinglabel="Meet Our Virginia Cardiologists">Meet Our Virginia Cardiologists</a>
+						<a class="btn better-font btn-form btn-cardio hidden-sm hidden-md hidden-lg scrollToMap" role="button" trackinglabel="Meet Our Docs">Meet Our Docs</a>
 					</div>
 				</div>
 	  		</div>
@@ -119,7 +120,7 @@
 								<div class="media campaign-media" ng-repeat="doc in loc.doctors">
 								  <div class="media-left media-middle">
 								    <a>
-								      <img class="media-object" width="95" src="{{doc.image_url}}" alt="{{doc.name}}">
+								      <img class="media-object" width="115" src="{{doc.image_url}}" alt="{{doc.name}}">
 								    </a>
 								  </div>
 								  <div class="media-body doc-text-box">
@@ -155,7 +156,7 @@
 					<div class="media campaign-media" ng-repeat="doc in loc.doctors">
 						<div class="media-left media-middle">
 							<a>
-								<img class="media-object" width="95" src="{{doc.image_url}}" alt="{{doc.name}}">
+								<img class="media-object" width="115" src="{{doc.image_url}}" alt="{{doc.name}}">
 							</a>
 						</div>
 						<div class="media-body doc-text-box">
