@@ -238,7 +238,7 @@
    <script src="lib/js/jquery.min.js"></script>
    <script src="bootstrap/js/bootstrap.min.js"></script>
    <script src="lib/js/angular.min.js"></script>
-   <script src="//childrensnational.org/~/media/cnhs-site/files/js/event_tracking.js"></script>
+   <script src="http://childrensnational.org/~/media/cnhs-site/files/js/event_tracking.js"></script>
    <script src="lib/js/cardiologists.js"></script>
    <script src="lib/js/controller.js"></script>
 </body>
