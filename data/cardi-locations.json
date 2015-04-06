@@ -5,13 +5,13 @@
     "desc": "19415 Deerfield Avenue, Suite 213, Lansdowne, Virginia 20176",
     "doctors": [
       {
-        "name": "Linda Leatherbury",
-        "title": "Board Certified Cardiologist ",
+        "name": "Linda Leatherbury, MD",
+        "title": "Board-certified Pediatric Cardiologist",
         "sub_title": "",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/l/leatherbury_l.ashx?mw=135",
         "desc": [
           "Has over 30 years of experience at Children’s National",
-          "Serves as Assistant Professor of Pediatrics at the George Washington"
+          "Serves as Assistant Professor of Pediatrics at George Washington University"
         ]
       }
     ]
@@ -22,8 +22,8 @@
     "desc": "1701 North George Mason Arlington, VA 22205",
     "doctors": [
       {
-        "name": "Ashraf Harahsheh",
-        "title": "Board Certified Pediatric Cardiologist",
+        "name": "Ashraf Harahsheh, MD",
+        "title": "Board-certified Pediatric Cardiologist",
         "sub_title": "",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/h/harahsheh_a.ashx?mw=135",
         "desc": [
@@ -32,25 +32,24 @@
         ]
       },
       {
-        "name": "Thomas J. Hougen",
-        "title": "Board Certified Pediatric Cardiologist",
+        "name": "Thomas J. Hougen, MD",
+        "title": "Board-certified Pediatric Cardiologist",
         "sub_title": "",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/h/hougen_t.ashx?mw=135",
         "desc": [
-          "Provides full cardiology services to patients and families",
-          "Offers outpatient visits",
-          "Provides electrocardiograms, echocardiograms, and other diagnostic testing as needed"
+          "More than 35 years’ experience in pediatric cardiology",
+          "Provides full service pediatric cardiology consultations and newborn nursery consultations"
         ]
       },
       {
 
-        "name": "David Schidlow",
-        "title": "Board Certified Pediatric Cardiologist ",
+        "name": "David Schidlow, MD",
+        "title": "Board-certified Pediatric Cardiologist ",
         "sub_title": "",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/s/schidlow_d.ashx?mw=135",
         "desc": [
-          "Expert in fetal echocardiography and other non-invasive cardiac imaging such as trans-thoracic and trans-esophageal echocardiography, and cardiac MRI",
-          "Works with families in Fetal Heart Program, guiding them through prenatal diagnosis, delivery, and post-natal care of children with congenital heart disease"
+          "Expert in fetal echocardiography and other non-invasive cardiac imaging such as trans-thoracic and transesophageal echocardiography, and cardiac MRI",
+          "Works with families in the Fetal Heart Program, guiding them through prenatal diagnosis, delivery, and post-natal care of children with congenital heart disease"
         ]
       }
     ]
@@ -61,47 +60,50 @@
     "desc": "3023 Hamaker Court, Fairfax, Virginia 22031",
     "doctors": [
       {
-        "name": "Charles Berul",
+        "name": "Charles Berul, MD",
         "title": "Division Chief, Cardiology",
-        "sub_title": "Co-Director, Children's National Heart Institute",
+        "sub_title": "Co-director, Children's National Heart Institute",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/b/berul_c.ashx?mw=135",
         "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+          "Published over 150 peer-reviewed, pediatric cardiology publications",
+          "Internationally recognized expert in pediatric cardiac electrophysiology"
         ]
       },
       {
-        "name": "Mary T. Donofrio",
-        "title": "Fetal and Pediatric Cardiologist",
-        "sub_title": "",
+        "name": "Mary T. Donofrio, MD",
+        "title": "Director, Fetal Heart and Critical Care Delivery Programs",
+        "sub_title": "Co-director, Cardiac Neurodevelopmental Outcome Program",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/d/donofrio_m.ashx?mw=135",
         "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+          "Established the region’s only Early Fetal Cardiac Imaging Program",
+          "Specializes in pediatric echocardiography, complex congenital heart disease management, and transitional care"
         ]
       },
       {
-        "name": "Lowell Frank",
-        "title": "Division Chief, Cardiology",
+        "name": "Lowell Frank, MD",
+        "title": "Board-certified Pediatric Cardiologist",
         "sub_title": "",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/f/frank_l.ashx?mw=135",
         "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+          "Has a special interest in advanced echocardiographic measures of ventricular function, and complex congenital heart disease",
+          "Participates in transthoracic, transesophageal, and three-dimensional echocardiography"
         ]
       },
       {
-        "name": "Jeffrey Moak",
+        "name": "Jeffrey Moak, MD",
         "title": "Director, Electrophysiology and Pacing Program",
         "sub_title": "",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/m/moak_j.ashx?mw=135",
         "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+          "Director at Children’s for 20+ years",
+          "Treats patients with cardiac arrhythmias and autonomic nervous system dysfunction",
+          "Pioneer in the laser extraction technique",
+          "Developed the Clinic for Autonomic Disorders Evaluation (CADE) at Children’s National",
+          "Spearheads a new initiative assessing the safest practice for treatment of children with cardiac arrhythmias in the Cardiac ICU"
         ]
       },
       {
-        "name": "Jessica Colyer",
+        "name": "Jessica Colyer, MD",
         "title": "Medical Unit Director, Heart, Lung, and Kidney Unit",
         "sub_title": "Board-certified Pediatric Cardiologist",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/c/colyer_j.ashx?mw=135",
@@ -111,23 +113,22 @@
         ]
       },
       {
-        "name": "Linda Leatherbury",
-        "title": "Board Certified Pediatric Cardiologist",
+        "name": "Linda Leatherbury, MD",
+        "title": "Board-certified Pediatric Cardiologist",
         "sub_title": "",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/l/leatherbury_l.ashx?mw=135",
         "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+          "Has over 30 years of experience at Children’s National",
+          "Serves as Assistant Professor of Pediatrics at George Washington University"
         ]
       },
       {
-        "name": "Roger Ruckman",
-        "title": "Board Certified Pediatric Cardiologist",
+        "name": "Roger Ruckman, MD",
+        "title": "Board-certified Pediatric Cardiologist",
         "sub_title": "",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/r/ruckman_r.ashx?mw=135",
         "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+          "Has over 35 years of experience at Children’s National"
         ]
       }
     ]
@@ -138,13 +139,14 @@
     "desc": "231 Park Hill Drive, Fredericksburg, VA 22401",
     "doctors": [
       {
-        "name": "David Schidlow",
-        "title": "Board Certified Pediatric Cardiologist",
+
+        "name": "David Schidlow, MD",
+        "title": "Board-certified Pediatric Cardiologist ",
         "sub_title": "",
         "image_url": "http://childrensnational.org/~/media/cnhs-site/images/find-a-provider/headshots/s/schidlow_d.ashx?mw=135",
         "desc": [
-          "Has been published in over 150 publications in pediatric cardiology",
-          "Acknowledged expert in the area of pediatric cardiac electrophysiology"
+          "Expert in fetal echocardiography and other non-invasive cardiac imaging such as trans-thoracic and transesophageal echocardiography, and cardiac MRI",
+          "Works with families in the Fetal Heart Program, guiding them through prenatal diagnosis, delivery, and post-natal care of children with congenital heart disease"
         ]
       }
     ]

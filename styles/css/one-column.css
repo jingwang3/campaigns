@@ -240,6 +240,7 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
   font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
   font-size: 1.125em;
   font-weight: 300;
+  line-height: 1;
   }
 
 .row-4 ul li { 
@@ -803,7 +804,7 @@ a.top-link {
 
 form.campaign, .campaign-confirm {
   margin: 0 auto 50px auto;
-  width: 290px;
+  width: 274px;
 }
 
 .row-4 h3 {

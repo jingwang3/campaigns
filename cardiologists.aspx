@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="Description" content="" />
-	<title></title>
+	<title>Our Cardiologists are World Renowned and Neighborhood Based | Children's National Health System</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.campaign.min.css">
 	<!-- Optional theme -->
@@ -78,9 +78,10 @@
 	  		<div class="row row-1 content-row">
 				<div class="col-xs-offset-6 col-xs-6">
 	  				<div class="row1-caption">
-	  					<h1>Our Cardiologists are World Renowed and Neighborhood Based.</h1>
+	  					<h1>Our Cardiologists are World Renowned and Neighborhood Based.</h1>
 						<p class="banner-subtitle">With multiple locations in Northern Virginia, our top pediatric cardiologists are always close to you.</p>
-						<a class="btn better-font btn-form btn-cardio" id="scrollToMap" role="button" trackinglabel="Meet Cardiologists">Meet Our Virginia Cardiologists</a>
+						<a class="btn better-font btn-form btn-cardio hidden-xs scrollToMap" role="button" trackinglabel="Meet Our Virginia Cardiologists">Meet Our Virginia Cardiologists</a>
+						<a class="btn better-font btn-form btn-cardio hidden-sm hidden-md hidden-lg scrollToMap" role="button" trackinglabel="Meet Our Docs">Meet Our Docs</a>
 					</div>
 				</div>
 	  		</div>
@@ -112,14 +113,14 @@
 	  			<a class="loc-pin active" id="loc4" title="Fredericksburg" ng-click="loadDocs('fredericksburg')"></a>
 				<div class="container">
 					<h1>Meet Your Doctors</h1>
-					<div class="col-xs-6">
+					<div class="col-xs-6 col-sm-7">
 						<a id="closeBtn"><span class="glyphicon glyphicon-remove-circle doc-list-close" ng-if="filterExp.city != null" aria-hidden="true" ng-click="loadDocs(null)"></span></a>
 						<div class="doc-list" ng-class="{shadowing: filterExp.city != null}">
 							<div class="{{loc.name}} fade-in" ng-repeat="loc in locations | filter:filterExp">
 								<div class="media campaign-media" ng-repeat="doc in loc.doctors">
 								  <div class="media-left media-middle">
 								    <a>
-								      <img class="media-object" width="95" src="{{doc.image_url}}" alt="{{doc.name}}">
+								      <img class="media-object" width="115" src="{{doc.image_url}}" alt="{{doc.name}}">
 								    </a>
 								  </div>
 								  <div class="media-body doc-text-box">
@@ -155,7 +156,7 @@
 					<div class="media campaign-media" ng-repeat="doc in loc.doctors">
 						<div class="media-left media-middle">
 							<a>
-								<img class="media-object" width="95" src="{{doc.image_url}}" alt="{{doc.name}}">
+								<img class="media-object" width="115" src="{{doc.image_url}}" alt="{{doc.name}}">
 							</a>
 						</div>
 						<div class="media-body doc-text-box">
