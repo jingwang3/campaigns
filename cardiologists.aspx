@@ -4,8 +4,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta name="Description" content="" />
-	<title>Our Cardiologists are World Renowned and Neighborhood Based | Children's National Health System</title>
+	<meta name="Description" content="As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our availability being there for your child is what matters the most. And while we're strongly established in Washington, DC, we're also right here in your neck of the woods: Northern Virginia." />
+	<title>Our Cardiologists are World Renowned and Neighborhood Based - Children's National Health System</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.campaign.min.css">
 	<!-- Optional theme -->
@@ -116,17 +116,15 @@
 					<div class="col-xs-6 col-sm-7">
 						<a id="closeBtn"><span class="glyphicon glyphicon-remove-circle doc-list-close" ng-if="filterExp.city != null" aria-hidden="true" ng-click="loadDocs(null)"></span></a>
 						<div class="doc-list" ng-class="{shadowing: filterExp.city != null}">
-							<div class="{{loc.name}} fade-in" ng-repeat="loc in locations | filter:filterExp">
+							<div class="{{loc.name}} loc-wrapper fade-in" ng-repeat="loc in locations | filter:filterExp">
 								<div class="media campaign-media" ng-repeat="doc in loc.doctors">
 								  <div class="media-left media-middle">
-								    <a>
 								      <img class="media-object" width="115" src="{{doc.image_url}}" alt="{{doc.name}}">
-								    </a>
 								  </div>
 								  <div class="media-body doc-text-box">
 								    <h4 class="media-heading doc-name lighter-font">{{doc.name}}</h4>
 								    <h5 class="media-subheading doc-title lighter-font">{{doc.title}}</h5>
-								    <h6 class="media-subheading doc-title-sub lighter-font">{{doc.sub_title}}</h6>
+								    <h6 class="media-subheading doc-title-sub lighter-font" ng-if="doc.sub_title">{{doc.sub_title}}</h6>
 								    <ul class="doc-desc">
 								    	<li ng-repeat="des in doc.desc">- {{des}}</li>
 								    </ul>
@@ -151,22 +149,37 @@
 					<p class="tap-text">[ tap the pins to learn more ]</p>
 				</div>
 			</div>
-			<div class="row doc-list-mobile">
-				<div class="{{loc.name}}" ng-repeat="loc in locations | filter:filterExp">
+			<div class="row doc-list-tablet hidden-xs">
+				<div class="{{loc.name}} loc-wrapper" ng-repeat="loc in locations | filter:filterExp">
 					<div class="media campaign-media" ng-repeat="doc in loc.doctors">
 						<div class="media-left media-middle">
-							<a>
-								<img class="media-object" width="115" src="{{doc.image_url}}" alt="{{doc.name}}">
-							</a>
+							<img class="media-object" width="115" src="{{doc.image_url}}" alt="{{doc.name}}">
 						</div>
 						<div class="media-body doc-text-box">
-							<h4 class="media-heading doc-name lighter-font">{{doc.name}}</h4>
+							<h4 class="media-heading doc-name lighter-font"><b>{{doc.name}}</b></h4>
 							<h5 class="media-subheading doc-title lighter-font">{{doc.title}}</h5>
-							<h6 class="media-subheading doc-title-sub lighter-font">{{doc.sub_title}}</h6>
+							<h6 class="media-subheading doc-title-sub lighter-font" ng-if="doc.sub_title">{{doc.sub_title}}</h6>
 							<ul class="doc-desc">
 								<li ng-repeat="des in doc.desc">- {{des}}</li>
 							</ul>
 						</div>
+					</div>
+					<div class="doc-box-footer">
+						<p>{{loc.name}}</p>
+						<p class="sub-desc">{{loc.desc}}</p>
+					</div>	
+				</div>
+			</div>
+			<div class="row doc-list-mobile hidden-md hidden-lg hidden-sm">
+				<div class="{{loc.name}} loc-wrapper" ng-repeat="loc in locations | filter:filterExp">
+					<div class="doc-in-loc" ng-repeat="doc in loc.doctors">
+						<img width="85" src="{{doc.image_url}}" alt="{{doc.name}}">
+						<h4 class="media-heading doc-name lighter-font">{{doc.name}}</h4>
+						<h5 class="media-subheading doc-title lighter-font">{{doc.title}}</h5>
+						<h6 class="media-subheading doc-title-sub lighter-font" ng-if="doc.sub_title">{{doc.sub_title}}</h6>
+						<ul class="doc-desc">
+							<li ng-repeat="des in doc.desc">- {{des}}</li>
+						</ul>
 					</div>
 					<div class="doc-box-footer">
 						<p>{{loc.name}}</p>

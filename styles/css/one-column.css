@@ -492,7 +492,7 @@ form.campaign input {
 	width: 100%;
 }
 
-.meet-doctors-mobile, .doc-list-mobile{
+.meet-doctors-mobile, .doc-list-tablet{
 	display: none;
 }
 
@@ -575,7 +575,7 @@ a.top-link {
 
 	}
 
-	.meet-doctors-mobile, .doc-list-mobile{
+	.meet-doctors-mobile, .doc-list-tablet{
 		display: block;
 	}
 
@@ -696,6 +696,40 @@ a.top-link {
 	height: 66px;
 	}
 
+	.doc-list-mobile img{
+		float: left;
+		margin-right: 10px;
+	}
+
+	.doc-list-mobile .loc-wrapper .doc-in-loc{
+		overflow: hidden;
+		border-top: 1px solid red;
+		border-bottom: 1px solid red;
+	}
+
+	.doc-list-mobile .doc-text-box h5, h6 {
+	  padding-bottom: 0;
+	}
+
+	.doc-list-mobile h4 {
+	  padding-top: 5px;
+	}
+
+	.doc-list-mobile h5{
+	  margin-bottom: 0;
+	  font-weight: bold;
+	}
+
+	.doc-list-mobile h6{
+	  margin: 0;
+	  font-weight: bold;
+	}
+
+	.doc-list-mobile ul.doc-desc{
+		margin-bottom: 0;
+		margin-top: 5px;
+	}
+
 }
 
 
@@ -769,7 +803,7 @@ a.top-link {
 		text-align: center;
 	}
 
-	.meet-doctors-mobile, .doc-list-mobile{
+	.meet-doctors-mobile, .doc-list-tablet{
 		display: block;
 	}
 
