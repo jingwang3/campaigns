@@ -351,6 +351,7 @@ p.new-color {
 	color: #ffffff;
 }
 
+
 .doc-list-close{
   color: #D5D4D4;
   right: -47px;
@@ -706,6 +707,10 @@ a.top-link {
 	nav .navbar-right {
 	  text-align: center;
 	}
+
+	p.sub-desc {
+  line-height: 1.2em;
+}
 
 	p.navbar-text.phone-number-box.better-font.brand-text {
 	  margin: 15px 0px 0px 0px ;
