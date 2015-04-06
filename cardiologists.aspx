@@ -170,7 +170,7 @@
 					</div>
 					<div class="doc-box-footer">
 						<p>{{loc.name}}</p>
-						<p>{{loc.desc}}</p>
+						<p class="sub-desc">{{loc.desc}}</p>
 					</div>	
 				</div>
 			</div>
