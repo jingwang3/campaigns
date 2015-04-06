@@ -240,7 +240,7 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
   font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
   font-size: 1.125em;
   font-weight: 300;
-  line-height: 1;
+  line-height: 1.5;
   }
 
 .row-4 ul li { 
@@ -445,6 +445,11 @@ background-color: #e23525;
   text-transform: capitalize;
   line-height: .5em;
   font-size: .85em;
+}
+
+.doc-box-footer p {  
+  line-height: .5em;
+
 }
 
 ul.doc-desc li{
