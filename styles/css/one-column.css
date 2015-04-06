@@ -146,6 +146,9 @@ body{
   padding-top: 110px;
 }
 
+img.logo-very-small{
+	display: none;
+}
 
 
 /*CSS FOR PINS*/
@@ -737,6 +740,14 @@ a.top-link {
 
 @media (max-width: 479px)  {
 
+	img.logo-small{
+		display: none;
+	}
+
+	img.logo-very-small{
+		display: block;
+	}
+
 	.brand-logo-link{
 		padding: 10px 0;
 	}
@@ -809,7 +820,7 @@ a.top-link {
 	}
 
 	.meet-doctors-mobile h1 {
-		font-size: 3em;
+		font-size: 2.5em;
 		position: relative;
 		top:40px;
 		text-transform: none;

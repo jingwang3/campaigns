@@ -33,6 +33,9 @@
 	    .IE-only {
 	         display: block;
 	    }
+	    #ss-form{
+	    	display: none;
+	    }
 	</style>
 	<![endif]-->
 </head>
@@ -59,7 +62,8 @@
 	  <div class="container-fluid">
 	  	<div class="navbar-left">
 	      <a class="navbar-brand hidden-md hidden-sm hidden-lg brand-logo-link">
-	        <img alt="Children's National Health System" width="145" src="files/images/logo-sm.svg">
+	        <img class="logo-small" alt="Children's National Health System" width="145" src="files/images/logo-sm-120.jpg">
+	        <img class="logo-very-small" alt="Children's National Health System" width="120" src="files/images/logo-sm-120.jpg">
 	      </a>
 	    </div>
       	<div class="navbar-right">
@@ -218,7 +222,7 @@
 	  						<h1>THANK YOU.</h1>
 	  						<p>WE'LL BE IN TOUCH WITH YOU SHORTLY.</p>
 	  					</div>
-	  					<form class="campaign" action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+	  					<form class="campaign" action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form" target="_self">
 	  						<div class="form-group">
 	  							<b class="IE-only text-center">Your Name</b>
 	  							<input class="form-control input-sm" id="userName" type="text" name="entry.916599135" placeholder="NAME" required>
@@ -231,7 +235,22 @@
 	  							<b class="IE-only text-center">Zipcode</b>
 	  							<input class="form-control input-sm" id="userZipcode" type="text" name="entry.272965353" placeholder="ZIP CODE" required>
 	  						</div>
-	  						<button type="submit" class="btn btn-form better-font">Submit</button>
+	  						<button type="submit" id="submitBtn" class="btn btn-form better-font">Submit</button>
+	  					</form>
+	  					<form class="campaign IE-only" action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form-IE" target="_self">
+	  						<div class="form-group">
+	  							<b class="IE-only text-center">Your Name</b>
+	  							<input class="form-control input-sm" id="userNameIE" type="text" name="entry.916599135" placeholder="NAME" required>
+	  						</div>
+	  						<div class="form-group">
+	  							<b class="IE-only text-center">Phone Number</b>
+	  							<input class="form-control input-sm" id="userPhoneIE" type="number" name="entry.354822211" placeholder="PHONE" required>
+	  						</div>
+	  						<div class="form-group">
+	  							<b class="IE-only text-center">Zipcode</b>
+	  							<input class="form-control input-sm" id="userZipcodeIE" type="text" name="entry.272965353" placeholder="ZIP CODE" required>
+	  						</div>
+	  						<button type="button" id="submitBtnIE" class="btn btn-form better-font">Submit</button>
 	  					</form>
 						<a class="top-link" href="#top">Back to top</a>
 	  				</div>
