@@ -4,8 +4,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta name="Description" content="As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our availability being there for your child is what matters the most. And while we're strongly established in Washington, DC, we're also right here in your neck of the woods: Northern Virginia." />
-	<title>Our Cardiologists are World Renowned and Neighborhood Based - Children's National Health System</title>
+	<meta name="Description" content="As experts in pediatric cardiology in Northern Virginia, Children’s National has a worldwide reputation for care and innovation – and we’re close to home." />
+	<title>Children's National - Northern Virginia Cardiologists</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.campaign.min.css">
 	<!-- Optional theme -->
@@ -111,14 +111,14 @@
   		<!--Meet Our Doctors -->
 		<article id="docSec">
 	  		<div class="row row-3 content-row meet-doctors">
-	  			<a class="loc-pin" id="loc1" title="Leesburg" ng-click="loadDocs('leesburg')"></a>
-	  			<a class="loc-pin" id="loc2" title="Arlington" ng-click="loadDocs('arlington')"></a>
-	  			<a class="loc-pin" id="loc3" title="Fairfax" ng-click="loadDocs('fairfax')"></a>
-	  			<a class="loc-pin active" id="loc4" title="Fredericksburg" ng-click="loadDocs('fredericksburg')"></a>
+	  			<a class="loc-pin" id="loc1" trackinglabel="Leesburg Pin" title="Leesburg" ng-click="loadDocs('leesburg')"></a>
+	  			<a class="loc-pin" id="loc2" trackinglabel="Arlington Pin" title="Arlington" ng-click="loadDocs('arlington')"></a>
+	  			<a class="loc-pin" id="loc3" trackinglabel="Fairfax Pin" title="Fairfax" ng-click="loadDocs('fairfax')"></a>
+	  			<a class="loc-pin active" id="loc4" trackinglabel="Fredericksburg Pin" title="Fredericksburg" ng-click="loadDocs('fredericksburg')"></a>
 				<div class="container">
 					<h1>Meet Your Doctors</h1>
 					<div class="col-xs-6 col-sm-7">
-						<a id="closeBtn"><span class="glyphicon glyphicon-remove-circle doc-list-close" ng-if="filterExp.city != null" aria-hidden="true" ng-click="loadDocs(null)"></span></a>
+						<a id="closeBtn" trackinglabel="Doc List Close Btn"><span class="glyphicon glyphicon-remove-circle doc-list-close" ng-if="filterExp.city != null" aria-hidden="true" ng-click="loadDocs(null)"></span></a>
 						<div class="doc-list" ng-class="{shadowing: filterExp.city != null}">
 							<div class="{{loc.name}} loc-wrapper fade-in" ng-repeat="loc in locations | filter:filterExp">
 								<div class="media campaign-media" ng-repeat="doc in loc.doctors">
@@ -144,10 +144,10 @@
 				</div>
 			</div>
 	  		<div class="row row-3 content-row meet-doctors-mobile" >
-	  			<a class="loc-pin" id="loc1" title="Leesburg" ng-click="loadDocs('leesburg')"></a>
-	  			<a class="loc-pin" id="loc2" title="Arlington" ng-click="loadDocs('arlington')"></a>
-	  			<a class="loc-pin" id="loc3" title="Fairfax" ng-click="loadDocs('fairfax')"></a>
-	  			<a class="loc-pin active" id="loc4" title="Fredericksburg" ng-click="loadDocs('fredericksburg')"></a>
+	  			<a class="loc-pin loc-pin-mobile" id="loc1" trackinglabel="Leesburg Pin Mobile" title="Leesburg" ng-click="loadDocs('leesburg')"></a>
+	  			<a class="loc-pin loc-pin-mobile" id="loc2" trackinglabel="Arlington Pin Mobile" title="Arlington" ng-click="loadDocs('arlington')"></a>
+	  			<a class="loc-pin loc-pin-mobile" id="loc3" trackinglabel="Fairfax Pin Mobile" title="Fairfax" ng-click="loadDocs('fairfax')"></a>
+	  			<a class="loc-pin loc-pin-mobile active" id="loc4" trackinglabel="Fredericksburg Pin Mobile" title="Fredericksburg" ng-click="loadDocs('fredericksburg')"></a>
 				<div class="container">
 					<h1>Meet Your Doctors</h1>
 					<p class="tap-text">[ tap the pins to learn more ]</p>
@@ -216,7 +216,7 @@
 	  				<h1>Let's Talk</h1>
 	  				<div class="text-center">
 		  				<p class="text-center new-color text-museo">We're here to help. Call or schedule an appointment:</p>
-		  				<a href="tel:7035311555" trackingLabel="Phone Number on Top"><span class="form-appt-phone better-font">(703) 531-1555</span></a>
+		  				<a href="tel:7035311555" trackingLabel="Phone Number Above Form"><span class="form-appt-phone better-font">(703) 531-1555</span></a>
 	  					<p class="text-center new-color text-museo text-small">Or we can call you. Submit your info below:</p>
 	  					<div class="well campaign-confirm hidden" id="formConfirmationBox">
 	  						<h1>THANK YOU.</h1>
@@ -252,7 +252,7 @@
 	  						</div>
 	  						<button type="button" id="submitBtnIE" class="btn btn-form better-font">Submit</button>
 	  					</form>
-						<a class="top-link" href="#top">Back to top</a>
+						<a class="top-link" trackinglabel="Back to Top" href="#top">Back to top</a>
 	  				</div>
 	  			</div>
 	  		</div>
@@ -263,7 +263,7 @@
   <footer>
 	  <div class="footer">
 	      <div class="container">
-	        <p class="text-muted text-center better-font"><a href="http://childrensnational.org/cardiology" trackingLabel="Footer CNHS Homepage Link"><span>childrensnational.org/cardiology</span></a></p>
+	        <p class="text-muted text-center better-font"><a href="http://childrensnational.org/cardiology" trackingLabel="Footer CNHS Link"><span>childrensnational.org/cardiology</span></a></p>
 	      </div>
 	   </div>
    </footer>
