@@ -143,7 +143,11 @@ body > .container { padding: 80px 15px 0; }
 
 /*CAMPAIGN SPECIFIC OVERRIDES GO BELOW*/
 body{
-  padding-top: 110px;
+  	padding-top: 110px;
+}
+
+#content-body{
+	overflow: hidden;
 }
 
 img.logo-very-small{

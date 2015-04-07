@@ -26,8 +26,18 @@
 
 	  ga('create', 'UA-3869537-22', 'auto');
 	  ga('send', 'pageview');
-
+	
+	  jQuery(function() {
+		 jQuery.scrollDepth({
+		  minHeight: 2000,
+		  percentage: false,
+		  userTiming: false,
+		  pixelDepth: false,
+		  nonInteraction: false
+		});
+	  });
 	</script>
+
 	<!--[if IE]>
 	<style>
 	    .IE-only {
@@ -222,7 +232,7 @@
 	  						<h1>THANK YOU.</h1>
 	  						<p>WE'LL BE IN TOUCH WITH YOU SHORTLY.</p>
 	  					</div>
-	  					<form class="campaign" action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form" target="_self">
+	  					<form class="campaign" trackinglabel="Let's talk ajax form" action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form" target="_self">
 	  						<div class="form-group">
 	  							<b class="IE-only text-center">Your Name</b>
 	  							<input class="form-control input-sm" id="userName" type="text" name="entry.916599135" placeholder="NAME" required>
@@ -237,7 +247,7 @@
 	  						</div>
 	  						<button type="submit" id="submitBtn" class="btn btn-form better-font">Submit</button>
 	  					</form>
-	  					<form class="campaign IE-only" action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form-IE" target="_self">
+	  					<form class="campaign IE-only" trackinglabel="Let's talk IE form" action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form-IE" target="_self">
 	  						<div class="form-group">
 	  							<b class="IE-only text-center">Your Name</b>
 	  							<input class="form-control input-sm" id="userNameIE" type="text" name="entry.916599135" placeholder="NAME" required>
@@ -271,6 +281,7 @@
    <script src="bootstrap/js/bootstrap.min.js"></script>
    <script src="lib/js/angular.min.js"></script>
    <script src="http://childrensnational.org/~/media/cnhs-site/files/js/event_tracking.js"></script>
+   <script src="lib/js/scrolldepth.min.js"></script>
    <script src="lib/js/cardiologists.js"></script>
    <script src="lib/js/controller.js"></script>
 </body>
