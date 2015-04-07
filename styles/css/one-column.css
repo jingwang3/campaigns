@@ -434,8 +434,13 @@ p.text-small {
 	font-size: 1.5em;
 }
 
-.doc-text-box h5, h6 {
+.doc-text-box h5 {
 	font-size: 1em;
+	padding-bottom: 2px;
+}
+
+.doc-text-box h6 {
+	font-size: .85em;
 	padding-bottom: 4px;
 }
 
@@ -562,6 +567,17 @@ a.top-link {
 
 	.doc-box-footer {  
 	font-size: 1em;
+	}
+
+
+	.doc-text-box h5 {
+	font-size: 1.3em;
+	padding-bottom: 2px;
+	}
+
+	.doc-text-box h6 {
+	font-size: 1.1em;
+	padding-bottom: 4px;
 	}
 
 	p.tap-text {
@@ -708,25 +724,28 @@ a.top-link {
 		overflow: hidden;
 		border-top: 1px solid red;
 		border-bottom: 1px solid red;
+		color: #000000;
 	}
 
 	.doc-list-mobile .doc-text-box h5, h6 {
 	  	padding-bottom: 0;
 	}
 
-	.doc-list-mobile h4 {
+	.doc-in-loc h4 {
 	  	padding-top: 5px;
-	}
-
-	.doc-list-mobile h5{
-		margin-top: 5px;
-	  	margin-bottom: 0;
 	  	font-weight: bold;
 	}
 
-	.doc-list-mobile h6{
-	  	margin: 0;
-	  	font-weight: bold;
+	.doc-in-loc h5 {
+	font-size: 1.1em;
+	margin: 0;
+	padding: 0px;
+	}
+
+	.doc-in-loc h6 {
+	font-size: .95em;
+	margin-top: 3px;
+	padding: 0px;
 	}
 
 	.doc-list-mobile ul.doc-desc{
