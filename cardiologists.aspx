@@ -230,7 +230,7 @@
 	  						</div>
 	  						<div class="form-group">
 	  							<b class="IE-only text-center">Phone Number</b>
-	  							<input class="form-control input-sm" id="userPhone" type="number" name="entry.354822211" placeholder="PHONE" required>
+	  							<input class="form-control input-sm" id="userPhone" type="text" name="entry.354822211" placeholder="PHONE" required>
 	  						</div>
 	  						<div class="form-group">
 	  							<b class="IE-only text-center">Zipcode</b>
@@ -245,7 +245,7 @@
 	  						</div>
 	  						<div class="form-group">
 	  							<b class="IE-only text-center">Phone Number</b>
-	  							<input class="form-control input-sm" id="userPhoneIE" type="number" name="entry.354822211" placeholder="PHONE" required>
+	  							<input class="form-control input-sm" id="userPhoneIE" type="text" name="entry.354822211" placeholder="PHONE" required>
 	  						</div>
 	  						<div class="form-group">
 	  							<b class="IE-only text-center">Zipcode</b>
