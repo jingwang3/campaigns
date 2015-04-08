@@ -26,16 +26,7 @@
 
 	  ga('create', 'UA-3869537-22', 'auto');
 	  ga('send', 'pageview');
-	
-	  jQuery(function() {
-		 jQuery.scrollDepth({
-		  minHeight: 2000,
-		  percentage: false,
-		  userTiming: false,
-		  pixelDepth: false,
-		  nonInteraction: false
-		});
-	  });
+
 	</script>
 
 	<!--[if IE]>
@@ -281,7 +272,6 @@
    <script src="bootstrap/js/bootstrap.min.js"></script>
    <script src="lib/js/angular.min.js"></script>
    <script src="http://childrensnational.org/~/media/cnhs-site/files/js/event_tracking.js"></script>
-   <script src="lib/js/scrolldepth.min.js"></script>
    <script src="lib/js/cardiologists.js"></script>
    <script src="lib/js/controller.js"></script>
 </body>
