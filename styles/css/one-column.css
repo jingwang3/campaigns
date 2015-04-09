@@ -1,6 +1,10 @@
 .IE-only{
 	display: none;
 }
+
+.inline-block{
+	display: inline-block;
+}
 body{ font-size:16px; color: #877369; background-color: #FFF; }
 
 @font-face { font-family: CampaignFont; src: url('../fonts/Museo-700.woff'); }
@@ -419,7 +423,6 @@ p.text-small {
 	color: #ffffff;
 	font-style: italic;
 	font-size: 1.4em;
-	width: 330px;
 	margin-bottom: 50px;
 }
 
@@ -535,6 +538,10 @@ a.top-link {
 @media (max-width: 1199px)  {
 	.row1-caption {
 	  font-size: 14px;
+	}
+	.paw-box {
+	  padding: 60px 20px;
+	  font-size: 22px;
 	}
 }
 

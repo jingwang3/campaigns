@@ -199,9 +199,9 @@
 	  			<div class="container">
 	  				<h1>Let's Talk</h1>
 	  				<div class="text-center">
-		  				<p class="text-center new-color text-museo">We're here to help. Call to schedule an appointment:</p>
+		  				<p class="text-center new-color text-museo"><span class="inline-block">We're here to help.</span> <span class="inline-block">Call to schedule an appointment:</span></p>
 		  				<a href="tel:7035311555" trackingLabel="Phone Number Above Form"><span class="form-appt-phone better-font">(703) 531-1555</span></a>
-	  					<p class="text-center new-color text-museo text-small">Or we can call you. Submit your info below:</p>
+	  					<p class="text-center new-color text-museo text-small"><span class="inline-block">Or we can call you.</span> <span class="inline-block">Submit your info below:</span></p>
 	  					<div class="well campaign-confirm hidden" id="formConfirmationBox">
 	  						<h1>THANK YOU.</h1>
 	  						<p>WE'LL BE IN TOUCH WITH YOU SHORTLY.</p>
