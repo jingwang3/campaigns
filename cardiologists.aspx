@@ -131,7 +131,7 @@
 								    <h5 class="media-subheading doc-title lighter-font">{{doc.title}}</h5>
 								    <h6 class="media-subheading doc-title-sub lighter-font" ng-if="doc.sub_title">{{doc.sub_title}}</h6>
 								    <ul class="doc-desc">
-								    	<li ng-repeat="des in doc.desc">- {{des}}</li>
+								    	<li ng-repeat="des in doc.desc">{{des}}</li>
 								    </ul>
 								  </div>
 								</div>
@@ -154,37 +154,20 @@
 					<p class="tap-text">[ tap the pins to learn more ]</p>
 				</div>
 			</div>
-			<div class="row doc-list-tablet hidden-xs">
+			<div class="row doc-list-tablet">
 				<div class="{{loc.name}} loc-wrapper" ng-repeat="loc in locations | filter:filterExp">
 					<div class="media campaign-media" ng-repeat="doc in loc.doctors">
 						<div class="media-left media-middle">
-							<img class="media-object" width="115" src="{{doc.image_url}}" alt="{{doc.name}}">
+							<img class="media-object" width="95" src="{{doc.image_url}}" alt="{{doc.name}}">
 						</div>
 						<div class="media-body doc-text-box">
 							<h4 class="media-heading doc-name lighter-font"><b>{{doc.name}}</b></h4>
 							<h5 class="media-subheading doc-title lighter-font">{{doc.title}}</h5>
 							<h6 class="media-subheading doc-title-sub lighter-font" ng-if="doc.sub_title">{{doc.sub_title}}</h6>
 							<ul class="doc-desc">
-								<li ng-repeat="des in doc.desc">- {{des}}</li>
+								<li ng-repeat="des in doc.desc">{{des}}</li>
 							</ul>
 						</div>
-					</div>
-					<div class="doc-box-footer">
-						<p>{{loc.name}}</p>
-						<p class="sub-desc">{{loc.desc}}</p>
-					</div>	
-				</div>
-			</div>
-			<div class="row doc-list-mobile hidden-md hidden-lg hidden-sm">
-				<div class="{{loc.name}} loc-wrapper" ng-repeat="loc in locations | filter:filterExp">
-					<div class="doc-in-loc" ng-repeat="doc in loc.doctors">
-						<img width="85" src="{{doc.image_url}}" alt="{{doc.name}}">
-						<h4 class="media-heading doc-name lighter-font">{{doc.name}}</h4>
-						<h5 class="media-subheading doc-title lighter-font">{{doc.title}}</h5>
-						<h6 class="media-subheading doc-title-sub lighter-font" ng-if="doc.sub_title">{{doc.sub_title}}</h6>
-						<ul class="doc-desc">
-							<li ng-repeat="des in doc.desc">- {{des}}</li>
-						</ul>
 					</div>
 					<div class="doc-box-footer">
 						<p>{{loc.name}}</p>

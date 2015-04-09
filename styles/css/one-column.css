@@ -84,10 +84,11 @@ a:hover{ text-decoration: none; }
  	-moz-box-shadow:2px 2px 15px 5px #4C4C4C;
  	 }
 
+
 @media (min-width: 992px){ .panel{ min-height: 350px;} .panel-cardiology{ min-height: 320px;} }
 
 a.list-group-item-cardiology {
-color: #746661;
+	color: #746661;
 }
 
 .list-group-item-cardiology {
@@ -144,7 +145,7 @@ body > .container { padding: 80px 15px 0; }
 
 /*CAMPAIGN SPECIFIC OVERRIDES GO BELOW*/
 body{
-  	padding-top: 110px;
+	padding-top: 110px;
 }
 
 #content-body{
@@ -155,75 +156,78 @@ img.logo-very-small{
 	display: none;
 }
 
+.media-middle {
+	vertical-align: top;
+}
 
 /*CSS FOR PINS*/
 .loc-pin{
-  color: #F00;
-  position: absolute;
-  float: right;
-  background-image: url('../../files/images/pin_sm.png');
-  width: 48px;
-  height: 80px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  cursor: pointer;
+	color: #F00;
+	position: absolute;
+	float: right;
+	background-image: url('../../files/images/pin_sm.png');
+	width: 48px;
+	height: 80px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	cursor: pointer;
 }
 .loc-pin.active{
-  background-image: url('../../files/images/pin_lg.png');
-  width: 64px;
-  height: 106px;
+	background-image: url('../../files/images/pin_lg.png');
+	width: 64px;
+	height: 106px;
 }
 a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
-  background-image: url('../../files/images/pin_lg.png');
-  width: 64px;
-  height: 106px;
-  z-index: 200;
+	background-image: url('../../files/images/pin_lg.png');
+	width: 64px;
+	height: 106px;
+	z-index: 200;
 }
 
 #loc1 {
-  right: 576px;
-  top: 19px;
+	right: 576px;
+	top: 19px;
 }
 #loc2 {
-  right: 333px;
-  top: 187px;
+	right: 333px;
+	top: 187px;
 }
 #loc3 {
-  right: 406px;
-  top: 202px;
+	right: 406px;
+	top: 202px;
 }
 #loc4 {
-  right: 584px;
-  top: 698px;
+	right: 584px;
+	top: 698px;
 }
 a#loc1:hover, a#loc1:focus, a#loc1:active, a#loc1.active{
-  right: 567px;
-  top: -5px;
+	right: 567px;
+	top: -5px;
 }
 a#loc2:hover, a#loc2:focus, a#loc2:active, a#loc2.active{
-  right: 326px;
-  top: 162px;
+	right: 326px;
+	top: 162px;
 }
 a#loc3:hover, a#loc3:focus, a#loc3:active, a#loc3.active{
-  right: 395px;
-  top: 184px;
+	right: 395px;
+	top: 184px;
 }
 a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
-  right: 573px;
-  top: 673px;
+	right: 573px;
+	top: 673px;
 }
 
 .btn-form {
-		border-radius: 10px;
-		width: auto;
-		text-transform: uppercase;
-		font-size: 1.3em;
-		margin-top: 15px;
-		letter-spacing: .04em;
-		color: #ffffff;
-		background-color: #c82a16;
-		padding: 5px 20px;
+	border-radius: 10px;
+	width: auto;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	margin-top: 15px;
+	letter-spacing: .04em;
+	color: #ffffff;
+	background-color: #c82a16;
+	padding: 5px 20px;
 }
 
 .btn-form:hover {
@@ -232,7 +236,7 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
 }
 
 .btn-cardio {
-		clear:both;
+	clear:both;
 }
 
 .content-wrap{
@@ -245,24 +249,24 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
 	margin-right: 0;
 }
 .row p { 
-  font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-  font-size: 1.125em;
-  font-weight: 300;
-  line-height: 1.5;
-  }
+	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+	font-size: 1.125em;
+	font-weight: 300;
+	line-height: 1.5;
+}
 
 .row-4 ul li { 
-  color: #fff;
-  font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-  font-size: 1.2em;
-  font-weight: 300;
-  line-height: 2em;
-  padding-left: 0px;
-  }
+	color: #fff;
+	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 2em;
+	padding-left: 0px;
+}
 
 .row ul { 
-  padding-left: 0px;
-  }
+	padding-left: 16px;
+}
 .row-1, .row-4, .owbox{
 	color: #fff;
 }
@@ -273,12 +277,12 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
 }
 
 .row-4 h3 {
-  float: right;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-size: 4.5em;
-  font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
-  margin-bottom: -65px;
+	float: right;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 4.5em;
+	font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
+	margin-bottom: -65px;
 }
 
 .phone-number-box {
@@ -296,10 +300,10 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
 .header-text-right{
 	display: block;
 	font-size: 1em;
-  	letter-spacing: .03em;
-  	text-transform: uppercase;
-  	color: #877369;
-  	 font-family: LightCampaignFont,Helvetica,Arial,sans-serif; 	
+	letter-spacing: .03em;
+	text-transform: uppercase;
+	color: #877369;
+	font-family: LightCampaignFont,Helvetica,Arial,sans-serif; 	
 
 }
 
@@ -312,27 +316,27 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
 
 
 .row-1 {
-  	max-width: 1920px;
-  	background-image: url('../../files/images/cardio-row1.jpg');
-  	background-repeat: no-repeat;
-  	z-index: 999;
-  	background-color: #000;
-  	min-height: 886px;
-  	margin: 0 auto;
+	max-width: 1920px;
+	background-image: url('../../files/images/cardio-row1.jpg');
+	background-repeat: no-repeat;
+	z-index: 999;
+	background-color: #000;
+	min-height: 886px;
+	margin: 0 auto;
 }
 
 .row1-caption h1 {
-  font-size: 2.7em;
-  line-height: 1.2em;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
+	font-size: 2.7em;
+	line-height: 1.2em;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
 }
 
 .row1-caption {
-  margin-top: 300px;
-  max-width: 600px;
+	margin-top: 300px;
+	max-width: 600px;
 }
 
 p.banner-subtitle{
@@ -362,14 +366,14 @@ p.new-color {
 
 
 .doc-list-close{
-  color: #D5D4D4;
-  right: -47px;
-  top: -17px;
-  z-index: 999;
-  font-size: 1.5em;
-  float: right;
-  text-shadow: #000 1px 1px 10px;
-  cursor:pointer;
+	color: #D5D4D4;
+	right: -47px;
+	top: -17px;
+	z-index: 999;
+	font-size: 1.5em;
+	float: right;
+	text-shadow: #000 1px 1px 10px;
+	cursor:pointer;
 }
 .row-2 .box-left{
 	padding-top: 100px;
@@ -405,18 +409,18 @@ p.text-small {
 }
 
 .paw-box {
-  height: 220px;
-  background-color: #c92b2c;
-  position: relative;
-  top: -80px;
-  border-radius: 0 50px;
-  z-index: -100;
-  padding: 60px 50px;
-  color: #ffffff;
-  font-style: italic;
-  font-size: 1.4em;
-  width: 330px;
-  margin-bottom: 50px;
+	height: 220px;
+	background-color: #c92b2c;
+	position: relative;
+	top: -80px;
+	border-radius: 0 50px;
+	z-index: -100;
+	padding: 60px 50px;
+	color: #ffffff;
+	font-style: italic;
+	font-size: 1.4em;
+	width: 330px;
+	margin-bottom: 50px;
 }
 
 .campaign-media{
@@ -450,31 +454,29 @@ p.text-small {
 }
 
 .doc-box-footer {  
-background-color: #e23525;
-  padding: 15px 0 5px 0;
-  text-align: center;
-  color: #ffffff;
-  font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-  text-transform: capitalize;
-  line-height: .5em;
-  font-size: .85em;
+	background-color: #e23525;
+	padding: 15px 0 5px 0;
+	text-align: center;
+	color: #ffffff;
+	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+	text-transform: capitalize;
+	line-height: .5em;
+	font-size: .85em;
 }
 
 .doc-box-footer p {  
-  line-height: .5em;
+	line-height: .5em;
 
 }
 
 ul.doc-desc li{
-  font-size: .8em;
-  line-height: 1.2em;
-  font-family: Arial, Helvetica, sans-serif;
-  list-style: none;
-  padding-left: 5px;
+	font-size: .8em;
+	line-height: 1.2em;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .form-group {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 form.campaign, .campaign-confirm {
@@ -483,11 +485,11 @@ form.campaign, .campaign-confirm {
 }
 
 form.campaign input {
-  background-color: #fcfbfa;
-  margin-bottom: 3px;
-  height: 40px;
-  color: #786a65;
-  font-size: 1em;
+	background-color: #fcfbfa;
+	margin-bottom: 3px;
+	height: 40px;
+	color: #786a65;
+	font-size: 1em;
 }
 
 .campaign-confirm h1{
@@ -521,12 +523,12 @@ a.top-link {
 @media (max-width: 1440px) {
 
 	.row-1 {
-	  	min-height: 663px;
-	  	background-image: url('../../files/images/cardio-1440.jpg');
+		min-height: 663px;
+		background-image: url('../../files/images/cardio-1440.jpg');
 	}
 
 	.row1-caption {
-  	margin-top: 200px;
+		margin-top: 200px;
 	}
 }
 
@@ -538,14 +540,14 @@ a.top-link {
 	}
 
 	.row-1 {
-	  	min-height: 471px;
-	  	background-image: url('../../files/images/cardio-1024.jpg');
+		min-height: 471px;
+		background-image: url('../../files/images/cardio-1024.jpg');
 	}
 	
 	.row1-caption h1 {
-	  	font-size: 2.5em;
-	  	line-height: 1.2em;
-	  	font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
+		font-size: 2.5em;
+		line-height: 1.2em;
+		font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
 	}
 
 	p.banner-subtitle{
@@ -571,25 +573,25 @@ a.top-link {
 	}
 
 	.doc-box-footer {  
-	font-size: 1em;
+		font-size: 1em;
 	}
 
 
 	.doc-text-box h5 {
-	font-size: 1.3em;
-	padding-bottom: 2px;
+		font-size: 1.3em;
+		padding-bottom: 2px;
 	}
 
 	.doc-text-box h6 {
-	font-size: 1.1em;
-	padding-bottom: 4px;
+		font-size: 1.1em;
+		padding-bottom: 4px;
 	}
 
 	p.tap-text {
-	color: #ffffff;
-	font-size: 2em;
-	position: relative;
-	top: 140px;
+		color: #ffffff;
+		font-size: 2em;
+		position: relative;
+		top: 140px;
 	}
 
 	.meet-doctors, .meet-doctors-mobile {
@@ -604,60 +606,60 @@ a.top-link {
 	}
 
 	.loc-pin{
-	background-image: url('../../files/images/pin_sm_mobile.png');
-	width: 30px;
-	height: 50px;
+		background-image: url('../../files/images/pin_sm_mobile.png');
+		width: 30px;
+		height: 50px;
 	}
 
 	.loc-pin.active{
-	  background-image: url('../../files/images/pin_lg_mobile.png');
-	  width: 40px;
-	  height: 66px;
+		background-image: url('../../files/images/pin_lg_mobile.png');
+		width: 40px;
+		height: 66px;
 	}
 
 	a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
-	background-image: url('../../files/images/pin_lg_mobile.png');
-	width: 40px;
-	height: 66px;
+		background-image: url('../../files/images/pin_lg_mobile.png');
+		width: 40px;
+		height: 66px;
 	}
 
 	#loc1 {
-	  right: 305px;
-	  top: -4px;
+		right: 305px;
+		top: -4px;
 	}
 
 	#loc2 {
-	  right: 175px;
-	  top: 91px;
+		right: 175px;
+		top: 91px;
 	}
 	#loc3 {
-	  right: 214px;
-	  top: 97px;
+		right: 214px;
+		top: 97px;
 	}
 	#loc4 {
-	  right: 310px;
-	  top: 365px;
+		right: 310px;
+		top: 365px;
 	}
 
 	a#loc1:hover, a#loc1:focus, a#loc1:active, a#loc1.active{
-	  right: 300px;
-	  top: -19px;
+		right: 300px;
+		top: -19px;
 	}
 	a#loc2:hover, a#loc2:focus, a#loc2:active, a#loc2.active{
-	  right: 171px;
-	  top: 73px;
+		right: 171px;
+		top: 73px;
 	}
 	a#loc3:hover, a#loc3:focus, a#loc3:active, a#loc3.active{
-	  right: 210px;
-	  top: 84px;
+		right: 210px;
+		top: 84px;
 	}
 	a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
-	  right: 305px;
-	  top: 349px;
+		right: 305px;
+		top: 349px;
 	}
 
 	ul.doc-desc li{
-	  font-size: 1em;
+		font-size: 1em;
 	}
 
 }
@@ -665,39 +667,39 @@ a.top-link {
 @media (max-width: 767px)  {
 
 	body{
-	  padding-top: 0;
+		padding-top: 0;
 	}
 
 	nav .container-fluid {
-	  padding-left: 10px;
-	  padding-right: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 	p.navbar-text.phone-number-box.better-font {
-	  margin: 5px auto 0;
-	  display: inline-block;
+		margin: 5px auto 0;
+		display: inline-block;
 	}
 
 	nav .navbar-right {
-	  text-align: right;
+		text-align: right;
 	}
 
 	.navbar {
-	  margin-bottom: 0; 
+		margin-bottom: 0; 
 	}
 
 	.row-1 {
-	 min-height: 354px;
-	 background-image: url('../../files/images/cardio-768.jpg');
+		min-height: 354px;
+		background-image: url('../../files/images/cardio-768.jpg');
 	}
 
 	.row1-caption {
-	  margin-top: 100px;
+		margin-top: 100px;
 	}
 
 	.row1-caption h1 {
-	  font-size: 2em;
-	  font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+		font-size: 2em;
+		font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
 	}
 
 	.row-4{
@@ -708,15 +710,15 @@ a.top-link {
 	}
 
 	.loc-pin{
-	background-image: url('../../files/images/pin_sm_mobile.png');
-	width: 30px;
-	height: 50px;
+		background-image: url('../../files/images/pin_sm_mobile.png');
+		width: 30px;
+		height: 50px;
 	}
 
 	.loc-pin.active{
-	  background-image: url('../../files/images/pin_lg_mobile.png');
-	  width: 40px;
-	  height: 66px;
+		background-image: url('../../files/images/pin_lg_mobile.png');
+		width: 40px;
+		height: 66px;
 	}
 
 	a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
@@ -738,24 +740,24 @@ a.top-link {
 	}
 
 	.doc-list-mobile .doc-text-box h5, h6 {
-	  	padding-bottom: 0;
+		padding-bottom: 0;
 	}
 
 	.doc-in-loc h4 {
-	  	padding-top: 5px;
-	  	font-weight: bold;
+		padding-top: 5px;
+		font-weight: bold;
 	}
 
 	.doc-in-loc h5 {
-	font-size: 1.1em;
-	margin: 0;
-	padding: 0px;
+		font-size: 1.1em;
+		margin: 0;
+		padding: 0px;
 	}
 
 	.doc-in-loc h6 {
-	font-size: .95em;
-	margin-top: 3px;
-	padding: 0px;
+		font-size: .95em;
+		margin-top: 3px;
+		padding: 0px;
 	}
 
 	.doc-list-mobile ul.doc-desc{
@@ -786,23 +788,23 @@ a.top-link {
 	}
 
 	nav .navbar-right {
-	  text-align: center;
+		text-align: center;
 	}
 
 	p.sub-desc {
-	  line-height: 1.2em;
+		line-height: 1.2em;
 	}
 
 	p.navbar-text.phone-number-box.better-font.brand-text {
-	  margin: 15px 0px 0px 0px ;
-	  padding: 0;
-	  font-size: .8em;
-	  float:right;
+		margin: 15px 0px 0px 0px ;
+		padding: 0;
+		font-size: .8em;
+		float:right;
 	}
 
 	.row-1 {
-	  	min-height: 221px;
-	  	background-image: url('../../files/images/cardio-480.jpg');
+		min-height: 221px;
+		background-image: url('../../files/images/cardio-480.jpg');
 	}
 
 	.btn-form {
@@ -812,30 +814,30 @@ a.top-link {
 	}
 
 	.row1-caption {
-	  margin-top: 50px;
+		margin-top: 50px;
 	}
 
 
 	.row1-caption h1 {
-	  	font-size: 1.3em;
+		font-size: 1.3em;
 	}
 
 	#loc1 {
-	  right: 135px;
-	  top: -28px;
+		right: 135px;
+		top: -28px;
 	}
 
 	#loc2 {
-	  right: 74px;
-	  top: 15px;
+		right: 74px;
+		top: 15px;
 	}
 	#loc3 {
-	  right: 92px;
-	  top: 22px;
+		right: 92px;
+		top: 22px;
 	}
 	#loc4 {
-	  right: 137px;
-	  top: 147px;
+		right: 137px;
+		top: 147px;
 	}
 
 	.meet-doctors, .meet-doctors-mobile {
@@ -854,7 +856,7 @@ a.top-link {
 		top:40px;
 		text-transform: none;
 		color: #ffffff;
-	  	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+		font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
 	}
 
 	p.tap-text {
@@ -866,25 +868,25 @@ a.top-link {
 
 
 	a#loc1:hover, a#loc1:focus, a#loc1:active, a#loc1.active{
-	  right: 130px;
-	  top: -45px;
+		right: 130px;
+		top: -45px;
 	}
 	a#loc2:hover, a#loc2:focus, a#loc2:active, a#loc2.active{
-	  right: 69px;
-	  top: 0px;
+		right: 69px;
+		top: 0px;
 	}
 	a#loc3:hover, a#loc3:focus, a#loc3:active, a#loc3.active{
-	  right: 88px;
-	  top: 6px;
+		right: 88px;
+		top: 6px;
 	}
 	a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
-	  right: 133px;
-	  top: 133px;
+		right: 133px;
+		top: 133px;
 	}
 
 	form.campaign, .campaign-confirm {
-	  margin: 0 auto 50px auto;
-	  width: 274px;
+		margin: 0 auto 50px auto;
+		width: 274px;
 	}
 
 	.row-4 h3 {
@@ -892,11 +894,10 @@ a.top-link {
 	}
 
 	#bannerSec .row1-caption{
-	  left: 10px;
-	  position: relative;
-	  font-size: 11px;
+		left: 10px;
+		position: relative;
+		font-size: 11px;
 	}
-
 
 }
 
@@ -904,19 +905,19 @@ a.top-link {
 /*animation section*/
 .fade-in{
 	-webkit-animation-name: example; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
-    animation-name: example;
-    animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
+	animation-name: example;
+	animation-duration: 1.5s;
 }
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes example {
-    from {opacity: 0;}
-    to {opacity: 1;}
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example {
-    from {opacity: 0;}
-    to {opacity: 1;}
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
