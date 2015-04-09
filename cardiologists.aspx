@@ -199,8 +199,8 @@
 	  		<div class="row row-4 content-row">	
 					<div class="container">
 					<ul>
-						<li>The combined years of training of our 35+ cardiology specialists is unmatched in the Washington, DC area.</li>
-						<li>We perform the most pediatric surgeries in the Washington, DC area, with some of the highest success rates in the nation.</li>
+						<li>The combined years of training of our 35+ cardiology specialists is unmatched in the Washington, DC, area.</li>
+						<li>We perform the most pediatric surgeries in the Washington, DC, area, with some of the highest success rates in the nation.</li>
 						<li>Northern Virginia Magazine lists seven of our doctors as the top pediatric cardiologists in the area.</li>
 						<li>We're a leader in clinical research programs and surgical innovations.</li>
 						<li>U.S. News &amp; World Report consistently ranks us among the top pediatric hospitals in the nation.</li>
@@ -216,7 +216,7 @@
 	  			<div class="container">
 	  				<h1>Let's Talk</h1>
 	  				<div class="text-center">
-		  				<p class="text-center new-color text-museo">We're here to help. Call or schedule an appointment:</p>
+		  				<p class="text-center new-color text-museo">We're here to help. Call to schedule an appointment:</p>
 		  				<a href="tel:7035311555" trackingLabel="Phone Number Above Form"><span class="form-appt-phone better-font">(703) 531-1555</span></a>
 	  					<p class="text-center new-color text-museo text-small">Or we can call you. Submit your info below:</p>
 	  					<div class="well campaign-confirm hidden" id="formConfirmationBox">
