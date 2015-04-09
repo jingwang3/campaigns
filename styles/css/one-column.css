@@ -545,7 +545,7 @@ a.top-link {
 	.row1-caption h1 {
 	  	font-size: 2.5em;
 	  	line-height: 1.2em;
-	  	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+	  	font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
 	}
 
 	p.banner-subtitle{
@@ -697,6 +697,7 @@ a.top-link {
 
 	.row1-caption h1 {
 	  font-size: 2em;
+	  font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
 	}
 
 	.row-4{
