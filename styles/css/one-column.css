@@ -676,6 +676,13 @@ a.top-link {
 
 }
 
+@media (max-width: 950px)  {
+	.row1-caption {
+	  font-size: 12px;
+	}
+}
+
+
 @media (max-width: 767px)  {
 
 	body{
@@ -779,7 +786,11 @@ a.top-link {
 
 }
 
-
+@media (max-width: 600px)  {
+	.row1-caption {
+	  font-size: 11px;
+	}
+}
 
 @media (max-width: 479px)  {
 
