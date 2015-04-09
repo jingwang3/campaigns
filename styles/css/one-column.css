@@ -231,7 +231,8 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
 	letter-spacing: .04em;
 	color: #ffffff;
 	background-color: #c82a16;
-	padding: 5px 20px;
+	line-height: 1;
+	padding: 8px 20px;
 }
 
 .btn-form:hover {
@@ -380,7 +381,7 @@ p.new-color {
 	cursor:pointer;
 }
 .row-2 .box-left{
-	padding-top: 100px;
+	padding-top: 45px;
 }
 
 .row-4 {
