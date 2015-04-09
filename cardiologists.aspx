@@ -112,10 +112,10 @@
   		<!--Meet Our Doctors -->
 		<article id="docSec">
 	  		<div class="row row-3 content-row meet-doctors">
-	  			<a class="loc-pin" id="loc1" trackinglabel="Leesburg Pin" title="Leesburg" ng-click="loadDocs('leesburg')"></a>
+	  			<a class="loc-pin active" id="loc1" trackinglabel="Leesburg Pin" title="Leesburg" ng-click="loadDocs('leesburg')"></a>
 	  			<a class="loc-pin" id="loc2" trackinglabel="Arlington Pin" title="Arlington" ng-click="loadDocs('arlington')"></a>
 	  			<a class="loc-pin" id="loc3" trackinglabel="Fairfax Pin" title="Fairfax" ng-click="loadDocs('fairfax')"></a>
-	  			<a class="loc-pin active" id="loc4" trackinglabel="Fredericksburg Pin" title="Fredericksburg" ng-click="loadDocs('fredericksburg')"></a>
+	  			<a class="loc-pin" id="loc4" trackinglabel="Fredericksburg Pin" title="Fredericksburg" ng-click="loadDocs('fredericksburg')"></a>
 				<div class="container">
 					<h1>Meet Your Doctors</h1>
 					<div class="col-xs-6 col-sm-7">
@@ -145,10 +145,10 @@
 				</div>
 			</div>
 	  		<div class="row row-3 content-row meet-doctors-mobile" >
-	  			<a class="loc-pin loc-pin-mobile" id="loc1" trackinglabel="Leesburg Pin Mobile" title="Leesburg" ng-click="loadDocs('leesburg')"></a>
+	  			<a class="loc-pin loc-pin-mobile active" id="loc1" trackinglabel="Leesburg Pin Mobile" title="Leesburg" ng-click="loadDocs('leesburg')"></a>
 	  			<a class="loc-pin loc-pin-mobile" id="loc2" trackinglabel="Arlington Pin Mobile" title="Arlington" ng-click="loadDocs('arlington')"></a>
 	  			<a class="loc-pin loc-pin-mobile" id="loc3" trackinglabel="Fairfax Pin Mobile" title="Fairfax" ng-click="loadDocs('fairfax')"></a>
-	  			<a class="loc-pin loc-pin-mobile active" id="loc4" trackinglabel="Fredericksburg Pin Mobile" title="Fredericksburg" ng-click="loadDocs('fredericksburg')"></a>
+	  			<a class="loc-pin loc-pin-mobile" id="loc4" trackinglabel="Fredericksburg Pin Mobile" title="Fredericksburg" ng-click="loadDocs('fredericksburg')"></a>
 				<div class="container">
 					<h1>Meet Your Doctors</h1>
 					<p class="tap-text">[ tap the pins to learn more ]</p>
