@@ -86,7 +86,7 @@
 	  					<h1>Our Cardiologists are World Renowned and Neighborhood Based.</h1>
 						<p class="banner-subtitle">With multiple locations in Northern Virginia, our top pediatric cardiologists are always close to you.</p>
 						<a class="btn better-font btn-form btn-cardio hidden-xs scrollToMap" role="button" trackinglabel="Meet Our Virginia Cardiologists">Meet Our Virginia Cardiologists</a>
-						<a class="btn better-font btn-form btn-cardio hidden-sm hidden-md hidden-lg scrollToMap" role="button" trackinglabel="Meet Our Docs">Meet Our Docs</a>
+						<a class="btn better-font btn-form btn-cardio hidden-sm hidden-md hidden-lg scrollToMap" role="button" trackinglabel="Meet Our Docs">Meet Our VA Docs</a>
 					</div>
 				</div>
 	  		</div>
