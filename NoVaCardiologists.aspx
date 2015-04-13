@@ -97,8 +97,8 @@
 	  		<div class="row row-2 paw-row content-row">
 	  			<div class="container">
 		  			<div class="col-xs-8">
-		  				<p class="new-color box-left">As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our availability &mdash;being there for your child&mdash; is what matters the most. And while we're strongly established in Washington, DC, we're also right here in your neck of the woods: Northern Virginia.</p>
-						<p class="new-color">Explore our locations and get acquainted with doctors that are just right for kids, and just right for you.</p>
+		  				<p class="new-color box-left">As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our convenience and availability&mdash;being there for your child&mdash;is what matters most. That’s why we’re right here in your neck of the words: Northern Virginia.</p>
+						<p class="new-color">Explore our locations and get acquainted with top-rated doctors that are just right for kids, and just right for you.”</p>
 		  			</div>
 		  			<div class="col-xs-4">
 		  				<div class="paw-box">
@@ -182,8 +182,8 @@
 	  		<div class="row row-4 content-row">	
 					<div class="container">
 					<ul>
-						<li>The combined years of training of our 35+ cardiology specialists is unmatched in the Washington, DC, area.</li>
-						<li>We perform the most pediatric surgeries in the Washington, DC, area, with some of the highest success rates in the nation.</li>
+						<li>The combined years of experience of our 35+ cardiology specialists is unmatched in the Washington, DC, area.</li>
+						<li>We perform the most pediatric surgeries in the Washington, DC, area, with some of the best outcomes in the nation.</li>
 						<li>Northern Virginia Magazine lists seven of our doctors as the top pediatric cardiologists in the area.</li>
 						<li>We're a leader in clinical research programs and surgical innovations.</li>
 						<li>U.S. News &amp; World Report consistently ranks us among the top pediatric hospitals in the nation.</li>
