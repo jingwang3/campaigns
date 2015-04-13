@@ -97,8 +97,8 @@
 	  		<div class="row row-2 paw-row content-row">
 	  			<div class="container">
 		  			<div class="col-xs-8">
-		  				<p class="new-color box-left">As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our convenience and availability&mdash;being there for your child&mdash;is what matters most. That’s why we’re right here in your neck of the words: Northern Virginia.</p>
-						<p class="new-color">Explore our locations and get acquainted with top-rated doctors that are just right for kids, and just right for you.”</p>
+		  				<p class="new-color box-left">As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our convenience and availability&mdash;being there for your child&mdash;is what matters most. That's why we're right here in your neck of the words: Northern Virginia.</p>
+						<p class="new-color">Explore our locations and get acquainted with top-rated doctors that are just right for kids, and just right for you.</p>
 		  			</div>
 		  			<div class="col-xs-4">
 		  				<div class="paw-box">
