@@ -233,6 +233,7 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
 	background-color: #c82a16;
 	line-height: 1;
 	padding: 8px 20px;
+	font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
 }
 
 .btn-form:hover {
