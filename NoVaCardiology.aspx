@@ -47,7 +47,7 @@
 	  <div class="container-fluid">
 	  	<div class="navbar-left">
 	      <a class="navbar-brand hidden-xs">
-	        <img alt="Children's National Health System" height="100%" src="files/images/logo-lg.png">
+	        <img alt="Children's National Health System" height="76" width="381" src="files/images/logo-lg.png">
 	      </a>
 	    </div>
       	<div class="navbar-right">
@@ -63,8 +63,8 @@
 	  <div class="container-fluid">
 	  	<div class="navbar-left">
 	      <a class="navbar-brand hidden-md hidden-sm hidden-lg brand-logo-link">
-	        <img class="logo-small" alt="Children's National Health System" width="140" src="files/images/logo-sm-140.png">
-	        <img class="logo-very-small" alt="Children's National Health System" width="120" src="files/images/logo-sm-120.png">
+	        <img class="logo-small" alt="Children's National Health System" width="140" height="56" src="files/images/logo-sm-140.png">
+	        <img class="logo-very-small" alt="Children's National Health System" width="120" height="48" src="files/images/logo-sm-120.png">
 	      </a>
 	    </div>
       	<div class="navbar-right">
