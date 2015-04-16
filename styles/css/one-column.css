@@ -290,12 +290,6 @@ a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
 	margin-bottom: -65px;
 }
 
-.phone-number-box {
-	line-height: 1;
-	position: relative;
-	padding: 20px;
-}
-
 .header-appt-phone { 
 	color: #d72d1e; 
 	font-size: 1.75em;
