@@ -148,6 +148,18 @@ body > .container { padding: 80px 15px 0; }
 
 
 /*CAMPAIGN SPECIFIC OVERRIDES GO BELOW*/
+.map-heading{
+  background-color: #524D4D;
+}
+
+.map-heading h1{
+  color: #FFF;
+  margin: 0;
+  line-height: 1;
+  padding: 10px 0;
+  font-size: 2em;
+}
+
 #map-canvas {
   height: 500px;
 }

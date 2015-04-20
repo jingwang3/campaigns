@@ -111,6 +111,7 @@
   		<!--Meet Our Doctors -->
 		<article id="mapSec">
 		<div class="row">
+			<div class="map-heading"><h1 class="text-center better-font">Find A Top Pediatrician In Your Area</h1></div>
 			<div id="map-canvas"></div>
 			</div>
 		</article>
@@ -145,7 +146,6 @@
 	      </div>
 	   </div>
    </footer>
-
    <script src="lib/js/jquery.min.js"></script>
    <script src="bootstrap/js/bootstrap.min.js"></script>
    <script src="http://childrensnational.org/~/media/cnhs-site/files/js/event_tracking.js"></script>
