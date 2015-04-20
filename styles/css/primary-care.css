@@ -84,9 +84,9 @@ a:hover{ text-decoration: none; }
 
 .shadowing{  
 	box-shadow:2px 2px 15px 5px #4C4C4C;
-	-webkit-box-shadow:2px 2px 15px 5px #4C4C4C;
-	-moz-box-shadow:2px 2px 15px 5px #4C4C4C;
-}
+ 	-webkit-box-shadow:2px 2px 15px 5px #4C4C4C;
+ 	-moz-box-shadow:2px 2px 15px 5px #4C4C4C;
+ 	 }
 
 
 @media (min-width: 992px){ .panel{ min-height: 350px;} .panel-cardiology{ min-height: 320px;} }
@@ -148,10 +148,8 @@ body > .container { padding: 80px 15px 0; }
 
 
 /*CAMPAIGN SPECIFIC OVERRIDES GO BELOW*/
-html, body, #map-canvas {
-	height: 100%;
-	margin: 0px;
-	padding: 0px
+#map-canvas {
+  height: 500px;
 }
 
 body{
@@ -168,64 +166,6 @@ img.logo-very-small{
 
 .media-middle {
 	vertical-align: top;
-}
-
-/*CSS FOR PINS*/
-.loc-pin{
-	color: #F00;
-	position: absolute;
-	float: right;
-	background-image: url('../../files/images/pin_sm.png');
-	width: 48px;
-	height: 80px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: bottom center;
-	cursor: pointer;
-}
-.loc-pin.active{
-	background-image: url('../../files/images/pin_lg.png');
-	width: 64px;
-	height: 106px;
-}
-a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
-	background-image: url('../../files/images/pin_lg.png');
-	width: 64px;
-	height: 106px;
-	z-index: 200;
-}
-
-#loc1 {
-	right: 576px;
-	top: 19px;
-}
-#loc2 {
-	right: 333px;
-	top: 187px;
-}
-#loc3 {
-	right: 406px;
-	top: 202px;
-}
-#loc4 {
-	right: 584px;
-	top: 698px;
-}
-a#loc1:hover, a#loc1:focus, a#loc1:active, a#loc1.active{
-	right: 567px;
-	top: -5px;
-}
-a#loc2:hover, a#loc2:focus, a#loc2:active, a#loc2.active{
-	right: 326px;
-	top: 162px;
-}
-a#loc3:hover, a#loc3:focus, a#loc3:active, a#loc3.active{
-	right: 395px;
-	top: 184px;
-}
-a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
-	right: 573px;
-	top: 673px;
 }
 
 .btn-form {
@@ -506,11 +446,6 @@ form.campaign input {
 	color: #C82A16;
 }
 
-.doc-list{
-	position: absolute;
-	z-index: 100;
-	width: 100%;
-}
 
 .meet-doctors-mobile, .doc-list-tablet{
 	display: none;
@@ -539,11 +474,11 @@ a.top-link {
 
 @media (max-width: 1199px)  {
 	.row1-caption {
-		font-size: 14px;
+	  font-size: 14px;
 	}
 	.paw-box {
-		padding: 60px 20px;
-		font-size: 22px;
+	  padding: 60px 20px;
+	  font-size: 22px;
 	}
 }
 
@@ -572,34 +507,7 @@ a.top-link {
 		display:none;
 	}
 
-	.meet-doctors, .doc-list{
-		display: none;
-	}
 
-	.meet-doctors-mobile h1 {
-		font-size: 6em;
-		position: relative;
-		top:140px;
-		line-height: .90em;
-		text-transform: none;
-		color: #ffffff;
-		font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-	}
-
-	.doc-box-footer {  
-		font-size: 1em;
-	}
-
-
-	.doc-text-box h5 {
-		font-size: 1.3em;
-		padding-bottom: 2px;
-	}
-
-	.doc-text-box h6 {
-		font-size: 1.1em;
-		padding-bottom: 4px;
-	}
 
 	p.tap-text {
 		color: #ffffff;
@@ -608,79 +516,12 @@ a.top-link {
 		top: 140px;
 	}
 
-	.meet-doctors, .meet-doctors-mobile {
-		background-image: url('../../files/images/city_map_md.jpg');
-		min-height: 433px;
-		text-align: center;
-
-	}
-
-	.meet-doctors-mobile, .doc-list-tablet{
-		display: block;
-	}
-
-	.loc-pin{
-		background-image: url('../../files/images/pin_sm_mobile.png');
-		width: 30px;
-		height: 50px;
-	}
-
-	.loc-pin.active{
-		background-image: url('../../files/images/pin_lg_mobile.png');
-		width: 40px;
-		height: 66px;
-	}
-
-	a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
-		background-image: url('../../files/images/pin_lg_mobile.png');
-		width: 40px;
-		height: 66px;
-	}
-
-	#loc1 {
-		right: 305px;
-		top: -4px;
-	}
-
-	#loc2 {
-		right: 175px;
-		top: 91px;
-	}
-	#loc3 {
-		right: 214px;
-		top: 97px;
-	}
-	#loc4 {
-		right: 310px;
-		top: 365px;
-	}
-
-	a#loc1:hover, a#loc1:focus, a#loc1:active, a#loc1.active{
-		right: 300px;
-		top: -19px;
-	}
-	a#loc2:hover, a#loc2:focus, a#loc2:active, a#loc2.active{
-		right: 171px;
-		top: 73px;
-	}
-	a#loc3:hover, a#loc3:focus, a#loc3:active, a#loc3.active{
-		right: 210px;
-		top: 84px;
-	}
-	a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
-		right: 305px;
-		top: 349px;
-	}
-
-	ul.doc-desc li{
-		font-size: 1em;
-	}
 
 }
 
 @media (max-width: 950px)  {
 	.row1-caption {
-		font-size: 12px;
+	  font-size: 12px;
 	}
 }
 
@@ -730,67 +571,12 @@ a.top-link {
 		font-size: 3em;
 	}
 
-	.loc-pin{
-		background-image: url('../../files/images/pin_sm_mobile.png');
-		width: 30px;
-		height: 50px;
-	}
-
-	.loc-pin.active{
-		background-image: url('../../files/images/pin_lg_mobile.png');
-		width: 40px;
-		height: 66px;
-	}
-
-	a.loc-pin:hover, a.loc-pin:focus, a.loc-pin:active{
-		background-image: url('../../files/images/pin_lg_mobile.png');
-		width: 40px;
-		height: 66px;
-	}
-
-	.doc-list-mobile img{
-		float: left;
-		margin-right: 10px;
-	}
-
-	.doc-list-mobile .loc-wrapper .doc-in-loc{
-		overflow: hidden;
-		border-top: 1px solid red;
-		border-bottom: 1px solid red;
-		color: #000000;
-	}
-
-	.doc-list-mobile .doc-text-box h5, h6 {
-		padding-bottom: 0;
-	}
-
-	.doc-in-loc h4 {
-		padding-top: 5px;
-		font-weight: bold;
-	}
-
-	.doc-in-loc h5 {
-		font-size: 1.1em;
-		margin: 0;
-		padding: 0px;
-	}
-
-	.doc-in-loc h6 {
-		font-size: .95em;
-		margin-top: 3px;
-		padding: 0px;
-	}
-
-	.doc-list-mobile ul.doc-desc{
-		margin-bottom: 0;
-		margin-top: 5px;
-	}
 
 }
 
 @media (max-width: 600px)  {
 	.row1-caption {
-		font-size: 11px;
+	  font-size: 11px;
 	}
 }
 
@@ -847,23 +633,6 @@ a.top-link {
 		font-size: 1.3em;
 	}
 
-	#loc1 {
-		right: 135px;
-		top: -28px;
-	}
-
-	#loc2 {
-		right: 74px;
-		top: 15px;
-	}
-	#loc3 {
-		right: 92px;
-		top: 22px;
-	}
-	#loc4 {
-		right: 137px;
-		top: 147px;
-	}
 
 	.meet-doctors, .meet-doctors-mobile {
 		background-image: url('../../files/images/city_map_sm.jpg');
@@ -892,23 +661,6 @@ a.top-link {
 	}
 
 
-	a#loc1:hover, a#loc1:focus, a#loc1:active, a#loc1.active{
-		right: 130px;
-		top: -45px;
-	}
-	a#loc2:hover, a#loc2:focus, a#loc2:active, a#loc2.active{
-		right: 69px;
-		top: 0px;
-	}
-	a#loc3:hover, a#loc3:focus, a#loc3:active, a#loc3.active{
-		right: 88px;
-		top: 6px;
-	}
-	a#loc4:hover, a#loc4:focus, a#loc4:active, a#loc4.active{
-		right: 133px;
-		top: 133px;
-	}
-
 	form.campaign, .campaign-confirm {
 		margin: 0 auto 50px auto;
 		width: 274px;
@@ -926,23 +678,3 @@ a.top-link {
 
 }
 
-
-/*animation section*/
-.fade-in{
-	-webkit-animation-name: example; /* Chrome, Safari, Opera */
-	-webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
-	animation-name: example;
-	animation-duration: 1.5s;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes example {
-	from {opacity: 0;}
-	to {opacity: 1;}
-}
-
-/* Standard syntax */
-@keyframes example {
-	from {opacity: 0;}
-	to {opacity: 1;}
-}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="campaignApp">
+<html lang="en">
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta charset="UTF-8">
@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.campaign.min.css">
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="styles/css/one-column.css">
+	<link rel="stylesheet" href="styles/css/primary-care.css">
 	<!-- Latest compiled and minified JavaScript -->
 
   	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -28,7 +28,6 @@
 	  ga('send', 'pageview');
 
 	</script>
-
 	<!--[if IE]>
 	<style>
 	    .IE-only {
@@ -40,7 +39,7 @@
 	</style>
 	<![endif]-->
 </head>
-<body ng-controller="LocationsController">
+<body>
   <header>
 	<nav class="navbar navbar-fixed-top navbar-default hidden-xs">
 	<div class="red-bar"></div>
@@ -110,70 +109,9 @@
   		</article>
   		<!--Expert Care -->
   		<!--Meet Our Doctors -->
-		<article id="docSec">
-	  		<div class="row row-3 content-row meet-doctors">
-	  			<a class="loc-pin active" id="loc1" trackinglabel="Leesburg Pin" title="Leesburg" ng-click="loadDocs('leesburg')"></a>
-	  			<a class="loc-pin" id="loc2" trackinglabel="Arlington Pin" title="Arlington" ng-click="loadDocs('arlington')"></a>
-	  			<a class="loc-pin" id="loc3" trackinglabel="Fairfax Pin" title="Fairfax" ng-click="loadDocs('fairfax')"></a>
-	  			<a class="loc-pin" id="loc4" trackinglabel="Fredericksburg Pin" title="Fredericksburg" ng-click="loadDocs('fredericksburg')"></a>
-				<div class="container">
-					<h1>Meet Your Doctors</h1>
-					<div class="col-xs-6 col-sm-7">
-						<a id="closeBtn" trackinglabel="Doc List Close Btn"><span class="glyphicon glyphicon-remove-circle doc-list-close" ng-if="filterExp.city != null" aria-hidden="true" ng-click="loadDocs(null)"></span></a>
-						<div class="doc-list" ng-class="{shadowing: filterExp.city != null}">
-							<div class="{{loc.name}} loc-wrapper fade-in" ng-repeat="loc in locations | filter:filterExp">
-								<div class="media campaign-media" ng-repeat="doc in loc.doctors">
-								  <div class="media-left media-middle">
-								      <img class="media-object" width="115" src="{{doc.image_url}}" alt="{{doc.name}}">
-								  </div>
-								  <div class="media-body doc-text-box">
-								    <h4 class="media-heading doc-name lighter-font">{{doc.name}}</h4>
-								    <h5 class="media-subheading doc-title lighter-font">{{doc.title}}</h5>
-								    <h6 class="media-subheading doc-title-sub lighter-font" ng-if="doc.sub_title">{{doc.sub_title}}</h6>
-								    <ul class="doc-desc">
-								    	<li ng-repeat="des in doc.desc">{{des}}</li>
-								    </ul>
-								  </div>
-								</div>
-								<div class="doc-box-footer">
-								<p>{{loc.name}}</p>
-								<p>{{loc.desc}}</p>
-								</div>	
-							</div>	
-						</div>
-					</div>
-				</div>
-			</div>
-	  		<div class="row row-3 content-row meet-doctors-mobile" >
-	  			<a class="loc-pin loc-pin-mobile active" id="loc1" trackinglabel="Leesburg Pin Mobile" title="Leesburg" ng-click="loadDocs('leesburg')"></a>
-	  			<a class="loc-pin loc-pin-mobile" id="loc2" trackinglabel="Arlington Pin Mobile" title="Arlington" ng-click="loadDocs('arlington')"></a>
-	  			<a class="loc-pin loc-pin-mobile" id="loc3" trackinglabel="Fairfax Pin Mobile" title="Fairfax" ng-click="loadDocs('fairfax')"></a>
-	  			<a class="loc-pin loc-pin-mobile" id="loc4" trackinglabel="Fredericksburg Pin Mobile" title="Fredericksburg" ng-click="loadDocs('fredericksburg')"></a>
-				<div class="container">
-					<h1>Meet Your Doctors</h1>
-					<p class="tap-text">[ tap the pins to learn more ]</p>
-				</div>
-			</div>
-			<div class="row doc-list-tablet">
-				<div class="{{loc.name}} loc-wrapper" ng-repeat="loc in locations | filter:filterExp">
-					<div class="media campaign-media" ng-repeat="doc in loc.doctors">
-						<div class="media-left media-middle">
-							<img class="media-object" width="95" src="{{doc.image_url}}" alt="{{doc.name}}">
-						</div>
-						<div class="media-body doc-text-box">
-							<h4 class="media-heading doc-name lighter-font"><b>{{doc.name}}</b></h4>
-							<h5 class="media-subheading doc-title lighter-font">{{doc.title}}</h5>
-							<h6 class="media-subheading doc-title-sub lighter-font" ng-if="doc.sub_title">{{doc.sub_title}}</h6>
-							<ul class="doc-desc">
-								<li ng-repeat="des in doc.desc">{{des}}</li>
-							</ul>
-						</div>
-					</div>
-					<div class="doc-box-footer">
-						<p>{{loc.name}}</p>
-						<p class="sub-desc">{{loc.desc}}</p>
-					</div>	
-				</div>
+		<article id="mapSec">
+		<div class="row">
+			<div id="map-canvas"></div>
 			</div>
 		</article>
         <!-- Meet Our Doctors -->
@@ -195,51 +133,7 @@
         <!-- Why Children's -->
         <!--Expert Care -->
         <article id="formSec">
-	  		<div class="row contact-row content-row">
-	  			<div class="container">
-	  				<h1>Let's Talk</h1>
-	  				<div class="text-center">
-		  				<p class="text-center new-color text-museo"><span class="inline-block">We're here to help.</span> <span class="inline-block">Call to schedule an appointment:</span></p>
-		  				<a href="tel:7035311555" trackingLabel="Phone Number Above Form"><span class="form-appt-phone better-font">(703) 531-1555</span></a>
-	  					<p class="text-center new-color text-museo text-small"><span class="inline-block">Or we can call you.</span> <span class="inline-block">Submit your info below:</span></p>
-	  					<div class="well campaign-confirm hidden" id="formConfirmationBox">
-	  						<h1>THANK YOU.</h1>
-	  						<p>WE'LL BE IN TOUCH WITH YOU SHORTLY.</p>
-	  					</div>
-	  					<form class="campaign" trackinglabel="Let's talk ajax form" action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form" target="_self">
-	  						<div class="form-group">
-	  							<b class="IE-only text-center">Your Name</b>
-	  							<input class="form-control input-sm" id="userName" type="text" name="entry.916599135" placeholder="NAME" required>
-	  						</div>
-	  						<div class="form-group">
-	  							<b class="IE-only text-center">Phone Number</b>
-	  							<input class="form-control input-sm" id="userPhone" type="text" name="entry.354822211" placeholder="PHONE" required>
-	  						</div>
-	  						<div class="form-group">
-	  							<b class="IE-only text-center">Zipcode</b>
-	  							<input class="form-control input-sm" id="userZipcode" type="text" name="entry.272965353" placeholder="ZIP CODE" required>
-	  						</div>
-	  						<button type="submit" id="submitBtn" class="btn btn-form better-font">Submit</button>
-	  					</form>
-	  					<form class="campaign IE-only" trackinglabel="Let's talk IE form" action="https://docs.google.com/forms/d/1pf_-jg-bMcKUJ44xU6Tqr_juF1L-4VwgNseiX9MQZG0/formResponse" method="POST" id="ss-form-IE" target="_self">
-	  						<div class="form-group">
-	  							<b class="IE-only text-center">Your Name</b>
-	  							<input class="form-control input-sm" id="userNameIE" type="text" name="entry.916599135" placeholder="NAME" required>
-	  						</div>
-	  						<div class="form-group">
-	  							<b class="IE-only text-center">Phone Number</b>
-	  							<input class="form-control input-sm" id="userPhoneIE" type="text" name="entry.354822211" placeholder="PHONE" required>
-	  						</div>
-	  						<div class="form-group">
-	  							<b class="IE-only text-center">Zipcode</b>
-	  							<input class="form-control input-sm" id="userZipcodeIE" type="text" name="entry.272965353" placeholder="ZIP CODE" required>
-	  						</div>
-	  						<button type="button" id="submitBtnIE" class="btn btn-form better-font">Submit</button>
-	  					</form>
-						<a class="top-link" trackinglabel="Back to Top" href="#top">Back to top</a>
-	  				</div>
-	  			</div>
-	  		</div>
+
 	  		</article>
   		<!--Expert Care -->
   	</div>
@@ -247,15 +141,15 @@
   <footer>
 	  <div class="footer">
 	      <div class="container">
-	        <p class="text-muted text-center better-font"><a href="http://childrensnational.org/cardiology" trackingLabel="Footer CNHS Link"><span>childrensnational.org/cardiology</span></a></p>
+	        <p class="text-muted text-center better-font"><a href="http://childrensnational.org/primary" trackingLabel="Footer CNHS Link"><span>childrensnational.org/primary</span></a></p>
 	      </div>
 	   </div>
    </footer>
+
    <script src="lib/js/jquery.min.js"></script>
    <script src="bootstrap/js/bootstrap.min.js"></script>
-   <script src="lib/js/angular.min.js"></script>
    <script src="http://childrensnational.org/~/media/cnhs-site/files/js/event_tracking.js"></script>
-   <script src="lib/js/cardiologists.js"></script>
-   <script src="lib/js/controller.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+   <script src="lib/js/primarycare.js"></script>
 </body>
 </html>
