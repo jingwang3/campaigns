@@ -219,6 +219,13 @@ img.logo-very-small{
 	line-height: 1.5;
 }
 
+.row ul { 
+	padding-left: 16px;
+}
+
+.row h1{
+	color: red;
+}
 .row-4 ul li { 
 	color: #fff;
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
@@ -228,9 +235,6 @@ img.logo-very-small{
 	padding-left: 0px;
 }
 
-.row ul { 
-	padding-left: 16px;
-}
 .row-1, .row-4, .owbox{
 	color: #fff;
 }
@@ -247,6 +251,10 @@ img.logo-very-small{
 	font-size: 4.5em;
 	font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
 	margin-bottom: -65px;
+}
+
+.row-7{
+	background-color: #DDD;
 }
 
 .header-appt-phone { 
@@ -369,17 +377,17 @@ p.text-small {
 }
 
 .paw-box {
-	height: 220px;
 	background-color: #c92b2c;
-	position: relative;
-	top: -80px;
 	border-radius: 0 50px;
-	z-index: -100;
 	padding: 60px 50px;
 	color: #ffffff;
-	font-style: italic;
-	font-size: 1.4em;
-	margin-bottom: 50px;
+}
+
+.paw-box-reverse {
+	background-color: #c92b2c;
+	border-radius: 50px 0;
+	padding: 60px 50px;
+	color: #ffffff;
 }
 
 .campaign-media{
@@ -435,29 +443,11 @@ ul.doc-desc li{
 }
 
 .form-group {
-	margin-bottom: 0;
+	margin-bottom: 5px;
 }
 
-form.campaign, .campaign-confirm {
-	margin: 0 auto 50px auto;
-	width: 400px;
-}
-
-form.campaign input {
-	background-color: #fcfbfa;
-	margin-bottom: 3px;
-	height: 40px;
-	color: #786a65;
-	font-size: 1em;
-}
-
-.campaign-confirm h1{
-	font-size:1em;
-}
-
-.campaign-confirm p{
-	font-size: 1em;
-	color: #C82A16;
+.form-group .form-control{
+	background-color: #E0E0E0;
 }
 
 

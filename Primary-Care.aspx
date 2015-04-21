@@ -33,9 +33,6 @@
 	    .IE-only {
 	         display: block;
 	    }
-	    #ss-form{
-	    	display: none;
-	    }
 	</style>
 	<![endif]-->
 </head>
@@ -103,7 +100,7 @@
   		<!--Expert Care -->
   		<!--Meet Our Doctors -->
 		<article id="mapSec">
-		<div class="row">
+		<div class="row row-3 content-row">
 			<div class="map-heading"><h1 class="text-center better-font">Find A Top Pediatrician In Your Area</h1></div>
 			<div id="map-canvas"></div>
 			</div>
@@ -126,9 +123,83 @@
 		</article>
         <!-- Why Children's -->
         <!--Expert Care -->
+        <article id="imgSec">
+	  		<div class="row row-5 content-row">	
+					<div class="container">		
+					</div>
+			</div>
+	  	</article>
         <article id="formSec">
-
-	  		</article>
+	  		<div class="row row-6 content-row">	
+				<div class="container">
+					<h1 class="better-font">Get a free children's book, courtsey of Dr. Bear.</h1>
+					<div class="col-sm-6">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maiores, autem sequi, commodi alias nisi eaque temporibus soluta minima. Ipsa, unde dolorum ratione enim et reiciendis qui sint fuga eum.</p>
+					</div>
+					<div class="col-sm-6">
+						<form class="form-horizontal">
+						  <div class="form-group">
+						  	<div class="col-sm-6">
+							    <label class="sr-only" for="firstName">First</label>
+							    <input type="text" class="form-control" id="firstName" placeholder="First">
+						  	</div>
+						  	<div class="col-sm-6">
+						    	<label class="sr-only" for="lastName">Last</label>
+						    	<input type="text" class="form-control" id="lastName" placeholder="Last">						  		
+						  	</div>
+						  </div>
+						  <div class="form-group">
+						  	<div class="col-sm-12">
+							    <label class="sr-only" for="street">Street</label>
+							    <input type="text" class="form-control" id="street" placeholder="Street">
+						  	</div>
+						  </div>
+						  <div class="form-group">
+						  	<div class="col-sm-4">
+						    	<label class="sr-only" for="city">City</label>
+						    	<input type="text" class="form-control" id="city" placeholder="City">						  		
+						  	</div>
+						  	<div class="col-sm-4 col-xs-6">
+						    	<label class="sr-only" for="state">State</label>
+						    	<input type="text" class="form-control" id="state" placeholder="State">						  		
+						  	</div>
+						  	<div class="col-sm-4 col-xs-6">
+						    	<label class="sr-only" for="zip">ZIP</label>
+						    	<input type="text" class="form-control" id="zip" placeholder="ZIP">						  		
+						  	</div>
+						  </div>
+						  <div class="form-group">
+						  	<div class="col-sm-12">
+						    	<label class="sr-only" for="email">E-mail</label>
+						    	<input type="email" class="form-control" id="email" placeholder="E-mail">				  		
+						  	</div>
+						  </div>
+						  <div class="text-center">
+						  	<button type="submit" class="btn btn-form">Submit</button>
+						  </div>
+						</form>
+					</div>
+				</div>
+			</div>
+	  	</article>
+        <article id="pdfSec">
+	  		<div class="row row-7 content-row">	
+				<div class="container">
+					<h1 class="better-font">Helpful pointers for finding a great pediatrician</h1>
+					<div class="col-sm-6">
+						<div class="paw-box-reverse">
+		  					<p class="paw-text">We're at the heart of the matter,<br>close to your child.</p>
+		  				</div>
+					</div>
+					<div class="col-sm-6">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maiores, autem sequi, commodi alias nisi eaque temporibus soluta minima. Ipsa, unde dolorum ratione enim et reiciendis qui sint fuga eum.</p>
+						<div class="text-center">
+							<a class="btn btn-form" role="button" trackinglabel="PDF Download">Download Our Tips (PDF)</a>
+						</div>
+					</div>
+				</div>
+			</div>
+	  	</article>
   		<!--Expert Care -->
   	</div>
   </section>
