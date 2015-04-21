@@ -137,45 +137,45 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maiores, autem sequi, commodi alias nisi eaque temporibus soluta minima. Ipsa, unde dolorum ratione enim et reiciendis qui sint fuga eum.</p>
 					</div>
 					<div class="col-sm-6">
-						<form class="form-horizontal" autocomplete="off">
+						<form class="form-horizontal" autocomplete="off" action="https://docs.google.com/forms/d/1lTB1pPqBGN2-Xl__tGzX-PJ2tDNPYpEDMt3ybQzGDgY/formResponse" method="POST" id="ss-form" target="_self">
 						  <div class="form-group">
 						  	<div class="col-sm-6 form-field">
 							    <label class="sr-only" for="firstName">First</label>
-							    <input type="text" class="form-control" id="firstName" placeholder="First" required>
+							    <input type="text" class="form-control" id="firstName" name="entry_1701233357" placeholder="First" required>
 						  	</div>
 						  	<div class="col-sm-6 form-field">
 						    	<label class="sr-only" for="lastName">Last</label>
-						    	<input type="text" class="form-control" id="lastName" placeholder="Last" required>						  		
+						    	<input type="text" class="form-control" id="lastName" name="entry.166784206" placeholder="Last" required>						  		
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-12 form-field">
 							    <label class="sr-only" for="street">Street</label>
-							    <input type="text" class="form-control" id="street" placeholder="Street" required>
+							    <input type="text" class="form-control" id="street" name="entry.2053488114" placeholder="Street" required>
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-4 form-field">
 						    	<label class="sr-only" for="city">City</label>
-						    	<input type="text" class="form-control" id="city" placeholder="City" required>						  		
+						    	<input type="text" class="form-control" id="city" name="entry.123623823" placeholder="City" required>						  		
 						  	</div>
 						  	<div class="col-sm-4 col-xs-6 form-field">
 						    	<label class="sr-only" for="state">State</label>
-						    	<input type="text" class="form-control typeahead" id="state" placeholder="State" required>						  		
+						    	<input type="text" class="form-control typeahead" id="state" name="entry.672759851" placeholder="State" required>						  		
 						  	</div>
 						  	<div class="col-sm-4 col-xs-6 form-field">
 						    	<label class="sr-only" for="zip">ZIP</label>
-						    	<input type="text" class="form-control" id="zip" placeholder="ZIP" required>						  		
+						    	<input type="text" class="form-control" id="zip" name="entry.1363473429" placeholder="ZIP" required>						  		
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-12 form-field">
 						    	<label class="sr-only" for="email">E-mail</label>
-						    	<input type="email" class="form-control" id="email" placeholder="E-mail" required>				  		
+						    	<input type="email" class="form-control" id="email" name="entry.1206235931" placeholder="E-mail" required>				  		
 						  	</div>
 						  </div>
 						  <div class="text-center">
-						  	<input type="button" class="btn btn-form" value="Submit">
+						  	<input type="submit" class="btn btn-form" value="Submit">
 						  </div>
 						</form>
 					</div>
@@ -195,9 +195,9 @@
 							<a class="btn btn-form" role="button" trackinglabel="PDF Download">Download Our Tips (PDF)</a>
 						</div>
 					</div>
-					<div class="text-center">
+				</div>
+				<div class="container text-center">
 						<a class="top-link" trackinglabel="Back to Top" href="#top">Back to top</a>
-					</div>
 				</div>
 			</div>
 	  	</article>
