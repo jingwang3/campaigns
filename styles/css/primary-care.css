@@ -23,7 +23,7 @@ body{ font-size:16px; color: #877369; background-color: #FFF; }
 
 .head-line-text { font-size: 34px; margin-bottom: 20px; margin-top: 0; }
 
-.red-title{ color:#c82a16; }
+.red-title{ color:#ed2024; }
 
 .phone-number-lg{ margin-bottom: 0; font-size: 28px; font-weight: bold; }
 
@@ -35,13 +35,13 @@ body{ font-size:16px; color: #877369; background-color: #FFF; }
 
 .app-btn { margin: 25px 0 0 0; }
 
-.footer a span{ font-size: 1.875em; color: #c82a16; }
+.footer a span{ font-size: 1.875em; color: #ed2024; }
 
 .image-wrapper{ padding: 6px; margin-bottom: 20px; /*background-color: #ffffff; border: 1px solid #cacaca;*/ }
 
 .row-2 .panel-heading{ padding: 20px 0 0 0; }
 
-.row-2 .panel-title{ font-size:1.5em; text-align: center; color:#c82a16; }
+.row-2 .panel-title{ font-size:1.5em; text-align: center; color:#ed2024; }
 
 .row-2 .panel-title h3{ display: inline-block; }
 
@@ -58,14 +58,14 @@ body{ font-size:16px; color: #877369; background-color: #FFF; }
 /* override section*/
 
 .btn-cnhs {
-	background: #c82a16; /* Old browsers */
-	background: -moz-linear-gradient(top,  #c82a16 0, #d32621 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#c82a16), color-stop(100%,#d32621)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #c82a16 0,#d32621 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #c82a16 0,#d32621 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #c82a16 0,#d32621 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #c82a16 0,#d32621 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c82a16', endColorstr='#d32621',GradientType=0 ); /* IE6-9 */
+	background: #ed2024; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ed2024 0, #d32621 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#ed2024), color-stop(100%,#d32621)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ed2024 0,#d32621 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ed2024 0,#d32621 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ed2024 0,#d32621 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ed2024 0,#d32621 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed2024', endColorstr='#d32621',GradientType=0 ); /* IE6-9 */
 	background-repeat: repeat-x;
 	border-color: #B92C28;
 }
@@ -78,7 +78,7 @@ a:hover{ text-decoration: none; }
 
 .navbar-static-top, .navbar-fixed-top, .navbar-fixed-bottom{ box-shadow: #888 0px 0px 20px; }
 
-.row{  }
+.row {  }
 
 .panel{ box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.19); border: 1px solid #DBD6D4; }
 
@@ -188,7 +188,7 @@ img.logo-very-small{
 	margin-top: 15px;
 	letter-spacing: .04em;
 	color: #ffffff;
-	background-color: #c82a16;
+	background-color: #ed2024;
 	line-height: 1;
 	padding: 8px 20px;
 	font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
@@ -224,8 +224,13 @@ img.logo-very-small{
 }
 
 .row h1{
-	color: red;
+	color: #ed2024;
+	padding-bottom: 20px;
+	font-size: 2.5em;
+	font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
 }
+
+
 .row-4 ul li { 
 	color: #796b68;
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
@@ -240,14 +245,16 @@ img.logo-very-small{
 }
 .row-3{ margin: 0 0 0 0; overflow: visible;}
 
-.row-4, .row-2{
+.row-2{
 	padding:100px 0;
 }
 
-
+.row-4, .row-6, .row-7 {
+	padding: 60px 0;
+}
 
 .row-7{
-	background-color: #DDD;
+	background-color: #f0eeed;
 }
 
 .header-appt-phone { 
@@ -345,6 +352,11 @@ p.new-color {
 	color: #988b87;
 }
 
+.row-3 h1 {
+	color: #FFFFFF;
+}
+
+
 .row-5 {
 	max-width: 1920px;
 	background-image: url('../../files/images/children-1920.jpg');
@@ -362,7 +374,7 @@ p.new-color {
 
 .contact-row h1 {
 	text-transform: none;
-	color: #c82a16;
+	color: #ed2024;
 	font-size: 3.5em;
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
 }
@@ -377,7 +389,7 @@ p.text-small {
 }
 
 .form-appt-phone {
-	color: #c82a16;
+	color: #ed2024;
 	font-size: 2.5em;
 }
 

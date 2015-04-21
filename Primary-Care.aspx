@@ -185,11 +185,9 @@
         <article id="pdfSec">
 	  		<div class="row row-7 content-row">	
 				<div class="container">
-					<h1 class="better-font">Helpful pointers for finding a great pediatrician</h1>
+					<h1 class="better-font">Helpful pointers for finding a great pediatrician.</h1>
 					<div class="col-sm-6">
-						<div class="paw-box-reverse">
-		  					<p class="paw-text">We're at the heart of the matter,<br>close to your child.</p>
-		  				</div>
+	                <img alt="Helpful pointers for finding a pediatrician" height="360" width="550" src="files/images/bear-paw-image.jpg">
 					</div>
 					<div class="col-sm-6">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maiores, autem sequi, commodi alias nisi eaque temporibus soluta minima. Ipsa, unde dolorum ratione enim et reiciendis qui sint fuga eum.</p>
@@ -206,7 +204,7 @@
   <footer>
 	  <div class="footer">
 	      <div class="container">
-	        <p class="text-muted text-center better-font"><a href="http://childrensnational.org/primary" trackingLabel="Footer CNHS Link"><span>childrensnational.org/primary</span></a></p>
+	        <p class="text-muted text-center better-font"><a href="http://childrensnational.org/primary" trackingLabel="Footer CNHS Link"><span>childrensnational.org/primary-care</span></a></p>
 	      </div>
 	   </div>
    </footer>
