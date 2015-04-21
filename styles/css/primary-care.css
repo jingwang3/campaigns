@@ -447,7 +447,11 @@ ul.doc-desc li{
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.form-group {
+.form-group{
+	margin-bottom: 0;
+}
+
+.form-group .form-field{
 	margin-bottom: 5px;
 }
 
