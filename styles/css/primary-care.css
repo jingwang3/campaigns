@@ -237,7 +237,7 @@ img.logo-very-small{
 .row-3{ margin: 0 0 0 0; overflow: visible;}
 
 .row-4, .row-2{
-	padding:50px 0;
+	padding:100px 0;
 }
 
 .row-4 h3 {
@@ -278,8 +278,8 @@ img.logo-very-small{
 	background-image: url('../../files/images/fap-row1.jpg');
 	background-repeat: no-repeat;
 	z-index: 999;
-	background-color: #000;
-	min-height: 886px;
+	background-color: #fff;
+	min-height: 866px;
 	margin: 0 auto;
 }
 
@@ -287,22 +287,24 @@ img.logo-very-small{
 	font-size: 2.7em;
 	line-height: 1.2em;
 	font-weight: 500;
-	text-transform: uppercase;
-	color: #ffffff;
+	text-transform: none;
+	color: #ed2c1e;
 	font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
 }
 
 .row1-caption {
-	margin-top: 300px;
+	margin-top: 150px;
 	max-width: 600px;
 }
 
 p.banner-subtitle{
 	font-size: 1.5em;
+	color: #796b68;
 }
 
 p.new-color {
-	color: #786a65;
+	color: #796b68;
+	font-size: 1.8em;
 }
 
 .meet-doctors, .meet-doctors-mobile {

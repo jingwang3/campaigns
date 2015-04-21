@@ -80,10 +80,11 @@
   		<!--World Renowed -->	
   		<article id="bannerSec">
 	  		<div class="row row-1 content-row">
-				<div class="col-xs-offset-6 col-xs-6">
+				<div class="col-xs-offset-2 col-xs-3">
 	  				<div class="row1-caption">
-	  					<h1>Our Cardiologists are World Renowned and Neighborhood Based.</h1>
-						<p class="banner-subtitle">With multiple locations in Northern Virginia, our top pediatric cardiologists are always close to you.</p>
+	  					<h1>We have over 100 pediatricians in your area.</h1>
+	  					<h1>And one priority: your child.</h1>
+						<p class="banner-subtitle">Find a trusted pediatrician near you</p>
 						<a class="btn btn-form btn-cardio hidden-xs scrollToMap" role="button" trackinglabel="Meet Our Virginia Cardiologists">Meet Our Virginia Cardiologists</a>
 						<a class="btn btn-form btn-cardio hidden-sm hidden-md hidden-lg scrollToMap" role="button" trackinglabel="Meet Our Docs">Meet Our VA Docs</a>
 					</div>
@@ -95,15 +96,7 @@
   		<article id="pawSec">
 	  		<div class="row row-2 paw-row content-row">
 	  			<div class="container">
-		  			<div class="col-xs-8">
-		  				<p class="new-color box-left">As experts in pediatric cardiology, Children's National has established a worldwide reputation for care and innovation. But our convenience and availability&mdash;being there for your child&mdash;is what matters most. That's why we're right here in your neck of the words: Northern Virginia.</p>
-						<p class="new-color">Explore our locations and get acquainted with top-rated doctors that are just right for kids, and just right for you.</p>
-		  			</div>
-		  			<div class="col-xs-4">
-		  				<div class="paw-box">
-		  					<p class="paw-text">We're at the heart of the matter,<br>close to your child.</p>
-		  				</div>
-		  			</div>				
+		  				<p class="new-color">Whether you're new to the neighborhood, an expecting parent, or simply looking for the best doctors around&mdash;consider Children's National. We provide the highest quality of comprehensive, personalized pediatric care. It's just right for you, and just right for kids.</p>	
 	  			</div>
 	  		</div>
   		</article>
