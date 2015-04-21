@@ -110,6 +110,7 @@
         <article id="whySec">
 	  		<div class="row row-4 content-row">	
 					<div class="container">
+					<h1 class="better-font">Why Children's?</h1>	
 					<ul>
 						<li>The combined years of experience of our 35+ cardiology specialists is unmatched in the Washington, DC, area.</li>
 						<li>We perform the most pediatric surgeries in the Washington, DC, area, with some of the best outcomes in the nation.</li>
