@@ -137,39 +137,39 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maiores, autem sequi, commodi alias nisi eaque temporibus soluta minima. Ipsa, unde dolorum ratione enim et reiciendis qui sint fuga eum.</p>
 					</div>
 					<div class="col-sm-6">
-						<form class="form-horizontal">
+						<form class="form-horizontal" autocomplete="off">
 						  <div class="form-group">
-						  	<div class="col-sm-6">
+						  	<div class="col-sm-6 form-field">
 							    <label class="sr-only" for="firstName">First</label>
 							    <input type="text" class="form-control" id="firstName" placeholder="First">
 						  	</div>
-						  	<div class="col-sm-6">
+						  	<div class="col-sm-6 form-field">
 						    	<label class="sr-only" for="lastName">Last</label>
 						    	<input type="text" class="form-control" id="lastName" placeholder="Last">						  		
 						  	</div>
 						  </div>
 						  <div class="form-group">
-						  	<div class="col-sm-12">
+						  	<div class="col-sm-12 form-field">
 							    <label class="sr-only" for="street">Street</label>
 							    <input type="text" class="form-control" id="street" placeholder="Street">
 						  	</div>
 						  </div>
 						  <div class="form-group">
-						  	<div class="col-sm-4">
+						  	<div class="col-sm-4 form-field">
 						    	<label class="sr-only" for="city">City</label>
 						    	<input type="text" class="form-control" id="city" placeholder="City">						  		
 						  	</div>
-						  	<div class="col-sm-4 col-xs-6">
+						  	<div class="col-sm-4 col-xs-6 form-field">
 						    	<label class="sr-only" for="state">State</label>
-						    	<input type="text" class="form-control" id="state" placeholder="State">						  		
+						    	<input type="text" class="form-control typeahead" id="state" placeholder="State">						  		
 						  	</div>
-						  	<div class="col-sm-4 col-xs-6">
+						  	<div class="col-sm-4 col-xs-6 form-field">
 						    	<label class="sr-only" for="zip">ZIP</label>
 						    	<input type="text" class="form-control" id="zip" placeholder="ZIP">						  		
 						  	</div>
 						  </div>
 						  <div class="form-group">
-						  	<div class="col-sm-12">
+						  	<div class="col-sm-12 form-field">
 						    	<label class="sr-only" for="email">E-mail</label>
 						    	<input type="email" class="form-control" id="email" placeholder="E-mail">				  		
 						  	</div>
@@ -214,6 +214,7 @@
    <script src="bootstrap/js/bootstrap.min.js"></script>
    <script src="http://childrensnational.org/~/media/cnhs-site/files/js/event_tracking.js"></script>
    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+   <script src="lib/js/map.js"></script>
    <script src="lib/js/primarycare.js"></script>
 </body>
 </html>
