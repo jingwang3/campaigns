@@ -275,7 +275,7 @@ img.logo-very-small{
 
 .row-1 {
 	max-width: 1920px;
-	background-image: url('../../files/images/cardio-row1.jpg');
+	background-image: url('../../files/images/fap-row1.jpg');
 	background-repeat: no-repeat;
 	z-index: 999;
 	background-color: #000;
@@ -476,7 +476,7 @@ a.top-link {
 
 	.row-1 {
 		min-height: 663px;
-		background-image: url('../../files/images/cardio-1440.jpg');
+		background-image: url('../../files/images/fap-1440.jpg');
 	}
 
 	.row1-caption {
@@ -502,7 +502,7 @@ a.top-link {
 
 	.row-1 {
 		min-height: 471px;
-		background-image: url('../../files/images/cardio-1024.jpg');
+		background-image: url('../../files/images/fap-1024.jpg');
 	}
 	
 	.row1-caption h1 {
@@ -564,7 +564,7 @@ a.top-link {
 
 	.row-1 {
 		min-height: 354px;
-		background-image: url('../../files/images/cardio-768.jpg');
+		background-image: url('../../files/images/fap-768.jpg');
 	}
 
 	.row1-caption {
@@ -627,7 +627,7 @@ a.top-link {
 
 	.row-1 {
 		min-height: 221px;
-		background-image: url('../../files/images/cardio-480.jpg');
+		background-image: url('../../files/images/fap-480.jpg');
 	}
 
 	.btn-form {
