@@ -116,8 +116,7 @@
 						<li>Northern Virginia Magazine lists seven of our doctors as the top pediatric cardiologists in the area.</li>
 						<li>We're a leader in clinical research programs and surgical innovations.</li>
 						<li>U.S. News &amp; World Report consistently ranks us among the top pediatric hospitals in the nation.</li>
-					</ul>
-						<h3>Why Children's?</h3>		
+					</ul>	
 					</div>
 			</div>
 		</article>

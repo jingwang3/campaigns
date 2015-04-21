@@ -227,7 +227,7 @@ img.logo-very-small{
 	color: red;
 }
 .row-4 ul li { 
-	color: #fff;
+	color: #796b68;
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
 	font-size: 1.2em;
 	font-weight: 300;
@@ -244,14 +244,7 @@ img.logo-very-small{
 	padding:100px 0;
 }
 
-.row-4 h3 {
-	float: right;
-	color: #ffffff;
-	text-transform: uppercase;
-	font-size: 4.5em;
-	font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
-	margin-bottom: -65px;
-}
+
 
 .row-7{
 	background-color: #DDD;
@@ -289,6 +282,7 @@ img.logo-very-small{
 	background-color: #fff;
 	min-height: 866px;
 	margin: 0 auto;
+	background-position: right top;
 }
 
 .row1-caption h1 {
@@ -348,7 +342,18 @@ p.new-color {
 }
 
 .row-4 {
-	background-color: #988b87;
+	color: #988b87;
+}
+
+.row-5 {
+	max-width: 1920px;
+	background-image: url('../../files/images/children-1920.jpg');
+	background-repeat: no-repeat;
+	z-index: 999;
+	background-color: #fff;
+	min-height: 655px;
+	margin: 0 auto;
+	background-position: right top;
 }
 
 .contact-row {
@@ -474,6 +479,12 @@ a.top-link {
 	.row1-caption {
 		margin-top: 200px;
 	}
+
+	.row-5 {
+	min-height: 491px;
+	background-image: url('../../files/images/children-1440.jpg');
+	}
+
 }
 
 @media (max-width: 1199px)  {
@@ -511,6 +522,10 @@ a.top-link {
 		display:none;
 	}
 
+	.row-5 {
+	min-height: 349px;
+	background-image: url('../../files/images/children-1024.jpg');
+	}
 
 
 	p.tap-text {
@@ -571,9 +586,12 @@ a.top-link {
 	.row-4{
 		padding: 25px 15px 50px 15px;
 	}
-	.row-4 h3{
-		font-size: 3em;
+
+	.row-5 {
+	min-height: 262px;
+	background-image: url('../../files/images/children-768.jpg');
 	}
+
 
 
 }
@@ -637,6 +655,12 @@ a.top-link {
 		font-size: 1.3em;
 	}
 
+	.row-5 {
+	min-height: 164px;
+	background-image: url('../../files/images/children-480.jpg');
+	}
+
+
 
 	.meet-doctors, .meet-doctors-mobile {
 		background-image: url('../../files/images/city_map_sm.jpg');
@@ -670,9 +694,6 @@ a.top-link {
 		width: 274px;
 	}
 
-	.row-4 h3 {
-		margin-bottom: -59px;
-	}
 
 	#bannerSec .row1-caption{
 		left: 10px;
