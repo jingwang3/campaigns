@@ -141,41 +141,41 @@
 						  <div class="form-group">
 						  	<div class="col-sm-6 form-field">
 							    <label class="sr-only" for="firstName">First</label>
-							    <input type="text" class="form-control" id="firstName" placeholder="First">
+							    <input type="text" class="form-control" id="firstName" placeholder="First" required>
 						  	</div>
 						  	<div class="col-sm-6 form-field">
 						    	<label class="sr-only" for="lastName">Last</label>
-						    	<input type="text" class="form-control" id="lastName" placeholder="Last">						  		
+						    	<input type="text" class="form-control" id="lastName" placeholder="Last" required>						  		
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-12 form-field">
 							    <label class="sr-only" for="street">Street</label>
-							    <input type="text" class="form-control" id="street" placeholder="Street">
+							    <input type="text" class="form-control" id="street" placeholder="Street" required>
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-4 form-field">
 						    	<label class="sr-only" for="city">City</label>
-						    	<input type="text" class="form-control" id="city" placeholder="City">						  		
+						    	<input type="text" class="form-control" id="city" placeholder="City" required>						  		
 						  	</div>
 						  	<div class="col-sm-4 col-xs-6 form-field">
 						    	<label class="sr-only" for="state">State</label>
-						    	<input type="text" class="form-control typeahead" id="state" placeholder="State">						  		
+						    	<input type="text" class="form-control typeahead" id="state" placeholder="State" required>						  		
 						  	</div>
 						  	<div class="col-sm-4 col-xs-6 form-field">
 						    	<label class="sr-only" for="zip">ZIP</label>
-						    	<input type="text" class="form-control" id="zip" placeholder="ZIP">						  		
+						    	<input type="text" class="form-control" id="zip" placeholder="ZIP" required>						  		
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-12 form-field">
 						    	<label class="sr-only" for="email">E-mail</label>
-						    	<input type="email" class="form-control" id="email" placeholder="E-mail">				  		
+						    	<input type="email" class="form-control" id="email" placeholder="E-mail" required>				  		
 						  	</div>
 						  </div>
 						  <div class="text-center">
-						  	<button type="submit" class="btn btn-form">Submit</button>
+						  	<input type="button" class="btn btn-form" value="Submit">
 						  </div>
 						</form>
 					</div>
@@ -194,6 +194,9 @@
 						<div class="text-center">
 							<a class="btn btn-form" role="button" trackinglabel="PDF Download">Download Our Tips (PDF)</a>
 						</div>
+					</div>
+					<div class="text-center">
+						<a class="top-link" trackinglabel="Back to Top" href="#top">Back to top</a>
 					</div>
 				</div>
 			</div>
