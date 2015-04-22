@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie9 lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js gt-ie9" lang="en"> <!--<![endif]-->
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta charset="UTF-8">
@@ -137,45 +141,45 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maiores, autem sequi, commodi alias nisi eaque temporibus soluta minima. Ipsa, unde dolorum ratione enim et reiciendis qui sint fuga eum.</p>
 					</div>
 					<div class="col-sm-6">
-						<form class="form-horizontal" autocomplete="off" action="https://docs.google.com/forms/d/1lTB1pPqBGN2-Xl__tGzX-PJ2tDNPYpEDMt3ybQzGDgY/formResponse" method="POST" id="ss-form" target="_self">
+						<form id="ss-form" class="form-horizontal campaign" autocomplete="off" action="https://docs.google.com/forms/d/1lTB1pPqBGN2-Xl__tGzX-PJ2tDNPYpEDMt3ybQzGDgY/formResponse" method="POST" id="ss-form" target="_self">
 						  <div class="form-group">
 						  	<div class="col-sm-6 form-field">
 							    <label class="sr-only" for="firstName">First</label>
-							    <input type="text" class="form-control" id="firstName" name="entry_1701233357" placeholder="First" required>
+							    <input type="text" class="form-control required" id="firstName" name="entry_1701233357" placeholder="First" >
 						  	</div>
 						  	<div class="col-sm-6 form-field">
 						    	<label class="sr-only" for="lastName">Last</label>
-						    	<input type="text" class="form-control" id="lastName" name="entry.166784206" placeholder="Last" required>						  		
+						    	<input type="text" class="form-control required" id="lastName" name="entry_166784206" placeholder="Last" >						  		
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-12 form-field">
 							    <label class="sr-only" for="street">Street</label>
-							    <input type="text" class="form-control" id="street" name="entry.2053488114" placeholder="Street" required>
+							    <input type="text" class="form-control required" id="street" name="entry_2053488114" placeholder="Street" >
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-4 form-field">
 						    	<label class="sr-only" for="city">City</label>
-						    	<input type="text" class="form-control" id="city" name="entry.123623823" placeholder="City" required>						  		
+						    	<input type="text" class="form-control required" id="city" name="entry_123623823" placeholder="City" >						  		
 						  	</div>
 						  	<div class="col-sm-4 col-xs-6 form-field">
 						    	<label class="sr-only" for="state">State</label>
-						    	<input type="text" class="form-control typeahead" id="state" name="entry.672759851" placeholder="State" required>						  		
+						    	<input type="text" class="form-control required" id="state" name="entry_672759851" placeholder="State" >						  		
 						  	</div>
 						  	<div class="col-sm-4 col-xs-6 form-field">
 						    	<label class="sr-only" for="zip">ZIP</label>
-						    	<input type="text" class="form-control" id="zip" name="entry.1363473429" placeholder="ZIP" required>						  		
+						    	<input type="text" class="form-control required" id="zip" name="entry_1363473429" placeholder="ZIP" >						  		
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-12 form-field">
 						    	<label class="sr-only" for="email">E-mail</label>
-						    	<input type="email" class="form-control" id="email" name="entry.1206235931" placeholder="E-mail" required>				  		
+						    	<input type="email" class="form-control required" id="email" name="entry_1206235931" placeholder="E-mail" >				  		
 						  	</div>
 						  </div>
 						  <div class="text-center">
-						  	<input type="submit" class="btn btn-form" value="Submit">
+						  	<input type="button" id="submitBtn" class="btn btn-form" value="Submit">
 						  </div>
 						</form>
 					</div>
@@ -187,7 +191,7 @@
 				<div class="container">
 					<h1 class="better-font">Helpful pointers for finding a great pediatrician.</h1>
 					<div class="col-sm-6">
-	                <img alt="Helpful pointers for finding a pediatrician" height="360" width="550" src="files/images/bear-paw-image.jpg">
+	                	<img alt="Helpful pointers for finding a pediatrician" height="360" width="550" src="files/images/bear-paw-image.jpg">
 					</div>
 					<div class="col-sm-6">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maiores, autem sequi, commodi alias nisi eaque temporibus soluta minima. Ipsa, unde dolorum ratione enim et reiciendis qui sint fuga eum.</p>
