@@ -8,8 +8,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta name="Description" content="As experts in pediatric cardiology in Northern Virginia, Children’s National has a worldwide reputation for care and innovation – and we’re close to home." />
-	<title>Children's National - Find a Pediatrician</title>
+	<title>Children's National – Find a Pediatrician Near You</title>
+	<meta name="description" content="Children's National has over 100 dedicated primary care pediatricians in Washington, DC, and Maryland. Explore our locations, and meet one of our doctors today.">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.campaign.min.css">
 	<!-- Optional theme -->
@@ -144,40 +144,41 @@
 						<form id="ss-form" class="form-horizontal campaign" autocomplete="off" action="https://docs.google.com/forms/d/1lTB1pPqBGN2-Xl__tGzX-PJ2tDNPYpEDMt3ybQzGDgY/formResponse" method="POST" id="ss-form" target="_self">
 						  <div class="form-group">
 						  	<div class="col-sm-6 form-field">
-							    <label class="sr-only" for="firstName">First</label>
-							    <input type="text" class="form-control required" id="firstName" name="entry_1701233357" placeholder="First" >
+							    <label class="IE-only" for="firstName">First</label>
+							    <input type="text" class="form-control required" id="firstName" title="First Name" name="entry_1701233357" placeholder="First" >
 						  	</div>
 						  	<div class="col-sm-6 form-field">
-						    	<label class="sr-only" for="lastName">Last</label>
-						    	<input type="text" class="form-control required" id="lastName" name="entry_166784206" placeholder="Last" >						  		
+						    	<label class="IE-only" for="lastName">Last</label>
+						    	<input type="text" class="form-control required" id="lastName" title="Last Name" name="entry_166784206" placeholder="Last" >						  		
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-12 form-field">
-							    <label class="sr-only" for="street">Street</label>
-							    <input type="text" class="form-control required" id="street" name="entry_2053488114" placeholder="Street" >
+							    <label class="IE-only" for="street">Street</label>
+							    <input type="text" class="form-control required" id="street" title="Street Address" name="entry_2053488114" placeholder="Street" >
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-4 form-field">
-						    	<label class="sr-only" for="city">City</label>
-						    	<input type="text" class="form-control required" id="city" name="entry_123623823" placeholder="City" >						  		
+						    	<label class="IE-only" for="city">City</label>
+						    	<input type="text" class="form-control required" id="city" title="City" name="entry_123623823" placeholder="City" >						  		
 						  	</div>
 						  	<div class="col-sm-4 col-xs-6 form-field">
-						    	<label class="sr-only" for="state">State</label>
-						    	<input type="text" class="form-control required" id="state" name="entry_672759851" placeholder="State" >						  		
+						    	<label class="IE-only" for="state">State</label>
+						    	<input type="text" class="form-control required" id="state" title="State" name="entry_672759851" placeholder="State" >						  		
 						  	</div>
 						  	<div class="col-sm-4 col-xs-6 form-field">
-						    	<label class="sr-only" for="zip">ZIP</label>
-						    	<input type="text" class="form-control required" id="zip" name="entry_1363473429" placeholder="ZIP" >						  		
+						    	<label class="IE-only" for="zip">ZIP</label>
+						    	<input type="text" class="form-control required" id="zip" title="Zipcode" name="entry_1363473429" placeholder="ZIP" >						  		
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-12 form-field">
-						    	<label class="sr-only" for="email">E-mail</label>
-						    	<input type="email" class="form-control required" id="email" name="entry_1206235931" placeholder="E-mail" >				  		
+						    	<label class="IE-only" for="email">E-mail</label>
+						    	<input type="email" class="form-control required" id="email" title="Email" name="entry_1206235931" placeholder="E-mail" >				  		
 						  	</div>
 						  </div>
+						  <div class="alert alert-warning text-danger hidden" role="alert" id="formErrprMsg"></div>
 						  <div class="text-center">
 						  	<input type="button" id="submitBtn" class="btn btn-form" value="Submit">
 						  </div>
