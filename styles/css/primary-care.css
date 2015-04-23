@@ -80,6 +80,10 @@ a:hover{ text-decoration: none; }
 
 .row {  }
 
+input[placeholder]{
+	text-align: center;
+}
+
 .panel{ box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.19); border: 1px solid #DBD6D4; }
 
 .shadowing{  
@@ -391,6 +395,16 @@ p.text-small {
 .form-appt-phone {
 	color: #ed2024;
 	font-size: 2.5em;
+}
+
+#formErrprMsg {
+  padding: 10px;
+  margin-bottom: 0;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  color: #F00;
+  line-height: 1;
+  font-family: 'Arial', sans-serif;
 }
 
 .paw-box {
