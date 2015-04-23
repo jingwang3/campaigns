@@ -80,10 +80,6 @@ a:hover{ text-decoration: none; }
 
 .row {  }
 
-input[placeholder]{
-	text-align: center;
-}
-
 .panel{ box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.19); border: 1px solid #DBD6D4; }
 
 .shadowing{  
@@ -152,6 +148,10 @@ body > .container { padding: 80px 15px 0; }
 
 
 /*CAMPAIGN SPECIFIC OVERRIDES GO BELOW*/
+input[placeholder]{
+	text-align: center;
+}
+
 .map-heading{
   background-color: #524D4D;
 }
@@ -198,7 +198,7 @@ img.logo-very-small{
 	font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
 }
 
-.btn-form:hover {
+.btn-form:hover, .btn-form:focus, .btn-form:active {
 	color: #ffffff;
 	background-color: #b32614;
 }
@@ -402,7 +402,8 @@ p.text-small {
   margin-bottom: 0;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 4px;
-  color: #F00;
+  color: red;
+  background-color: #F2F2B5;
   line-height: 1;
   font-family: 'Arial', sans-serif;
 }
@@ -482,7 +483,7 @@ ul.doc-desc li{
 }
 
 .form-group .form-control{
-	background-color: #E0E0E0;
+	background-color: #E8E8E8;
 }
 
 
@@ -490,10 +491,27 @@ ul.doc-desc li{
 	display: none;
 }
 
+#confirmation{
+	padding: 30px 15px;
+}
+
+#confirmation h1, #confirmation p{
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+#confirmation h1{
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
 a.top-link {
-	font-size: .75em;
-	text-transform: uppercase;
-	text-decoration: underline;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #ED2024;
+  position: relative;
+  bottom: -55px;
 }
 
 
@@ -622,7 +640,9 @@ a.top-link {
 	background-image: url('../../files/images/children-768.jpg');
 	}
 
-
+	input[placeholder]{
+		text-align: left;
+	}
 
 }
 
@@ -717,13 +737,6 @@ a.top-link {
 		position: relative;
 		top: 40px;
 	}
-
-
-	form.campaign, .campaign-confirm {
-		margin: 0 auto 50px auto;
-		width: 274px;
-	}
-
 
 	#bannerSec .row1-caption{
 		left: 10px;

@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>Children's National – Find a Pediatrician Near You</title>
+	<title>Children's National - Find a Pediatrician Near You</title>
 	<meta name="description" content="Children's National has over 100 dedicated primary care pediatricians in Washington, DC, and Maryland. Explore our locations, and meet one of our doctors today.">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.campaign.min.css">
@@ -77,8 +77,7 @@
 	</nav>
   </header>
   <section id="content-body" name="top">
-  	<div class="container-fluid content-wrap">
-  		<!--World Renowed -->	
+  	<div class="container-fluid content-wrap">	
   		<article id="bannerSec">
 	  		<div class="row row-1 content-row">
 				<div class="col-xs-offset-2 col-xs-3">
@@ -92,8 +91,6 @@
 				</div>
 	  		</div>
   		</article>
-  		<!--World Renowed -->	
-  		<!--Expert Care -->
   		<article id="pawSec">
 	  		<div class="row row-2 paw-row content-row">
 	  			<div class="container">
@@ -101,16 +98,12 @@
 	  			</div>
 	  		</div>
   		</article>
-  		<!--Expert Care -->
-  		<!--Meet Our Doctors -->
 		<article id="mapSec">
 		<div class="row row-3 content-row">
 			<div class="map-heading"><h1 class="text-center better-font">Find A Top Pediatrician In Your Area</h1></div>
 			<div id="map-canvas"></div>
 			</div>
 		</article>
-        <!-- Meet Our Doctors -->
-        <!--Why Children's -->
         <article id="whySec">
 	  		<div class="row row-4 content-row">	
 					<div class="container">
@@ -125,8 +118,6 @@
 					</div>
 			</div>
 		</article>
-        <!-- Why Children's -->
-        <!--Expert Care -->
         <article id="imgSec">
 	  		<div class="row row-5 content-row">	
 					<div class="container">		
@@ -140,47 +131,55 @@
 					<div class="col-sm-6">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maiores, autem sequi, commodi alias nisi eaque temporibus soluta minima. Ipsa, unde dolorum ratione enim et reiciendis qui sint fuga eum.</p>
 					</div>
-					<div class="col-sm-6">
+					<div class="row col-sm-6">
+						<div id="confirmation" class="text-center bg-warning hidden">
+							<h1>Thank you.</h1>
+							<p>Your package will be shipping soon.</p>
+							<p>Please allow up to two weeks for delivery.</p>
+							<br>
+							<p>Call us with any questions:</p>
+							<p><a href="tel:18888842327" class="red-title">1-888-884-BEAR(2327)</a></p>
+						</div>
 						<form id="ss-form" class="form-horizontal campaign" autocomplete="off" action="https://docs.google.com/forms/d/1lTB1pPqBGN2-Xl__tGzX-PJ2tDNPYpEDMt3ybQzGDgY/formResponse" method="POST" id="ss-form" target="_self">
 						  <div class="form-group">
 						  	<div class="col-sm-6 form-field">
 							    <label class="IE-only" for="firstName">First</label>
-							    <input type="text" class="form-control required" id="firstName" title="First Name" name="entry_1701233357" placeholder="First" >
+							    <input type="text" class="form-control required" id="firstName" title="First Name" name="entry_1701233357" placeholder="First" required>
 						  	</div>
 						  	<div class="col-sm-6 form-field">
 						    	<label class="IE-only" for="lastName">Last</label>
-						    	<input type="text" class="form-control required" id="lastName" title="Last Name" name="entry_166784206" placeholder="Last" >						  		
+						    	<input type="text" class="form-control required" id="lastName" title="Last Name" name="entry_166784206" placeholder="Last" required>						  		
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-12 form-field">
 							    <label class="IE-only" for="street">Street</label>
-							    <input type="text" class="form-control required" id="street" title="Street Address" name="entry_2053488114" placeholder="Street" >
+							    <input type="text" class="form-control required" id="street" title="Street Address" name="entry_2053488114" placeholder="Street" required>
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-4 form-field">
 						    	<label class="IE-only" for="city">City</label>
-						    	<input type="text" class="form-control required" id="city" title="City" name="entry_123623823" placeholder="City" >						  		
+						    	<input type="text" class="form-control required" id="city" title="City" name="entry_123623823" placeholder="City" required>						  		
 						  	</div>
 						  	<div class="col-sm-4 col-xs-6 form-field">
 						    	<label class="IE-only" for="state">State</label>
-						    	<input type="text" class="form-control required" id="state" title="State" name="entry_672759851" placeholder="State" >						  		
+						    	<input type="text" class="form-control required" id="state" title="State" name="entry_672759851" placeholder="State" required>						  		
 						  	</div>
 						  	<div class="col-sm-4 col-xs-6 form-field">
 						    	<label class="IE-only" for="zip">ZIP</label>
-						    	<input type="text" class="form-control required" id="zip" title="Zipcode" name="entry_1363473429" placeholder="ZIP" >						  		
+						    	<input type="text" class="form-control required" id="zip" title="Zipcode" name="entry_1363473429" placeholder="ZIP" required>						  		
 						  	</div>
 						  </div>
 						  <div class="form-group">
 						  	<div class="col-sm-12 form-field">
 						    	<label class="IE-only" for="email">E-mail</label>
-						    	<input type="email" class="form-control required" id="email" title="Email" name="entry_1206235931" placeholder="E-mail" >				  		
+						    	<input type="email" class="form-control required" id="email" title="Email" name="entry_1206235931" placeholder="E-mail" required>				  		
 						  	</div>
 						  </div>
-						  <div class="alert alert-warning text-danger hidden" role="alert" id="formErrprMsg"></div>
+						  <div class="alert text-danger hidden" role="alert" id="formErrprMsg"></div>
 						  <div class="text-center">
-						  	<input type="button" id="submitBtn" class="btn btn-form" value="Submit">
+						  	<button type="button" id="submitBtn" class="btn btn-form">Submit</button>
 						  </div>
 						</form>
 					</div>
@@ -188,25 +187,27 @@
 			</div>
 	  	</article>
         <article id="pdfSec">
-	  		<div class="row row-7 content-row">	
+	  		<div class="row row-7 content-row">
+				<div class="hidden-sm hidden-md hidden-lg">
+	                <img alt="Helpful pointers for finding a pediatrician" src="files/images/bear-paw-image.jpg" class="img-responsive">
+				</div>
 				<div class="container">
 					<h1 class="better-font">Helpful pointers for finding a great pediatrician.</h1>
-					<div class="col-sm-6">
-	                	<img alt="Helpful pointers for finding a pediatrician" height="360" width="550" src="files/images/bear-paw-image.jpg">
+					<div class="col-sm-6 hidden-xs">
+	                	<img alt="Helpful pointers for finding a pediatrician" src="files/images/bear-paw-image.jpg" class="img-responsive">
 					</div>
 					<div class="col-sm-6">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maiores, autem sequi, commodi alias nisi eaque temporibus soluta minima. Ipsa, unde dolorum ratione enim et reiciendis qui sint fuga eum.</p>
 						<div class="text-center">
-							<a class="btn btn-form" role="button" trackinglabel="PDF Download">Download Our Tips (PDF)</a>
+							<a href="http://childrensnational.org/~/media/cnhs-site/files/campaign/CHI_FAP_Tips_final.ashx?la=en" target="_blank" class="btn btn-form" role="button" trackinglabel="PDF Download">Download Our Tips (PDF)</a>
 						</div>
 					</div>
 				</div>
 				<div class="container text-center">
-						<a class="top-link" trackinglabel="Back to Top" href="#top">Back to top</a>
+					<a class="top-link better-font" trackinglabel="Back to Top" href="#top">Back to top</a>
 				</div>
 			</div>
 	  	</article>
-  		<!--Expert Care -->
   	</div>
   </section>
   <footer>
