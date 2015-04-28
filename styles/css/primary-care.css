@@ -153,14 +153,14 @@ input[placeholder]{
 }
 
 .map-heading{
-  background-color: #524D4D;
+  background-color: #675f5c;
 }
 
 .map-heading h1{
   color: #FFF;
   margin: 0;
   line-height: 1;
-  padding: 10px 0;
+  padding: 20px 0;
   font-size: 2em;
 }
 
@@ -185,16 +185,16 @@ img.logo-very-small{
 }
 
 .btn-form {
-	border-radius: 10px;
-	width: auto;
-	text-transform: uppercase;
+	width: 330px;
+	text-transform: none;
 	font-size: 1.3em;
 	margin-top: 15px;
 	letter-spacing: .04em;
 	color: #ffffff;
 	background-color: #ed2024;
 	line-height: 1;
-	padding: 8px 20px;
+	padding: 15px 20px;
+	border-radius: 0px !important;
 	font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
 }
 
@@ -236,12 +236,13 @@ img.logo-very-small{
 
 
 .row-4 ul li { 
-	color: #796b68;
-	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-	font-size: 1.2em;
-	font-weight: 300;
-	line-height: 2em;
-	padding-left: 0px;
+  color: #796b68;
+  font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2em;
+  padding-left: 0px;
+  margin-top: 15px;
 }
 
 .row-1, .row-4, .owbox{
@@ -269,11 +270,10 @@ img.logo-very-small{
 
 .header-text-right{
 	display: block;
-	font-size: 1em;
-	letter-spacing: .03em;
+	font-size: 1.6em;
 	text-transform: uppercase;
 	color: #877369;
-	font-family: LightCampaignFont,Helvetica,Arial,sans-serif; 	
+	font-family: CampaignFont,Helvetica,Arial,sans-serif; 	
 
 }
 
@@ -338,37 +338,10 @@ p.banner-subtitle{
 
 p.new-color {
 	color: #796b68;
-	font-size: 1.8em;
-}
-
-.meet-doctors, .meet-doctors-mobile {
-	background-image: url('../../files/images/city_map_lg.jpg');
-	background-color: #726560;
-	background-position: center right;
-	background-repeat: no-repeat;
-	min-height: 812px;
-	position: relative;
-}
-
-.meet-doctors h1 {
-	font-size: 6em;
-	padding-top:70px;
-	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-	text-transform: none;
-	color: #ffffff;
+	font-size: 1.6em;
 }
 
 
-.doc-list-close{
-	color: #D5D4D4;
-	right: -47px;
-	top: -17px;
-	z-index: 999;
-	font-size: 1.5em;
-	float: right;
-	text-shadow: #000 1px 1px 10px;
-	cursor:pointer;
-}
 .row-2 .box-left{
 	padding-top: 45px;
 }
@@ -454,47 +427,6 @@ p.text-small {
 }
 
 
-.doc-text-box {
-	color: #000000;
-}
-
-.doc-text-box h4{
-	padding-top: 10px;
-	font-size: 1.5em;
-}
-
-.doc-text-box h5 {
-	font-size: 1em;
-	padding-bottom: 2px;
-}
-
-.doc-text-box h6 {
-	font-size: .85em;
-	padding-bottom: 4px;
-}
-
-.doc-box-footer {  
-	background-color: #e23525;
-	padding: 15px 0 5px 0;
-	text-align: center;
-	color: #ffffff;
-	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-	text-transform: capitalize;
-	line-height: .5em;
-	font-size: .85em;
-}
-
-.doc-box-footer p {  
-	line-height: .5em;
-
-}
-
-ul.doc-desc li{
-	font-size: .8em;
-	line-height: 1.2em;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
 .form-group{
 	margin-bottom: 0;
 }
@@ -532,6 +464,7 @@ a.top-link {
   text-transform: uppercase;
   color: #ED2024;
   position: relative;
+  font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
   bottom: -55px;
 }
 
@@ -546,7 +479,11 @@ a.top-link {
 	}
 
 	.row1-caption {
-		margin-top: 200px;
+		margin-top: 150px;
+	}
+
+	.row1-caption h1 {
+		font-size: 2.2em;
 	}
 
 	.row-5 {
@@ -573,14 +510,19 @@ a.top-link {
 	}
 
 	.row-1 {
-		min-height: 471px;
+		min-height: 462px;
 		background-image: url('../../files/images/fap-1024.jpg');
 	}
+
+	.row1-caption {
+		margin-top: 80px;
+		margin-left:-40px;
+	}
+
 	
 	.row1-caption h1 {
 		font-size: 2.5em;
 		line-height: 1.2em;
-		font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
 	}
 
 	p.banner-subtitle{
@@ -611,6 +553,11 @@ a.top-link {
 	.row1-caption {
 	  font-size: 12px;
 	}
+
+	.phone-number-box {
+		padding: 20px 0;
+		margin: 15px 0;
+	}
 }
 
 
@@ -618,6 +565,14 @@ a.top-link {
 
 	body{
 		padding-top: 0;
+	}
+
+	img.mobile-tips-image {
+		width:100%;
+	}
+
+	.row-7 {
+		padding: 0 0;
 	}
 
 	nav .container-fluid {
@@ -644,12 +599,13 @@ a.top-link {
 	}
 
 	.row1-caption {
-		margin-top: 100px;
+		margin-top: 50px;
+		margin-left:-30px;
 	}
 
 	.row1-caption h1 {
 		font-size: 2em;
-		font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
+
 	}
 
 	.row-4{
@@ -702,7 +658,7 @@ a.top-link {
 	p.navbar-text.phone-number-box.better-font.brand-text {
 		margin: 15px 0px 0px 0px ;
 		padding: 0;
-		font-size: .8em;
+		font-size: .7em;
 		float:right;
 	}
 
@@ -712,45 +668,45 @@ a.top-link {
 	}
 
 	.btn-form {
-		font-size: .95em;
+		font-size: 1.3em;
 		margin-top: 10px;
-		padding: 5px 10px;
+		padding: 10px 10px;
+		width: 220px;
 	}
 
 	.row1-caption {
-		margin-top: 50px;
+		margin-top: 30px;
+		margin-left:-40px;
 	}
 
 
 	.row1-caption h1 {
 		font-size: 1.3em;
+		margin: 0px;
 	}
+
+	.fap-cta a {
+	font-size: 1.3em;
+	}
+
+	.fap-cta:after {
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-left-color: #ed2c1e;
+	border-width: 6px;
+	margin-left: 5px;
+ 	margin-top:0px;
+}
 
 	.row-5 {
 	min-height: 164px;
 	background-image: url('../../files/images/children-480.jpg');
 	}
 
-
-
-	.meet-doctors, .meet-doctors-mobile {
-		background-image: url('../../files/images/city_map_sm.jpg');
-		min-height: 203px;
-		text-align: center;
-	}
-
-	.meet-doctors-mobile, .doc-list-tablet{
-		display: block;
-	}
-
-	.meet-doctors-mobile h1 {
-		font-size: 2.5em;
-		position: relative;
-		top:40px;
-		text-transform: none;
-		color: #ffffff;
-		font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-	}
 
 	p.tap-text {
 		color: #ffffff;
