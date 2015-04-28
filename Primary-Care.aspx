@@ -84,9 +84,10 @@
 	  				<div class="row1-caption">
 	  					<h1>We have over 100 pediatricians in your area.</h1>
 	  					<h1>And one priority: your child.</h1>
-						<p class="banner-subtitle">Find a trusted pediatrician near you</p>
-						<a class="btn btn-form btn-cardio hidden-xs scrollToMap" role="button" trackinglabel="Meet Our Virginia Cardiologists">Meet Our Virginia Cardiologists</a>
-						<a class="btn btn-form btn-cardio hidden-sm hidden-md hidden-lg scrollToMap" role="button" trackinglabel="Meet Our Docs">Meet Our VA Docs</a>
+	  					<div class="fap-cta">
+							<a class="hidden-xs scrollToMap" trackinglabel="Find a trusted pediatrician near you">Find a trusted pediatrician near you</a>
+							<a class="hidden-sm hidden-md hidden-lg scrollToMap" trackinglabel="Find a pediatrician">Find a pediatrician</a>
+						</div>
 					</div>
 				</div>
 	  		</div>
