@@ -5,7 +5,7 @@
 .inline-block{
 	display: inline-block;
 }
-body{ font-size:16px; color: #877369; background-color: #FFF; }
+body{ font-size:16px; color: #514b47; background-color: #FFF; }
 
 @font-face { font-family: CampaignFont; src: url('../fonts/Museo-700.woff'); }
 @font-face { font-family: RegCampaignFont; src: url('../fonts/Museo-500.woff'); }
@@ -218,9 +218,9 @@ img.logo-very-small{
 }
 .row p { 
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-	font-size: 1.125em;
+	font-size: 1.45em;
 	font-weight: 300;
-	line-height: 1.5;
+	line-height: 1.4;
 }
 
 .row ul { 
