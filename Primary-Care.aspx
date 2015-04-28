@@ -213,7 +213,7 @@
   <footer>
 	  <div class="footer">
 	      <div class="container">
-	        <p class="text-muted text-center better-font"><a href="http://childrensnational.org/primary" trackingLabel="Footer CNHS Link"><span>childrensnational.org/primary-care</span></a></p>
+	        <p class="text-muted text-center better-font"><a href="http://childrensnational.org/primary-care" trackingLabel="Footer CNHS Link"><span>childrensnational.org/pediatrics</span></a></p>
 	      </div>
 	   </div>
    </footer>
