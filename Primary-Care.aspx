@@ -110,11 +110,11 @@
 					<div class="container">
 					<h1 class="better-font">Why Children's?</h1>	
 					<ul>
-						<li>The combined years of experience of our 35+ cardiology specialists is unmatched in the Washington, DC, area.</li>
-						<li>We perform the most pediatric surgeries in the Washington, DC, area, with some of the best outcomes in the nation.</li>
-						<li>Northern Virginia Magazine lists seven of our doctors as the top pediatric cardiologists in the area.</li>
-						<li>We're a leader in clinical research programs and surgical innovations.</li>
-						<li>U.S. News &amp; World Report consistently ranks us among the top pediatric hospitals in the nation.</li>
+						<li>We're the Washington D.C. region's largest pediatric provider network, 100% dedicated to children</li>
+						<li>Our pediatricians are experienced in treating kids of all ages-from newborns to teenagers.</li>
+						<li>We accept most private health insurance plans, along with Medicaid and managed care.</li>
+						<li>With more than 100 network specialists, we are seemlessly connected to Children's National's world-class services and experience.</li>
+						<li>We're experienced in routine wellness checks and complex medical issues, and all of our offices offer same-day sick appointments.</li>
 					</ul>	
 					</div>
 			</div>
@@ -130,7 +130,7 @@
 				<div class="container">
 					<h1 class="better-font">Get a free children's book, courtsey of Dr. Bear.</h1>
 					<div class="col-sm-6">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maiores, autem sequi, commodi alias nisi eaque temporibus soluta minima. Ipsa, unde dolorum ratione enim et reiciendis qui sint fuga eum.</p>
+						<p>This colorful, hand-drawn A - Z guide to medical terms shows how getting the best care can be fun for your kids. We'll send you the book, plus some handy tips for finding pediatric care in your neighborhood-all free of charge.</p>
 					</div>
 					<div class="row col-sm-6">
 						<div id="confirmation" class="text-center bg-warning hidden">
@@ -198,7 +198,7 @@
 	                	<img alt="Helpful pointers for finding a pediatrician" src="files/images/bear-paw-image.jpg" class="img-responsive">
 					</div>
 					<div class="col-sm-6">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maiores, autem sequi, commodi alias nisi eaque temporibus soluta minima. Ipsa, unde dolorum ratione enim et reiciendis qui sint fuga eum.</p>
+						<p>We know that finding the right primary care pediatrician is important, so we've compiled a handy list that'll help you along the way.</p>
 						<div class="text-center">
 							<a href="http://childrensnational.org/~/media/cnhs-site/files/campaign/CHI_FAP_Tips_final.ashx?la=en" target="_blank" class="btn btn-form" role="button" trackinglabel="PDF Download">Download Our Tips (PDF)</a>
 						</div>
