@@ -95,7 +95,7 @@
   		<article id="pawSec">
 	  		<div class="row row-2 paw-row content-row">
 	  			<div class="container">
-		  				<p class="new-color">Whether you're new to the neighborhood, an expecting parent, or simply looking for the best doctors around&mdash;consider Children's National. We provide the highest quality of comprehensive, personalized pediatric care. It's just right for you, and just right for kids.</p>	
+		  				<p class="new-color">Whether you're new to the neighborhood, an expecting parent, or simply looking for the best doctors around—consider Children's National. We provide the highest quality of comprehensive, personalized pediatric care. It's just right for you, and just right for kids.</p>	
 	  			</div>
 	  		</div>
   		</article>
@@ -110,10 +110,10 @@
 					<div class="container">
 					<h1 class="better-font">Why Children's?</h1>	
 					<ul>
-						<li>We're the Washington D.C. region's largest pediatric provider network, 100% dedicated to children.</li>
-						<li>Our pediatricians are experienced in treating kids of all ages&mdash;from newborns to teenagers.</li>
+						<li>We're the Washington, DC, region's largest pediatric provider network, 100% dedicated to children.</li>
+						<li>Our highly skilled pediatricians are experienced in treating kids of all ages—from newborns to teenagers.</li>
 						<li>We accept most private health insurance plans, along with Medicaid and managed care.</li>
-						<li>With more than 100 network specialists, we are seamlessly connected to Children's National's world-class services and experience.</li>
+						<li>With more than 100 network specialists, we are seamlessly connected to the world-class services and experience offered by Children's National.</li>
 						<li>We're experienced in routine wellness checks and complex medical issues, and all of our offices offer same-day sick appointments.</li>
 					</ul>	
 					</div>
@@ -131,7 +131,7 @@
 					<h1 class="better-font">Get a free children's book, courtesy of <span class="glue">Dr. Bear.</span></h1>
 					<div class="row">
 						<div class="col-sm-6">
-							<p>This colorful, hand-drawn A &mdash; Z guide to medical terms shows how getting the best care can be fun for your kids. We'll send you the book, plus some handy tips for finding pediatric care in your neighborhood&mdash;all free of charge.</p>
+							<p>Our illustrated book, Dr. Bear's Big Book of Doctor Words, is perfect for kids and adults alike. This colorful, hand-drawn A – Z guide to medical terms shows how getting the best care can be fun for your kids. We'll send you the book, plus some handy tips for finding pediatric care in your neighborhood—all free of charge. Just give us a little info.</p>
 						</div>
 						<div class="col-sm-6">
 							<div id="confirmation" class="text-center bg-warning hidden">
@@ -140,7 +140,7 @@
 								<p>Please allow up to two weeks for delivery.</p>
 								<br>
 								<p>Call us with any questions:</p>
-								<p><a href="tel:18888842327" class="red-title">1-888-884-BEAR(2327)</a></p>
+								<p><a href="tel:18888842327" class="red-title">1-888-884-BEAR (2327)</a></p>
 							</div>
 							<form id="ss-form" class="form-horizontal campaign" autocomplete="off" action="https://docs.google.com/forms/d/1lTB1pPqBGN2-Xl__tGzX-PJ2tDNPYpEDMt3ybQzGDgY/formResponse" method="POST" id="ss-form" target="_self">
 							  <div class="form-group">
