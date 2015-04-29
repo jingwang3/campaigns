@@ -77,7 +77,7 @@
 	</nav>
   </header>
   <section id="content-body" name="top">
-  	<div class="container-fluid content-wrap">	
+  	<div class="container-fluid content-wrap">
   		<article id="bannerSec">
 	  		<div class="row row-1 content-row">
 				<div class="col-xs-offset-2 col-xs-4">
@@ -101,31 +101,31 @@
 		<article id="mapSec">
 		<div class="row row-3 content-row">
 			<div class="map-heading"><h1 class="text-center better-font">Find A Top Pediatrician In Your Area</h1></div>
-			<div id="map-canvas"></div>
+			<div id="map-canvas" class="js-gmap" data-points="/data/gmap-locations.json"></div>
 			</div>
 		</article>
         <article id="whySec">
-	  		<div class="row row-4 content-row">	
+	  		<div class="row row-4 content-row">
 					<div class="container">
-					<h1 class="better-font">Why Children's?</h1>	
+					<h1 class="better-font">Why Children's?</h1>
 					<ul>
 						<li>We're the Washington, DC, region's largest pediatric provider network, 100% dedicated to children.</li>
 						<li>Our highly skilled pediatricians are experienced in treating kids of all ages-from newborns to teenagers.</li>
 						<li>We accept most private health insurance plans, along with Medicaid and managed care.</li>
 						<li>With more than 100 network specialists, we are seamlessly connected to the world-class services and experience offered by Children's National.</li>
 						<li>We're experienced in routine wellness checks and complex medical issues, and all of our offices offer same-day sick appointments.</li>
-					</ul>	
+					</ul>
 					</div>
 			</div>
 		</article>
         <article id="imgSec">
-	  		<div class="row row-5 content-row">	
-					<div class="container">		
+	  		<div class="row row-5 content-row">
+					<div class="container">
 					</div>
 			</div>
 	  	</article>
         <article id="formSec">
-	  		<div class="row row-6 content-row">	
+	  		<div class="row row-6 content-row">
 				<div class="container">
 					<h1 class="better-font">Get a free children's book, courtesy of <span class="glue">Dr. Bear.</span></h1>
 					<div class="row">
@@ -224,7 +224,7 @@
    <script src="lib/js/jquery.min.js"></script>
    <script src="bootstrap/js/bootstrap.min.js"></script>
    <script src="http://childrensnational.org/~/media/cnhs-site/files/js/event_tracking.js"></script>
-   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?v=3.18"></script>
    <script src="lib/js/map.js"></script>
    <script src="lib/js/primarycare.js"></script>
 </body>
