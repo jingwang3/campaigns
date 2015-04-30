@@ -590,7 +590,7 @@ a.top-link {
 	}
 
 
-	.row-6, .row-7 {
+	.row-7 {
 		padding: 15px 0 60px;
 		background-color: #fff;
 	}
@@ -605,6 +605,8 @@ a.top-link {
 	
 	.row-6{
 		padding-top: 30px;
+	    padding-bottom: 15px;
+	    background-color: #FFF;
 	}
 	nav .container-fluid {
 		padding-left: 10px;
