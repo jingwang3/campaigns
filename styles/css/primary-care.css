@@ -152,6 +152,10 @@ input[placeholder]{
 	text-align: center;
 }
 
+a.scrollToMap{
+	cursor: pointer;
+}
+
 .map-heading{
   background-color: #675f5c;
 }
@@ -217,6 +221,12 @@ img.logo-very-small{
 	margin-left: 0;
 	margin-right: 0;
 }
+
+.container .row{
+	margin-right: -15px;
+  	margin-left: -15px;
+}
+
 .row p { 
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
 	font-size: 1.45em;
@@ -566,11 +576,13 @@ a.top-link {
 
 	body{
 		padding-top: 0;
+		font-size: 11px;
 	}
 
 	img.mobile-tips-image {
 		width:100%;
 	}
+
 
 	.row-6, .row-7 {
 		padding: 15px 0;
@@ -581,6 +593,13 @@ a.top-link {
 		display:none;
 	}
 
+	a.top-link{
+		bottom: -15px;
+	}
+	
+	.row-6{
+		padding-top: 30px;
+	}
 	nav .container-fluid {
 		padding-left: 10px;
 		padding-right: 10px;
@@ -614,8 +633,8 @@ a.top-link {
 
 	}
 
-	.row-4{
-		padding: 25px 15px 50px 15px;
+	#whySec{
+		display: none;
 	}
 
 	.row-5 {
@@ -632,6 +651,10 @@ a.top-link {
 @media (max-width: 600px)  {
 	.row1-caption {
 	  font-size: 11px;
+	}
+
+	.row-6{
+		padding-top: 20px;
 	}
 }
 
@@ -671,6 +694,10 @@ a.top-link {
 	.row-1 {
 		min-height: 221px;
 		background-image: url('../../files/images/fap-480.jpg');
+	}
+
+	.row-6{
+		padding-top: 15px;
 	}
 
 	.btn-form {
