@@ -85,7 +85,7 @@
 	  					<h1><span class="part-1">We have over 100 pediatricians in your area.</span><span class="part-2">And one priority: your child.</span></h1>
 	  					<div class="fap-cta">
 							<a class="hidden-xs scrollToMap" trackinglabel="Find a trusted pediatrician near you">Find a trusted<br/> pediatrician near you</a>
-							<a class="hidden-sm hidden-md hidden-lg scrollToMap" trackinglabel="Find a pediatrician">Find a pediatrician</a>
+							<a class="hidden-sm hidden-md hidden-lg scrollToMap" trackinglabel="Find a pediatrician">Find a trusted pediatrician near you</a>
 						</div>
 					</div>
 				</div>
@@ -207,7 +207,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="container text-center">
+				<div class="container text-center back-top">
 					<a class="top-link" trackinglabel="Back to Top" href="#top">Back to top</a>
 				</div>
 			</div>

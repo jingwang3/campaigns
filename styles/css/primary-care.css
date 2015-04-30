@@ -281,13 +281,13 @@ img.logo-very-small{
 
 .header-appt-phone { 
 	color: #d72d1e; 
-	font-size: 1.75em;
+	font-size: 1.65em;
 
 }
 
 .header-text-right{
 	display: block;
-	font-size: 1.6em;
+	font-size: 1.5em;
 	text-transform: uppercase;
 	color: #877369;
 	font-family: CampaignFont,Helvetica,Arial,sans-serif; 	
@@ -476,13 +476,15 @@ p.text-small {
 	margin-bottom: 10px;
 }
 
+.back-top {
+	padding: 20px 0 0 0;
+}
+
 a.top-link {
   font-size: 1em;
   text-transform: uppercase;
   color: #ED2024;
-  position: relative;
   font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
-  bottom: -55px;
 }
 
 
@@ -584,6 +586,10 @@ a.top-link {
 		padding-top: 0;
 		font-size: 11px;
 	}
+
+	.fap-cta:after {
+ 	margin-top: -1px;
+}
 
 	img.mobile-tips-image {
 		width:100%;
@@ -716,7 +722,7 @@ a.top-link {
 		background-image: url('../../files/images/fap-480.jpg');
 	}
 	.row-3 h1, .row-6 h1, .row-7 h1{
-		font-size: 1.7em;
+		font-size: 2em;
 	}
 	.row-6{
 		padding-top: 15px;
@@ -741,17 +747,10 @@ a.top-link {
 	}
 
 	.fap-cta a {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	}
 
 	.fap-cta:after {
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-left-color: #ed2c1e;
 	border-width: 6px;
 	margin-left: 5px;
  	margin-top:0px;
