@@ -5,7 +5,7 @@
 .inline-block{
 	display: inline-block;
 }
-body{ font-size:16px; color: #514b47; background-color: #FFF; }
+body{ font-size:16px; color: #796b68; background-color: #FFF; }
 
 @font-face { font-family: CampaignFont; src: url('../fonts/Museo-700.woff'); }
 @font-face { font-family: RegCampaignFont; src: url('../fonts/Museo-500.woff'); }
@@ -592,6 +592,10 @@ a.top-link {
 
 	img.mobile-tips-image {
 		width:100%;
+	}
+
+	.ped-form {
+		margin-top:20px;
 	}
 
 

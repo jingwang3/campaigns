@@ -94,7 +94,7 @@
   		<article id="pawSec">
 	  		<div class="row row-2 paw-row content-row">
 	  			<div class="container">
-		  				<p class="new-color">Whether you're new to the neighborhood, an expecting parent, or simply looking for the best doctors around-consider Children's National. We provide the highest quality of comprehensive, personalized pediatric care. It's just right for you, and just right for kids.</p>	
+		  				<p>Whether you're new to the neighborhood, an expecting parent, or simply looking for the best doctors around-consider Children's National. We provide the highest quality of comprehensive, personalized pediatric care. It's just right for you, and just right for kids.</p>	
 	  			</div>
 	  		</div>
   		</article>
@@ -132,7 +132,7 @@
 						<div class="col-sm-6">
 							<p>Our illustrated book, Dr. Bear's Big Book of Doctor Words, is perfect for kids and adults alike. This colorful, hand-drawn A - Z guide to medical terms shows how getting the best care can be fun for your kids. We'll send you the book, plus some handy tips for finding pediatric care in your neighborhood-all free of charge. Just give us a little info.</p>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-sm-6 ped-form">
 							<div id="confirmation" class="text-center bg-warning hidden">
 								<h1>Thank you.</h1>
 								<p>Your package will be shipping soon.</p>
