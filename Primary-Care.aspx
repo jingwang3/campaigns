@@ -82,8 +82,7 @@
 	  		<div class="row row-1 content-row">
 				<div class="col-xs-offset-2 col-xs-4">
 	  				<div class="row1-caption">
-	  					<h1>We have over 100 pediatricians in your area.</h1>
-	  					<h1>And one priority: your child.</h1>
+	  					<h1><span class="part-1">We have over 100 pediatricians in your area.</span><span class="part-2">And one priority: your child.</span></h1>
 	  					<div class="fap-cta">
 							<a class="hidden-xs scrollToMap" trackinglabel="Find a trusted pediatrician near you">Find a trusted<br/> pediatrician near you</a>
 							<a class="hidden-sm hidden-md hidden-lg scrollToMap" trackinglabel="Find a pediatrician">Find a pediatrician</a>
