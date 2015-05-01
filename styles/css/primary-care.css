@@ -78,8 +78,6 @@ a:hover{ text-decoration: none; }
 
 .navbar-static-top, .navbar-fixed-top, .navbar-fixed-bottom{ box-shadow: #888 0px 0px 20px; }
 
-.row {  }
-
 .panel{ box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.19); border: 1px solid #DBD6D4; }
 
 .shadowing{
@@ -174,6 +172,12 @@ a.scrollToMap{
   height: 500px;
 }
 
+.gmap-popup + .gmap-popup {
+	border-top: 1px solid #ccc;
+	margin-top: 5px;
+	padding-top: 10px;
+}
+
 .gmap-popup-address {
 	line-height: 1;
 	margin-bottom: 2px;
@@ -197,11 +201,19 @@ a.scrollToMap{
 	background-color: #000;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	bottom: -8px;
 	left: -14px;
 	position: absolute;
-	top: -8px;
 	width: 90px;
+}
+
+.gmap-popup-multi .gmap-popup-img {
+	height: 89px;
+	margin-top: -8px;
+}
+
+.gmap-popup-single .gmap-popup-img {
+	bottom: -8px;
+	top: -8px;
 }
 
 .gmap-popup-tel,

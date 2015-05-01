@@ -1,244 +1,276 @@
 
 {
     "points": [{
-        "name": "Adolescent Health Center at Children&rsquo;s Sheikh Zayed Campus",
         "addressLines": [
             "111 Michigan Ave NW",
             "Washington, District of Columbia 20010"
         ],
         "lat": 38.9271809,
         "lng": -77.0146728,
-        "tel": "12024762123",
-        "telFormatted": "202-476-2123",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/adolescent%20health%20center",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/health-center-adolescent.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Adolescent Health Center at Children&rsquo;s Sheikh Zayed Campus",
+            "tel": "12024762123",
+            "telFormatted": "202-476-2123",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/adolescent%20health%20center",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/health-center-adolescent.ashx?w=90&mh=75"
+        }, {
+            "name": "Children&rsquo;s Health Center at Children’s Sheikh Zayed Campus",
+            "tel": "12024762123",
+            "telFormatted": "202-476-2123",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/childrens%20health%20center%20%20hospital",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/health-center-childrens.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children&rsquo;s Health Center at Adams Morgan",
         "addressLines": [
             "Dorchester House, 1630 Euclid St NW",
             "Washington, District of Columbia 20009"
         ],
         "lat": 38.922969,
         "lng": -77.0377953,
-        "tel": "12024765580",
-        "telFormatted": "202-476-5580",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/childrens%20health%20adams%20morgan",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/health-center-adamsmorgan.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children&rsquo;s Health Center at Adams Morgan",
+            "tel": "12024765580",
+            "telFormatted": "202-476-5580",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/childrens%20health%20adams%20morgan",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/health-center-adamsmorgan.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children&rsquo;s Health Center at Children’s Sheikh Zayed Campus",
-        "addressLines": [
-            "111 Michigan Ave NW",
-            "Washington, District of Columbia 20010"
-        ],
-        "lat": 38.9271809,
-        "lng": -77.0146728,
-        "tel": "12024762123",
-        "telFormatted": "202-476-2123",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/childrens%20health%20center%20%20hospital",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/health-center-childrens.ashx?w=90&mh=75"
-    }, {
-        "name": "Children&rsquo;s Health Center at THEARC",
         "addressLines": [
             "1901 Mississippi Ave SE",
             "Washington, District of Columbia 20020"
         ],
         "lat": 38.8434125,
         "lng": -76.9749653,
-        "tel": "12024363060",
-        "telFormatted": "202-436-3060",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/childrens%20health%20center%20at%20thearc",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/health-center-thearc.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children&rsquo;s Health Center at THEARC",
+            "tel": "12024363060",
+            "telFormatted": "202-436-3060",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/childrens%20health%20center%20at%20thearc",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/health-center-thearc.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children&rsquo;s Health Center at Good Hope Road",
         "addressLines": [
             "2501 Good Hope Rd SE",
             "Washington, District of Columbia 20020"
         ],
         "lat": 38.8607094,
         "lng": -76.9693211,
-        "tel": "12024766900",
-        "telFormatted": "202-476-6900",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/childrens%20health%20good%20hope",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/health-center-good-hope-rd.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children&rsquo;s Health Center at Good Hope Road",
+            "tel": "12024766900",
+            "telFormatted": "202-476-6900",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/childrens%20health%20good%20hope",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/health-center-good-hope-rd.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children's Health Center at Martin Luther King Jr., Avenue",
         "addressLines": [
             "3029 Martin Luther King, Jr. Ave SE",
             "Washington, District of Columbia 20032"
         ],
         "lat": 38.84425,
         "lng": -76.998586,
-        "tel": "12024766575",
-        "telFormatted": "202-476-6575",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/childrens%20health%20martin%20luther%20king",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/health-center-mlk.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children's Health Center at Martin Luther King Jr., Avenue",
+            "tel": "12024766575",
+            "telFormatted": "202-476-6575",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/childrens%20health%20martin%20luther%20king",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/health-center-mlk.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children's Health Center at Shaw",
         "addressLines": [
             "2220 11th St NW",
             "Washington, District of Columbia 20001"
         ],
         "lat": 38.9198858,
         "lng": -77.0273317,
-        "tel": "12024765500",
-        "telFormatted": "202-476-5500",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/childrens%20health%20shaw",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/health-center-shaw.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children's Health Center at Shaw",
+            "tel": "12024765500",
+            "telFormatted": "202-476-5500",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/childrens%20health%20shaw",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/health-center-shaw.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children’s Pediatricians & Associates Clinton",
         "addressLines": [
             "9015 Woodyard Dr, Suite 111",
             "Clinton, Maryland 20735"
         ],
         "lat": 38.7666288,
         "lng": -76.8953574,
-        "tel": "13015990900",
-        "telFormatted": "301-599-0900",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20%20clinton",
-        "imgSrc": "//childrensnational.org/~/media/upload/cpa-9015-woodyard-dr.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children’s Pediatricians & Associates Clinton",
+            "tel": "13015990900",
+            "telFormatted": "301-599-0900",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20%20clinton",
+            "imgSrc": "//childrensnational.org/~/media/upload/cpa-9015-woodyard-dr.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children’s Pediatricians & Associates Laurel",
         "addressLines": [
             "13900 Laurel Lakes Ave, Suite 240",
             "Laurel, Maryland 20707"
         ],
         "lat": 39.081327,
         "lng": -76.8663708,
-        "tel": "13019481900",
-        "telFormatted": "301-948-1900",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20%20laurel",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cpa_13900_laurel_lakes_avenue.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children’s Pediatricians & Associates Laurel",
+            "tel": "13019481900",
+            "telFormatted": "301-948-1900",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20%20laurel",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cpa_13900_laurel_lakes_avenue.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children’s Pediatricians & Associates Bowie",
         "addressLines": [
             "12200 Annapolis Rd, Suite 320",
             "Glenn Dale, MD 20769"
         ],
         "lat": 38.9641179,
         "lng": -76.7959456,
-        "tel": "13012183700",
-        "telFormatted": "301-218-3700",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20bowie",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cn_st_grad_3crgb_lg_092013.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children’s Pediatricians & Associates Bowie",
+            "tel": "13012183700",
+            "telFormatted": "301-218-3700",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20bowie",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cn_st_grad_3crgb_lg_092013.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children’s Pediatricians & Associates Bowie",
         "addressLines": [
             "12200 Annapolis Rd, Suite 320",
             "Glenn Dale, MD 20769"
         ],
         "lat": 38.9641179,
         "lng": -76.7959456,
-        "tel": "13012183700",
-        "telFormatted": "301-218-3700",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20bowie",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cn_st_grad_3crgb_lg_092013.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children’s Pediatricians & Associates Bowie",
+            "tel": "13012183700",
+            "telFormatted": "301-218-3700",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20bowie",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cn_st_grad_3crgb_lg_092013.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children’s Pediatricians & Associates Capitol Hill",
         "addressLines": [
             "650 Pennsylvania Ave SE, Suite C-100",
             "Washington, District of Columbia 20003"
         ],
         "lat": 38.8853463,
         "lng": -76.9970425,
-        "tel": "12028334543",
-        "telFormatted": "202-833-4543",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20capitol%20hill",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/650-pennsylvania-ave.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children’s Pediatricians & Associates Capitol Hill",
+            "tel": "12028334543",
+            "telFormatted": "202-833-4543",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20capitol%20hill",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/650-pennsylvania-ave.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children’s Pediatricians & Associates College Park",
         "addressLines": [
             "6201 Greenbelt Rd, Suite L1 - L3",
             "College Park, Maryland 20740"
         ],
         "lat": 38.9966411,
         "lng": -76.9065054,
-        "tel": "13013451900",
-        "telFormatted": "301-345-1900",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20college%20park",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cpa_6201_greenbelt_road.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children’s Pediatricians & Associates College Park",
+            "tel": "13013451900",
+            "telFormatted": "301-345-1900",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20college%20park",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cpa_6201_greenbelt_road.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children’s Pediatricians & Associates Foggy Bottom",
         "addressLines": [
             "2141 K Street NW, Suite 401",
             "Washington, District of Columbia 20037"
         ],
         "lat": 38.9028476,
         "lng": -77.0479968,
-        "tel": "12028334543",
-        "telFormatted": "202-833-4543",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20foggy%20bottom",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cpa_2141_k_street_nw.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children’s Pediatricians & Associates Foggy Bottom",
+            "tel": "12028334543",
+            "telFormatted": "202-833-4543",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20foggy%20bottom",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cpa_2141_k_street_nw.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children’s Pediatricians & Associates Gaithersburg",
         "addressLines": [
             "555 Quince Orchard Rd, Suite 350",
             "Gaithersburg, Maryland 20878"
         ],
         "lat": 39.1433899,
         "lng": -77.219906,
-        "tel": "13019263633",
-        "telFormatted": "301-926-3633",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20gaithersburg",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cpa_555_quince_orchard_road.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children’s Pediatricians & Associates Gaithersburg",
+            "tel": "13019263633",
+            "telFormatted": "301-926-3633",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20gaithersburg",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cpa_555_quince_orchard_road.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children’s Pediatricians & Associates Greenbelt",
         "addressLines": [
             "7525 Greenway Center Dr, Suite 110",
             "Greenbelt, Maryland 20770"
         ],
         "lat": 38.991078,
         "lng": -76.8777697,
-        "tel": "13012201200",
-        "telFormatted": "301-220-1200",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20greenbelt",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cpa_7525_greenway_center_drive.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children’s Pediatricians & Associates Greenbelt",
+            "tel": "13012201200",
+            "telFormatted": "301-220-1200",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20greenbelt",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cpa_7525_greenway_center_drive.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children’s Pediatricians & Associates Silver Spring",
         "addressLines": [
             "10801 Lockwood Dr, Suite 230",
             "Silver Spring, Maryland 20901 "
         ],
         "lat": 39.0327399,
         "lng": -77.0025722,
-        "tel": "13015935566",
-        "telFormatted": "301-593-5566",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20silver%20spring",
-        "imgSrc": "//childrensnational.org/~/media/upload/cpa-10801-lockwood-dr.ashx?h=150&la=en&mh=155&mw=227&w=200?w=90&mh=75"
+        "locations": [{
+            "name": "Children’s Pediatricians & Associates Silver Spring",
+            "tel": "13015935566",
+            "telFormatted": "301-593-5566",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20silver%20spring",
+            "imgSrc": "//childrensnational.org/~/media/upload/cpa-10801-lockwood-dr.ashx?h=150&la=en&mh=155&mw=227&w=200?w=90&mh=75"
+        }]
     }, {
-        "name": "Children’s Pediatricians & Associates Southeast",
         "addressLines": [
             "2600 Naylor Rd SE",
             "Washington, District of Columbia 20020"
         ],
         "lat": 38.8678524,
         "lng": -76.9702377,
-        "tel": "12025826800",
-        "telFormatted": "202-582-6800",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20southeast",
-        "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cpa_2600_naylor_road_sel.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children’s Pediatricians & Associates Southeast",
+            "tel": "12025826800",
+            "telFormatted": "202-582-6800",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20southeast",
+            "imgSrc": "//childrensnational.org/~/media/cnhs-site/images/locations-and-directions/cpa_2600_naylor_road_sel.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children’s Pediatricians & Associates Upper Marlboro",
         "addressLines": [
             "9692 Pennsylvania Ave",
             "Upper Marlboro, Maryland 20772"
         ],
         "lat": 38.8186106,
         "lng": -76.837883,
-        "tel": "13015997300",
-        "telFormatted": "301-599-7300",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20upper%20marlboro",
-        "imgSrc": "//childrensnational.org/~/media/upload/cpa-10801-lockwood-dr.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children’s Pediatricians & Associates Upper Marlboro",
+            "tel": "13015997300",
+            "telFormatted": "301-599-7300",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20upper%20marlboro",
+            "imgSrc": "//childrensnational.org/~/media/upload/cpa-10801-lockwood-dr.ashx?w=90&mh=75"
+        }]
     }, {
-        "name": "Children’s Pediatricians & Associates Waldorf",
         "addressLines": [
             "3450 Old Washington Rd, Suite 100",
             "Waldorf, Maryland 20602"
         ],
         "lat": 38.6169984,
         "lng": -76.9149687,
-        "tel": "13016450300",
-        "telFormatted": "301-645-0300",
-        "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20waldorf",
-        "imgSrc": "//childrensnational.org/~/media/upload/cpa-3450-old-washington-rd.ashx?w=90&mh=75"
+        "locations": [{
+            "name": "Children’s Pediatricians & Associates Waldorf",
+            "tel": "13016450300",
+            "telFormatted": "301-645-0300",
+            "detailLink": "http://childrensnational.org/en/cnhs%20site/choose%20childrens/locations%20and%20directions/primary%20care%20practices/cpa%20waldorf",
+            "imgSrc": "//childrensnational.org/~/media/upload/cpa-3450-old-washington-rd.ashx?w=90&mh=75"
+        }]
     }]
 }
