@@ -330,17 +330,17 @@ img.logo-very-small{
 	font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
 }
 
-.fap-cta:after {
+.fap-arrow {
 	border: solid transparent;
 	content: " ";
 	height: 0;
 	width: 0;
-	position: absolute;
+	display:inline-block;
 	pointer-events: none;
 	border-left-color: #ed2c1e;
 	border-width: 10px;
-	 margin-left: 10px;
- 	 margin-top: 5px;
+	margin-left: 10px;
+ 	margin-top: 5px;
 }
 
 .row1-caption {
@@ -532,6 +532,12 @@ a.top-link {
 		background-image: url('../../files/images/fap-1024.jpg');
 	}
 
+		.fap-arrow {
+	border-width: 8px;
+ 	margin-top: -.5px;
+ 	margin-left: 4px;
+}
+
 	.row1-caption {
 		margin-top: 80px;
 		margin-left:-40px;
@@ -586,9 +592,6 @@ a.top-link {
 		font-size: 11px;
 	}
 
-	.fap-cta:after {
- 	margin-top: -1px;
-}
 
 	img.mobile-tips-image {
 		width:100%;
@@ -750,12 +753,12 @@ a.top-link {
 	}
 
 	.fap-cta a {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	}
 
-	.fap-cta:after {
-	border-width: 6px;
-	margin-left: 5px;
+	.fap-arrow {
+	border-width: 5px;
+	margin-left: 4px;
  	margin-top:0px;
 }
 
