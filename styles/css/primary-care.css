@@ -154,6 +154,10 @@ input[placeholder]{
 	text-align: center;
 }
 
+.ped-form .form-control {
+	border-radius: 0px;
+}
+
 a.scrollToMap{
 	cursor: pointer;
 }
