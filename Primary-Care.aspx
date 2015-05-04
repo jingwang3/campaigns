@@ -141,7 +141,7 @@
 								<p>Call us with any questions:</p>
 								<p><a href="tel:18888842327" class="red-title">1-888-884-BEAR (2327)</a></p>
 							</div>
-							<form id="ss-form" class="form-horizontal campaign" autocomplete="off" action="https://docs.google.com/forms/d/1lTB1pPqBGN2-Xl__tGzX-PJ2tDNPYpEDMt3ybQzGDgY/formResponse" method="POST" id="ss-form" target="_self">
+							<form id="ss-form" trackingLabel="Get a free children's book, courtesy of Dr. Bear." class="form-horizontal campaign" autocomplete="off" action="https://docs.google.com/forms/d/1lTB1pPqBGN2-Xl__tGzX-PJ2tDNPYpEDMt3ybQzGDgY/formResponse" method="POST" id="ss-form" target="_self">
 							  <div class="form-group">
 							  	<div class="col-sm-6 form-field">
 								    <label class="IE-only" for="firstName">First</label>
@@ -180,7 +180,7 @@
 							  </div>
 							  <div class="alert text-danger hidden" role="alert" id="formErrprMsg"></div>
 							  <div class="text-center">
-							  	<button type="button" id="submitBtn" class="btn btn-form">Submit</button>
+							  	<button type="button" id="submitBtn" trackingLabel="Get a free children's book, courtesy of Dr. Bear." class="btn btn-form">Submit</button>
 							  </div>
 							</form>
 						</div>
