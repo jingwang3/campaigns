@@ -78,11 +78,9 @@ a:hover{ text-decoration: none; }
 
 .navbar-static-top, .navbar-fixed-top, .navbar-fixed-bottom{ box-shadow: #888 0px 0px 20px; }
 
-.row {  }
-
 .panel{ box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.19); border: 1px solid #DBD6D4; }
 
-.shadowing{  
+.shadowing{
 	box-shadow:2px 2px 15px 5px #4C4C4C;
  	-webkit-box-shadow:2px 2px 15px 5px #4C4C4C;
  	-moz-box-shadow:2px 2px 15px 5px #4C4C4C;
@@ -178,6 +176,67 @@ a.scrollToMap{
   height: 500px;
 }
 
+.gmap-popup + .gmap-popup {
+	border-top: 1px solid #ccc;
+	margin-top: 5px;
+	padding-top: 10px;
+}
+
+.gmap-popup-address {
+	line-height: 1;
+	margin-bottom: 2px;
+}
+
+.gmap-popup-address-line,
+.gmap-popup-title,
+.gmap-popup-title a {
+	color: #525252;
+	font-size: 12px;
+}
+
+.gmap-popup-address-line,
+.gmap-popup-tel,
+.gmap-popup-title {
+	display: block;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.gmap-popup-img {
+	background-color: #000;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	left: -14px;
+	position: absolute;
+	width: 90px;
+}
+
+.gmap-popup-multi .gmap-popup-img {
+	height: 89px;
+	margin-top: -8px;
+}
+
+.gmap-popup-single .gmap-popup-img {
+	bottom: -8px;
+	top: -8px;
+}
+
+.gmap-popup-tel,
+.gmap-popup-tel a {
+	color: #e81e24;
+	font-weight: bold;
+}
+
+.gmap-popup-text {
+	margin-left: 86px;
+	overflow: hidden;
+}
+
+.gmap-popup-title {
+	font-weight: bold;
+	margin-bottom: 2px;
+	margin-top: 0;
+}
+
 body{
 	padding-top: 110px;
 }
@@ -240,7 +299,7 @@ img.logo-very-small{
 	line-height: 1.4;
 }
 
-.row ul { 
+.row ul {
 	padding-left: 16px;
 }
 
@@ -256,7 +315,7 @@ img.logo-very-small{
 	margin-bottom: 20px;
 }
 
-.row-4 ul li { 
+.row-4 ul li {
   color: #796b68;
   font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
   font-size: 1.5em;
@@ -286,7 +345,6 @@ img.logo-very-small{
 .header-appt-phone { 
 	color: #d72d1e; 
 	font-size: 1.65em;
-
 }
 
 .header-text-right{
@@ -294,7 +352,7 @@ img.logo-very-small{
 	font-size: 1.5em;
 	text-transform: uppercase;
 	color: #877369;
-	font-family: CampaignFont,Helvetica,Arial,sans-serif; 	
+	font-family: CampaignFont,Helvetica,Arial,sans-serif;
 
 }
 
@@ -397,13 +455,13 @@ p.new-color {
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
 }
 
-.contact-row p { 
+.contact-row p {
 	font-family: LightCampaignFont,Helvetica,Arial,sans-serif;
-	font-size: 2em; 
+	font-size: 2em;
 }
 
-p.text-small { 
-	font-size: 1.45em; 
+p.text-small {
+	font-size: 1.45em;
 }
 
 .form-appt-phone {
@@ -547,7 +605,7 @@ a.top-link {
 		margin-left:-40px;
 	}
 
-	
+
 	.row1-caption h1 {
 		font-size: 2.5em;
 		line-height: 1.2em;
@@ -639,7 +697,7 @@ a.top-link {
 	}
 
 	.navbar {
-		margin-bottom: 0; 
+		margin-bottom: 0;
 	}
 
 	.row-1 {
@@ -673,6 +731,11 @@ a.top-link {
 }
 
 @media (max-width: 600px)  {
+	
+	#map-canvas {
+	  height: 250px;
+	}
+	
 	.row1-caption {
 	  font-size: 11px;
 	}
