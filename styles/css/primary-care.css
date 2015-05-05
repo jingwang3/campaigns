@@ -727,6 +727,11 @@ a.top-link {
 }
 
 @media (max-width: 600px)  {
+	
+	#map-canvas {
+	  height: 250px;
+	}
+	
 	.row1-caption {
 	  font-size: 11px;
 	}
