@@ -101,7 +101,7 @@
 		<article id="mapSec">
 		<div class="row row-3 content-row">
 			<div class="map-heading"><h1 class="text-center better-font">Find A Top Pediatrician In Your Area</h1></div>
-			<div id="map-canvas" class="js-gmap" data-points="/data/gmap-locations.json"></div>
+			<div id="map-canvas" class="js-gmap" data-points="data/gmap-locations.json"></div>
 			</div>
 		</article>
         <article id="whySec">
