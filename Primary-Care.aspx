@@ -84,8 +84,8 @@
 	  				<div class="row1-caption">
 	  					<h1><span class="part-1">We have over 100 pediatricians in your area.</span><span class="part-2">And one priority: your child.</span></h1>
 	  					<div class="fap-cta">
-							<a class="hidden-xs scrollToMap" trackinglabel="Find a trusted pediatrician near you">Find a trusted<br/> pediatrician near you<div class="fap-arrow"></div></a>
-							<a class="hidden-sm hidden-md hidden-lg scrollToMap" trackinglabel="Find a pediatrician">Find a trusted pediatrician near you<div class="fap-arrow"></div></a>
+							<a class="hidden-xs scrollToMap" trackinglabel="Find a trusted pediatrician near you">Find a trusted<br/> pediatrician <div class="glue">near you<span class="glyphicon glyphicon-play fap-arrow" aria-hidden="true"></span></div></a>
+							<a class="hidden-sm hidden-md hidden-lg scrollToMap" trackinglabel="Find a pediatrician">Find a trusted pediatrician <div class="glue">near you<span class="glyphicon glyphicon-play fap-arrow" aria-hidden="true"></span></div></a>
 						</div>
 					</div>
 				</div>
@@ -143,11 +143,11 @@
 							</div>
 							<form id="ss-form" trackingLabel="Get a free children's book, courtesy of Dr. Bear." class="form-horizontal campaign" autocomplete="off" action="https://docs.google.com/forms/d/1lTB1pPqBGN2-Xl__tGzX-PJ2tDNPYpEDMt3ybQzGDgY/formResponse" method="POST" id="ss-form" target="_self">
 							  <div class="form-group">
-							  	<div class="col-sm-6 form-field">
+							  	<div class="col-sm-6 form-field less-padding-right">
 								    <label class="IE-only" for="firstName">First</label>
 								    <input type="text" class="form-control required" id="firstName" title="First Name" name="entry_1701233357" placeholder="First" required>
 							  	</div>
-							  	<div class="col-sm-6 form-field">
+							  	<div class="col-sm-6 form-field less-padding-left">
 							    	<label class="IE-only" for="lastName">Last</label>
 							    	<input type="text" class="form-control required" id="lastName" title="Last Name" name="entry_166784206" placeholder="Last" required>						  		
 							  	</div>
@@ -159,15 +159,15 @@
 							  	</div>
 							  </div>
 							  <div class="form-group">
-							  	<div class="col-sm-4 form-field">
+							  	<div class="col-sm-4 form-field less-padding-right">
 							    	<label class="IE-only" for="city">City</label>
 							    	<input type="text" class="form-control required" id="city" title="City" name="entry_123623823" placeholder="City" required>						  		
 							  	</div>
-							  	<div class="col-sm-4 col-xs-6 form-field">
+							  	<div class="col-sm-4 col-xs-6 form-field less-padding-right less-padding-left">
 							    	<label class="IE-only" for="state">State</label>
 							    	<input type="text" class="form-control required" id="state" title="State" name="entry_672759851" placeholder="State" required>						  		
 							  	</div>
-							  	<div class="col-sm-4 col-xs-6 form-field">
+							  	<div class="col-sm-4 col-xs-6 form-field less-padding-left">
 							    	<label class="IE-only" for="zip">ZIP</label>
 							    	<input type="text" class="form-control required" id="zip" title="Zipcode" name="entry_1363473429" placeholder="ZIP" required>						  		
 							  	</div>
@@ -208,7 +208,7 @@
 					</div>
 				</div>
 				<div class="container text-center back-top">
-					<a class="top-link" trackinglabel="Back to Top" href="#top">Back to top</a>
+					<a class="scrollToTop top-link" trackinglabel="Back to Top">Back to top</a>
 				</div>
 			</div>
 	  	</article>

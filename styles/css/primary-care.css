@@ -114,6 +114,14 @@ a.list-group-item-cardiology {
 	display: inline-block;
 }
 
+.less-padding-left{
+	padding-left: 5px;
+}
+
+.less-padding-right{
+	padding-right: 5px;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html { position: relative; min-height: 100%; }
@@ -393,16 +401,9 @@ img.logo-very-small{
 }
 
 .fap-arrow {
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	display:inline-block;
-	pointer-events: none;
-	border-left-color: #ed2c1e;
-	border-width: 10px;
-	margin-left: 10px;
- 	margin-top: 5px;
+	color: #ED2C1E;
+  	font-size: .75em;
+  	line-height: 1; 
 }
 
 .row1-caption {
@@ -543,6 +544,7 @@ p.text-small {
 
 a.top-link {
   font-size: 1em;
+  cursor: pointer;
   text-transform: uppercase;
   color: #ED2024;
   font-family: RegCampaignFont,Helvetica,Arial,sans-serif;
@@ -593,12 +595,6 @@ a.top-link {
 		min-height: 462px;
 		background-image: url('../../files/images/fap-1024.jpg');
 	}
-
-		.fap-arrow {
-	border-width: 8px;
- 	margin-top: -.5px;
- 	margin-left: 4px;
-}
 
 	.row1-caption {
 		margin-top: 80px;
@@ -819,15 +815,9 @@ a.top-link {
 		margin: 0 0 10px 0;
 	}
 
-	.fap-cta a {
+	.fap-cta a, .fap-arrow {
 	font-size: 1.1em;
 	}
-
-	.fap-arrow {
-	border-width: 5px;
-	margin-left: 4px;
- 	margin-top:0px;
-}
 
 	.row-5 {
 	min-height: 164px;
