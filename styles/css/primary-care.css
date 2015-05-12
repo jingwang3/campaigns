@@ -190,21 +190,46 @@ a.scrollToMap{
 	padding-top: 10px;
 }
 
-.gmap-popup-address {
+.map-loc + .map-loc {
+	border-top: 1px solid #ccc;
+	margin-top: 15px;
+	padding-top: 15px;
+}
+
+.gmap-popup-address,
+.map-loc-address {
 	line-height: 1;
 	margin-bottom: 2px;
 }
 
 .gmap-popup-address-line,
 .gmap-popup-title,
-.gmap-popup-title a {
+.gmap-popup-title a,
+.map-loc-address-line,
+.map-loc-title,
+.map-loc-title a {
 	color: #525252;
+}
+
+.gmap-popup-address-line,
+.gmap-popup-title,
+.gmap-popup-title a {
 	font-size: 12px;
+}
+
+.map-loc-address-line,
+.map-loc-tel,
+.map-loc-title,
+.map-loc-title a {
+	font-size: 16px;
 }
 
 .gmap-popup-address-line,
 .gmap-popup-tel,
-.gmap-popup-title {
+.gmap-popup-title,
+.map-loc-address-line,
+.map-loc-tel,
+.map-loc-title {
 	display: block;
 	font-family: 'Arial Narrow', Arial, sans-serif;
 }
@@ -229,7 +254,9 @@ a.scrollToMap{
 }
 
 .gmap-popup-tel,
-.gmap-popup-tel a {
+.gmap-popup-tel a,
+.map-loc-tel,
+.map-loc-tel a {
 	color: #e81e24;
 	font-weight: bold;
 }
@@ -239,10 +266,17 @@ a.scrollToMap{
 	overflow: hidden;
 }
 
-.gmap-popup-title {
+.gmap-popup-title,
+.map-loc-title {
 	font-weight: bold;
 	margin-bottom: 2px;
 	margin-top: 0;
+}
+
+.map-location-details-mobile {
+	display: none;
+	padding-bottom: 12px;
+	padding-top: 12px;
 }
 
 body{
@@ -730,6 +764,10 @@ a.top-link {
 	
 	#map-canvas {
 	  height: 250px;
+	}
+	
+	.map-location-details-mobile.is-active {
+		display: block;
 	}
 	
 	.row1-caption {
