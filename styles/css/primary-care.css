@@ -724,6 +724,11 @@ a.top-link {
 		text-align: left;
 	}
 
+	.less-padding-left, .less-padding-right{
+		padding-left: 	15px;
+		padding-right: 	15px;
+	}
+
 }
 
 @media (max-width: 600px)  {
