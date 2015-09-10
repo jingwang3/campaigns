@@ -176,11 +176,11 @@
         }]
     }, {
         "addressLines": [
-            "2141 K Street NW, Suite 401",
-            "Washington, District of Columbia 20037"
+            "2021 K Street NW, Suite 800",
+            "Washington , District of Columbia 20006"
         ],
-        "lat": 38.9028476,
-        "lng": -77.0479968,
+        "lat": 38.9028504,
+        "lng": -77.046765,
         "locations": [{
             "name": "Children’s Pediatricians & Associates Foggy Bottom",
             "tel": "12028334543",
